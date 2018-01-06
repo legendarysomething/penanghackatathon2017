@@ -78,7 +78,7 @@ var script = {
 
 		"Narrator Once upon of time...",
 
-		"Narrator They lived peaceful and idlylic lives.",
+		"Narrator Two siblings were playing with each other, wandering around when all of a sudden, they stubled upon a bike in the middle of a street. Nobody seemed to be around so they got on it and started to play.",
 
 		"jump Boy1",
 	],
@@ -100,7 +100,7 @@ var script = {
 	"Boy2": [
 		"show Girl Normal right with fadeOutRight",
 		"show Boy Normal left with fadeInLeft",
-		"Boy But mom said never let go.",
+		"Boy But mom said to never let go.",
 
 		"jump Girl3",
 	],
@@ -108,21 +108,20 @@ var script = {
 	"Girl3": [
 		"show Boy Normal left with fadeOutLeft",
 		"show Girl Normal right with fadeInRight",
-		"Girl Sigh, hold tight...",
+		"Girl *Sighs* Hold on tight then we're going for a ride!",
 
 		"jump NarratorEnd",
 	],
 
 	"NarratorEnd": [
 		"scene End with fadeIn",
-		"Narrator These are the daily lives of carefree children",
+		"Narrator As they were playing, unbeknownst to them, an artist was watching from nearby. An artist that would one day, immortalise them in a beautiful painting.",
 
 		"jump SupportUS",
 	],
 
 	"SupportUS": [
-		"Narrator Thank you for taking the time to read this story!",
-		"Narrator Like what you have read, you can get more at <a href='#'>https://www.storifypenang.com</a>",
+		"Narrator Thanks for reading. If you've liked what you've read, you can find more Penang Art based visual novels over at <a href='#'>https://www.storifypenang.com</a>",
 		"end"
 	],
 }
