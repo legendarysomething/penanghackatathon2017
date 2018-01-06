@@ -3,3 +3,28 @@
  * Your Style Goes Here
  * ===========================
 **/
+
+.ken-burn {
+    animation-name: ken-burns; /* Name of the animation to use */
+    animation-duration: 30s;
+    animation-iteration-count: infinite; /* 1 if it should only move once */
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    animation-delay: 0s;
+    -moz-transition: ease 1s all;
+    -o-transition: ease 1s all;
+    -webkit-transition: ease 1s all;
+    transition: ease 1s all;
+}
+
+@keyframes ken-burns {
+    0%    { 
+        -webkit-transform: translateX(0); 
+    }
+    50%    {
+        -webkit-transform: translateX(-500px);
+    }
+    100%  {
+        -webkit-transform: translateX(0px); 
+    }
+}

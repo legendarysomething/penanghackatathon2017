@@ -40,6 +40,7 @@ var images = {
 // Define the backgrounds for each scene.
 var scenes = {
 	"Main": "bicycle.jpg",
+	"End": "black.png",
 }
 
 // Define the Characters
@@ -53,13 +54,19 @@ var characters = {
 		"Name": "Boy",
 		"Color": "#5bcaff",
 		"Directory": "Boy",
+		"Images":{
+			"Normal": "boy.png",
+		}
 	},
 
 	"Girl": {
 		"Name": "Girl",
 		"Color": "#5bcaff",
 		"Directory": "Girl",
-	}
+		"Images":{
+			"Normal": "girl.png",
+		}
+	},
 }
 
 var script = {
@@ -77,30 +84,35 @@ var script = {
 	],
 
 	"Boy1": [
+		"show Boy Normal left with fadeInLeft",
 		"Boy Woohoo, need for speed vroom, vroom.",
 		"jump Girl1",
 	],
 
 	"Girl1": [
+		"show Girl Normal right with fadeInRight",
 		"Girl Stop clinging to me so much.",
 
 		"jump Boy2",
 	],
 
 	"Boy2": [
+		"show Boy Normal left with fadeInLeft",
 		"Boy But mom said never let go.",
 
 		"jump Girl3",
 	],
 
 	"Girl3": [
+		"show Girl Normal right with fadeInRight",
 		"Girl Sigh, hold tight...",
 
 		"jump NarratorEnd",
 	],
 
 	"NarratorEnd": [
-		"Narrator Hence, their lives are as such",
+		"scene End with slideInUp",
+		"Narrator These are the daily lives of carefree children",
 
 		"jump SupportUS",
 	],
