@@ -20,6 +20,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <!-- font-family: 'Open Sans', sans-serif; -->
     <link rel="stylesheet" type="text/css" href="css/custom.css">
+    <link rel="stylesheet" type="text/css" href="css/map.css">
 
   </head>
 

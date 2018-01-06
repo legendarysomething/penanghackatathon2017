@@ -10,5 +10,7 @@
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="js/sweetalert.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="js/rich-marker.js"></script>
+    <script type="text/javascript" src="js/infobox_packed.js"></script>
 
   </body>

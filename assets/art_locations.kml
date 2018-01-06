@@ -1,0 +1,2292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Smarter Penang</name>
+    <description>hello penang hackathon!</description>
+    <Style id="icon-1729-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1729-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1729-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1729-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1729-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-503-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Location of Street Art in Penang with GPS Coordinates</name>
+      <Placemark>
+        <name><![CDATA["Children in a Boat" Mural]]></name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/XCHhfELVEY2zZtTiTKkcH5I5TDR6pDfEFu35Cqv025mVuM8rAhKu3AKaPvnPVaTaWVjCPpJMs4SDFnpd9r5hdHoCzkMcE2hL0yU8zwUfbh09WlJxfcRhs3ryceKuB8cr2XMR7aM49U_UhCHk07nproXPU-uMwIr8PfiiqBjIytTOUp6ICrDrgRcivSrrHDmU6eJYkJud89s2PbKTtUaG4BeVgQX6oBMrMxTUpGk82a8mdwbZxWk" height="200" width="auto" /><br><br>GPS: 5.41205, 100.3405<br>Details: http://www.penang-traveltips.com/children-in-a-boat-mural.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/XCHhfELVEY2zZtTiTKkcH5I5TDR6pDfEFu35Cqv025mVuM8rAhKu3AKaPvnPVaTaWVjCPpJMs4SDFnpd9r5hdHoCzkMcE2hL0yU8zwUfbh09WlJxfcRhs3ryceKuB8cr2XMR7aM49U_UhCHk07nproXPU-uMwIr8PfiiqBjIytTOUp6ICrDrgRcivSrrHDmU6eJYkJud89s2PbKTtUaG4BeVgQX6oBMrMxTUpGk82a8mdwbZxWk</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.3405,5.412051,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Boy on a Bike" Mural]]></name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/H3NO8_m_XEV5EXxete3TUIpFARGpLMf9kvWMJ7GXPNvzAqQPs4iJLjR2S0FG_6HbpCfK8O-ZkXYj4oy62VRg6ov1Zx15ThpbbyCdJQAPb1vLxe5uRP7Ci0qMVYtuRgqNSyD8yZRxbW7lBqKk5jSrV6MJDs2YRKo5NFxPViFfbbAexRUKNzyP7E56XLT3orXHtRpwkdQmtGPr3U4_43rY0j0u5JicartjEW_lBJB3fg" height="200" width="auto" /><br><br>GPS: 5.41535, 100.33889<br>Details: http://www.penang-traveltips.com/boy-on-a-bike-mural.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/H3NO8_m_XEV5EXxete3TUIpFARGpLMf9kvWMJ7GXPNvzAqQPs4iJLjR2S0FG_6HbpCfK8O-ZkXYj4oy62VRg6ov1Zx15ThpbbyCdJQAPb1vLxe5uRP7Ci0qMVYtuRgqNSyD8yZRxbW7lBqKk5jSrV6MJDs2YRKo5NFxPViFfbbAexRUKNzyP7E56XLT3orXHtRpwkdQmtGPr3U4_43rY0j0u5JicartjEW_lBJB3fg</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.338891,5.415351,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Little Boy with Pet Dinosaur" Mural]]></name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/pAYhWTf7K1G4t9s_Rya0P770xSMLZoZYHP4WUPo5-rpumDqUUJr_75u6lCIhmRV4cinqT3ufxfgVnytuziTtTt3iyCzwTsPWLct0wcwH1l-lhFwR8IPzrqhLqHdgbV_B4g587lOzU0ZTR8my1IRx3_p5TVICi-z9BKYsEQmicugVXmOUSXsKJScwmzSY51rucN0KIljJ1o9A5bUNjgx-qxlZluthj3dcSdS79Qm1Rc77n_fKoXuvfVlj3gcqQmGDBvEl" height="200" width="auto" /><br><br>GPS: 5.41541, 100.33883<br>Details: http://www.penang-traveltips.com/little-boy-with-pet-dinosaur-mural.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/pAYhWTf7K1G4t9s_Rya0P770xSMLZoZYHP4WUPo5-rpumDqUUJr_75u6lCIhmRV4cinqT3ufxfgVnytuziTtTt3iyCzwTsPWLct0wcwH1l-lhFwR8IPzrqhLqHdgbV_B4g587lOzU0ZTR8my1IRx3_p5TVICi-z9BKYsEQmicugVXmOUSXsKJScwmzSY51rucN0KIljJ1o9A5bUNjgx-qxlZluthj3dcSdS79Qm1Rc77n_fKoXuvfVlj3gcqQmGDBvEl</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.338832,5.41541,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Little Children on a Bicycle" Mural]]></name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/k_eR0j4iLjv3Ad27way8SUHxmr06n1xqlFfOEQekkUdxACIlfeJ8MfixDzNkQJZG33TTw4AcxSMDs-Z_n82FI4f8-ewtDUZLW8UkGbgRq7n1WuBNTC1a5y1PI0DTe58m9x9k5NSwlUEEseGDTrGZQpQgngaWgGRphmVMnjxUqwAeL3qXDFEfk0f25i6IcPfHUWy5ucnkHCVhM9-JJTXHN2pappnzWgY2yMR-EJfNKIPD1Q6-jTo3wYYnC-Tvf1kZbeyL" height="200" width="auto" /><br><br>GPS: 5.41468, 100.33823<br>Details: http://www.penang-traveltips.com/little-children-on-a-bicycle-mural.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/k_eR0j4iLjv3Ad27way8SUHxmr06n1xqlFfOEQekkUdxACIlfeJ8MfixDzNkQJZG33TTw4AcxSMDs-Z_n82FI4f8-ewtDUZLW8UkGbgRq7n1WuBNTC1a5y1PI0DTe58m9x9k5NSwlUEEseGDTrGZQpQgngaWgGRphmVMnjxUqwAeL3qXDFEfk0f25i6IcPfHUWy5ucnkHCVhM9-JJTXHN2pappnzWgY2yMR-EJfNKIPD1Q6-jTo3wYYnC-Tvf1kZbeyL</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.338237,5.414684,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Reaching Up" Mural]]></name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/ZtupQ6xVaRqKPVqdUp9X4san6V1_J8elsLZwfM64FtHa68IQelvtm5cJ1YS2KAO_oiw_CIAvv3LzOjar6TbCX3Id325_r6TNLqvYcyrI8CKjjVHfiMcYfUhLHCuJJPvwmcpB0BsYoxt-Jsah3z8XNOO6HSjAZnHjQ27DEiizOb_qh-vWLuYGMD5YbmzYPfd0GN7ooyGll0u_yoX8zGQPhcJjnB_pLqcYhPHwQg" height="200" width="auto" /><br><br>GPS: 5.41479, 100.33648<br>Details: http://www.penang-traveltips.com/reaching-up-mural.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/ZtupQ6xVaRqKPVqdUp9X4san6V1_J8elsLZwfM64FtHa68IQelvtm5cJ1YS2KAO_oiw_CIAvv3LzOjar6TbCX3Id325_r6TNLqvYcyrI8CKjjVHfiMcYfUhLHCuJJPvwmcpB0BsYoxt-Jsah3z8XNOO6HSjAZnHjQ27DEiizOb_qh-vWLuYGMD5YbmzYPfd0GN7ooyGll0u_yoX8zGQPhcJjnB_pLqcYhPHwQg</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.336488,5.41479,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["This Old Man" Mural]]></name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/W8sx6w2ZITuuda9EgmxqrF3lYg-AD6YFt595cI3wHnxrSG1w1J3Z5HPGQiI2f9qeeRUsk4d77xqhhXRcNepho4KaqGohps7GPq3gRis8faZpOgsqZCfcU_0zwL3I4j0lisueBKgBSHneMOGoRIHzSZjWnLXeqlDqRys-LjOqSR_BKUtzteohkWl5hdQAM9iA30PM3a62fP3uNTiguAAt5nVXt4khx_bghsrHvtQg" height="200" width="auto" /><br><br>GPS: 5.41539, 100.3372<br>Details: http://www.penang-traveltips.com/this-old-man-mural.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/W8sx6w2ZITuuda9EgmxqrF3lYg-AD6YFt595cI3wHnxrSG1w1J3Z5HPGQiI2f9qeeRUsk4d77xqhhXRcNepho4KaqGohps7GPq3gRis8faZpOgsqZCfcU_0zwL3I4j0lisueBKgBSHneMOGoRIHzSZjWnLXeqlDqRys-LjOqSR_BKUtzteohkWl5hdQAM9iA30PM3a62fP3uNTiguAAt5nVXt4khx_bghsrHvtQg</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.337207,5.415399,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Little Girl in Blue" Mural]]></name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/UMeBJxONsidttXNqRlxnj0M6kFsZmoQW5K6-ZLlYZE8XIqAYKcEas_iIUiqaOYkVENaRZzjhxvVQjm8TYng8QPosJRTotAU4tovySxZs-cF4VyNNXqRYtYM526kgc9pqePNPz5-AOmas5e5pTaQ_-jvSu2QL5Ya1qtxbU8oVqFiHMQjNwNHT3OvA1D8zgF1wll4mcTyFGIagyuDuQ3QyyKQXm8tLY93dn6X2mhJexVEsZi8MhIqQ" height="200" width="auto" /><br><br>GPS: 5.41975, 100.33577<br>Details: http://www.penang-traveltips.com/little-girl-in-blue-mural.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/UMeBJxONsidttXNqRlxnj0M6kFsZmoQW5K6-ZLlYZE8XIqAYKcEas_iIUiqaOYkVENaRZzjhxvVQjm8TYng8QPosJRTotAU4tovySxZs-cF4VyNNXqRYtYM526kgc9pqePNPz5-AOmas5e5pTaQ_-jvSu2QL5Ya1qtxbU8oVqFiHMQjNwNHT3OvA1D8zgF1wll4mcTyFGIagyuDuQ3QyyKQXm8tLY93dn6X2mhJexVEsZi8MhIqQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.335774,5.419752,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Three Generations" aka "Char Koay Teow" Sculpture]]></name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/2B2dMa9BwcT7Nsi3SRCfTX-KuMYa9WI8aclkfxR6Amo75dEiwko0oubZgLrO1ic-zodopjbv4FNYyo0ptkK6TDMVSZl8BPks2GrqGwsQX8wpF2RVVnCUgwPlWRmqmlo8vqQF4qSskWQdZFULvhQ6te9HBYccU2KvVnM8A5YoktWSIV2PbDk7hBR8SBJMx0mt276oyUDl0AHw4LQ3D2OxD90X8KkyEfRWdQdwivQVMIMOtH_Sn80" height="200" width="auto" /><br><br>GPS: 5.41619, 100.33253<br>Details: http://www.penang-traveltips.com/char-koay-teow-sculpture.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/2B2dMa9BwcT7Nsi3SRCfTX-KuMYa9WI8aclkfxR6Amo75dEiwko0oubZgLrO1ic-zodopjbv4FNYyo0ptkK6TDMVSZl8BPks2GrqGwsQX8wpF2RVVnCUgwPlWRmqmlo8vqQF4qSskWQdZFULvhQ6te9HBYccU2KvVnM8A5YoktWSIV2PbDk7hBR8SBJMx0mt276oyUDl0AHw4LQ3D2OxD90X8KkyEfRWdQdwivQVMIMOtH_Sn80</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.332534,5.416195,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Jimmy Choo" Sculpture]]></name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/-_4lDnpgcl7ATHj3AGhf5CGCTPA1aqCdsIfXLaMaRHYrXms7Y0sUD0pWAx4eb4p4ppcKEeJRnVfCquyJJno6e86FmMdDn4MR5UL9ZvCST30fX71qsyQgY5LuODY9coU65Q-VeofOJTTkW5_Drwr5GvUatK5LuuqnjV-Yd11heRF6L5pWy2qCvyYVnIOTO0wclJtklQl3wInUGBqaVZ6QCqpL_ol9yBpLKZOTsQZv6YY" height="200" width="auto" /><br><br>GPS: 5.42061, 100.33411<br>Details: http://www.penang-traveltips.com/jimmy-choo-sculpture.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/-_4lDnpgcl7ATHj3AGhf5CGCTPA1aqCdsIfXLaMaRHYrXms7Y0sUD0pWAx4eb4p4ppcKEeJRnVfCquyJJno6e86FmMdDn4MR5UL9ZvCST30fX71qsyQgY5LuODY9coU65Q-VeofOJTTkW5_Drwr5GvUatK5LuuqnjV-Yd11heRF6L5pWy2qCvyYVnIOTO0wclJtklQl3wInUGBqaVZ6QCqpL_ol9yBpLKZOTsQZv6YY</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.334111,5.420612,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Labourer to Trader" Sculpture (relocated)]]></name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/FBsrQkym6UlTFSUWjskyKQxr3KXYV2fnIx1xchglRDk8EGBE-ii8ZZ8EVzDXW0O4zRIlg-tyIvlGUoytNkxT9n3F9L1QDipxFKIlCVWUfuAHrwY-qZ3JJlojQzX5kW_VsYDl-8eQqilXhY-pNfRYImjCe7REB-MqONa1Jzs3bC1NIMUtUPoENQ4HKl-WQgnf486q3xAKY3n4Gx_6DMieknaf1XsQK9_0LRauK6C_vRTntWKLtVySKYXCsw" height="200" width="auto" /><br><br>GPS: 5.41821, 100.33155<br>Details: http://www.penang-traveltips.com/labourer-to-trader-sculpture.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/FBsrQkym6UlTFSUWjskyKQxr3KXYV2fnIx1xchglRDk8EGBE-ii8ZZ8EVzDXW0O4zRIlg-tyIvlGUoytNkxT9n3F9L1QDipxFKIlCVWUfuAHrwY-qZ3JJlojQzX5kW_VsYDl-8eQqilXhY-pNfRYImjCe7REB-MqONa1Jzs3bC1NIMUtUPoENQ4HKl-WQgnf486q3xAKY3n4Gx_6DMieknaf1XsQK9_0LRauK6C_vRTntWKLtVySKYXCsw</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.331552,5.418213,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Untrained Parakeet" Sculpture]]></name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/NaP-Hw3jv4WsavufjDhujkdA1LXdoVdv3iiGqEoiFLqiunEEkdVXktejD8g24JUmUyqjrZ6RfeEkUgl0xmuVHWUaaMq3R8qnYDJAGVnDisVN-qG6WnYeCuOjBz-1-AYbwYUrBTLXCqlxi534ysaUitsq8cJcdjT6YMhx68Mg_eCXLZ-g7ECBkbWUq5nJFt4o5ZTzKKxrOm0wrdoKTwqsNbjMQJqA482ThwoVnfUJww6TOH16joZruzMK" height="200" width="auto" /><br><br>GPS: 5.41782, 100.33985<br>Details: http://www.penang-traveltips.com/parrot-astrologer-sculpture.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/NaP-Hw3jv4WsavufjDhujkdA1LXdoVdv3iiGqEoiFLqiunEEkdVXktejD8g24JUmUyqjrZ6RfeEkUgl0xmuVHWUaaMq3R8qnYDJAGVnDisVN-qG6WnYeCuOjBz-1-AYbwYUrBTLXCqlxi534ysaUitsq8cJcdjT6YMhx68Mg_eCXLZ-g7ECBkbWUq5nJFt4o5ZTzKKxrOm0wrdoKTwqsNbjMQJqA482ThwoVnfUJww6TOH16joZruzMK</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.339851,5.417824,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Procession" Sculpture]]></name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/gfmmOwiUa78XxqxFxUl0LA_Hoo1_VA6LAhbbnz9yqHGPRG2_WtjbQJXatigy3ws7d22CzLWng1crhblwsxLlsMq2Slh27VQ8c1V6qLKAX9YEe1-yuvEKB-BGeUFNcZem-Ggh1gWOxQJpBxiO-QMWOpvkVqCCE8sfl1uB1T88YRpHUlMb6yWX81fTlDm4HUKFV5pmqyKjGnLL5MpcWQZvzthZq_lu0HegNaC_ebzkmMM" height="200" width="auto" /><br><br>GPS: 5.41534, 100.3374<br>Details: http://www.penang-traveltips.com/procession-sculpture.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/gfmmOwiUa78XxqxFxUl0LA_Hoo1_VA6LAhbbnz9yqHGPRG2_WtjbQJXatigy3ws7d22CzLWng1crhblwsxLlsMq2Slh27VQ8c1V6qLKAX9YEe1-yuvEKB-BGeUFNcZem-Ggh1gWOxQJpBxiO-QMWOpvkVqCCE8sfl1uB1T88YRpHUlMb6yWX81fTlDm4HUKFV5pmqyKjGnLL5MpcWQZvzthZq_lu0HegNaC_ebzkmMM</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.3374,5.415341,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Too Narrow" Sculpture]]></name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/d1gVbdBZ-PIXKPxcnUaCNc4RhE5FBWLSjiAQqafK2eyxFOwu6u8tgcI1MtSpEmm11XLy8gwqlNaGHcnibwC8z96sM-qYTUj9o9ypx9mTUsDKgJdb1JhxAzgc9ROP3SkyxNcN_MxPa8tKUwUKvMtd4vC3Sh1TmTKpXKw1GtRyLVi1xbUlIY1YQayzBcy9wR6rQpp669EawRHk7thCrH0b9cXD-Fj6TvKjBLdpclk44IU" height="200" width="auto" /><br><br>GPS: 5.41532, 100.33755<br>Details: http://www.penang-traveltips.com/too-narrow-sculpture.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/d1gVbdBZ-PIXKPxcnUaCNc4RhE5FBWLSjiAQqafK2eyxFOwu6u8tgcI1MtSpEmm11XLy8gwqlNaGHcnibwC8z96sM-qYTUj9o9ypx9mTUsDKgJdb1JhxAzgc9ROP3SkyxNcN_MxPa8tKUwUKvMtd4vC3Sh1TmTKpXKw1GtRyLVi1xbUlIY1YQayzBcy9wR6rQpp669EawRHk7thCrH0b9cXD-Fj6TvKjBLdpclk44IU</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.337555,5.415324,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Ting Ting Thong" Sculpture]]></name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/NGOYget8nD1lpo5Ei6aRV4rLMxx-pRP8IPP-jVXZsRsFyxpY01UznKmn6t7G6sOQN3nnVap1LWFTKAQYAgGjR8dsK7N_Lep_f_GUxgagoWhMgMN_Kc2P_JkR0COw0GW9DHlgxsB9dtMrgwWQsSV6B23JKeBkMkzywSZkTKQJNyZmuXBlOR6ArC7m5oRauAa_HU9vd5B8WHk2FTvb0NO58VMRggwOzHso5VHkp8FE8it-6w_N" height="200" width="auto" /><br><br>GPS: 5.41763, 100.3369<br>Details: http://www.penang-traveltips.com/rock-candyman-sculpture.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/NGOYget8nD1lpo5Ei6aRV4rLMxx-pRP8IPP-jVXZsRsFyxpY01UznKmn6t7G6sOQN3nnVap1LWFTKAQYAgGjR8dsK7N_Lep_f_GUxgagoWhMgMN_Kc2P_JkR0COw0GW9DHlgxsB9dtMrgwWQsSV6B23JKeBkMkzywSZkTKQJNyZmuXBlOR6ArC7m5oRauAa_HU9vd5B8WHk2FTvb0NO58VMRggwOzHso5VHkp8FE8it-6w_N</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.336906,5.417632,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Tok Tok Mee" Sculpture]]></name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/lFONbenCSk5P7hkx-h0H-3sVpfQDLGrA7YF6z9kpBEOU6YEnrOppdUyjJd0G5-J97arVzzxo4qy6UdqA-2NRgbM-aNC76zcbISmotOHw5jLCdtgVOF6XFSv7S_zYRGq5kdHXPwhCOTHvN4B0VeLib66xw5k8JEtmTpy4MgASaZ8PguNzLfqEMYUTFj7KVLTFAO6alx5EUuDB78kkeMVzXflLSVAagn1ztfJbPzzgWrW3IQ" height="200" width="auto" /><br><br>GPS: 5.41821, 100.33883<br>Details: http://www.penang-traveltips.com/tok-tok-mee-sculpture.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/lFONbenCSk5P7hkx-h0H-3sVpfQDLGrA7YF6z9kpBEOU6YEnrOppdUyjJd0G5-J97arVzzxo4qy6UdqA-2NRgbM-aNC76zcbISmotOHw5jLCdtgVOF6XFSv7S_zYRGq5kdHXPwhCOTHvN4B0VeLib66xw5k8JEtmTpy4MgASaZ8PguNzLfqEMYUTFj7KVLTFAO6alx5EUuDB78kkeMVzXflLSVAagn1ztfJbPzzgWrW3IQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.338838,5.418219,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Narrowest Five Foot Way" Sculpture]]></name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/J3pY8RjAhcib8fUYv80FSFONx8S_UMU1z4LAk2wm9HiXm_Ou4aKqrOV5vw2uGd-eXG8OUtJRIqWDwj_P1cSw9UfPuH9pjl1rEfVYKr5tJeRptu7nrA4mVzaVrtN2XjoHcwjfXa-8wHKujI1sSDRnQh3F73AmPo67vU5Ffk276ugH0MNxy-4TR9knGb0JnMzxX4lEkbwJxxIJgGze-h1vcUWiNJeAUQ4ST3m7OWG1OQ63-hA6" height="200" width="auto" /><br><br>GPS: 5.41942, 100.33706<br>Details: http://www.penang-traveltips.com/five-foot-way-sculpture.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/J3pY8RjAhcib8fUYv80FSFONx8S_UMU1z4LAk2wm9HiXm_Ou4aKqrOV5vw2uGd-eXG8OUtJRIqWDwj_P1cSw9UfPuH9pjl1rEfVYKr5tJeRptu7nrA4mVzaVrtN2XjoHcwjfXa-8wHKujI1sSDRnQh3F73AmPo67vU5Ffk276ugH0MNxy-4TR9knGb0JnMzxX4lEkbwJxxIJgGze-h1vcUWiNJeAUQ4ST3m7OWG1OQ63-hA6</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.337067,5.419426,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["One Leg Kicks All" Sculpture]]></name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/btxs2PNYuJkhvZQEICL52FdHet9o6rpdXqk90LQteViB6uwoMtHlDf9zN5N4sOCCMuiiYh8AQ7SQf43y_rhstEIFEid5xcmOMi9_59DJeo6MdjwjOJJ7JHI3020tDMmMFOutf4pNAjbL_ABPziPOlU6Lb3K0h3jfUXeJWWBU3xUvH2X_fgj3V1iK80WGaiC5BeeHbECLT9GBlS1GNdrwZBeleE_7eWurJjyJhsiqBwNpYcCaj6lO9v58" height="200" width="auto" /><br><br>GPS: 5.41968, 100.33675<br>Details: http://www.penang-traveltips.com/one-leg-kicks-all-sculpture.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/btxs2PNYuJkhvZQEICL52FdHet9o6rpdXqk90LQteViB6uwoMtHlDf9zN5N4sOCCMuiiYh8AQ7SQf43y_rhstEIFEid5xcmOMi9_59DJeo6MdjwjOJJ7JHI3020tDMmMFOutf4pNAjbL_ABPziPOlU6Lb3K0h3jfUXeJWWBU3xUvH2X_fgj3V1iK80WGaiC5BeeHbECLT9GBlS1GNdrwZBeleE_7eWurJjyJhsiqBwNpYcCaj6lO9v58</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.336751,5.419682,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Cheating Husband" Sculpture]]></name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/UBiIgfHAslVSEZjhI-E9eGtZtaJEu5YnlLfs58Rv00X4t9Zj7rrMVnJdsjs7TmI1r1WMQda9rdxfM6k0EOo4IMXi9ZhbVakExGrjXybSwqm_1gik4xUu7_6ZPdy4UHE5ry5fuDFemuZ4Fidk1HF7ER_kRD1QoGhBt76v-KmmiOeZSRlp-XmOgbONXLkwCfFD4RNQWtUkcsRjZPhMRzO1vXTAatINXaemOw7uu5g5FVwG8frKbKKyOQ" height="200" width="auto" /><br><br>GPS: 5.41855, 100.33647<br>Details: http://www.penang-traveltips.com/cheating-husband-sculpture.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/UBiIgfHAslVSEZjhI-E9eGtZtaJEu5YnlLfs58Rv00X4t9Zj7rrMVnJdsjs7TmI1r1WMQda9rdxfM6k0EOo4IMXi9ZhbVakExGrjXybSwqm_1gik4xUu7_6ZPdy4UHE5ry5fuDFemuZ4Fidk1HF7ER_kRD1QoGhBt76v-KmmiOeZSRlp-XmOgbONXLkwCfFD4RNQWtUkcsRjZPhMRzO1vXTAatINXaemOw7uu5g5FVwG8frKbKKyOQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.336477,5.418555,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["No Plastic Bag" Sculpture]]></name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/HrzDW2S4PZE35M-DvNauYKYZo4Y21c5xKmIYIyoxvC934JYfH6YX4mhvKHxhuN4BOy81V4waSZa3eb1V8rO0oT4xQ8hBrV5gREBb_Mw-jlVYsIplqVUognEKYXTaEC1c88_mf2Dt0xwXZP0Z97kYlqjBdbEJisMEplhPpX3ky8ShGFftTdQAbhUVh3VV4Bea7DaHBuB5__ulgjboyM6_WTPS-kpzR1mldVQ6tmTI_0EWNCGkU_U" height="200" width="auto" /><br><br>GPS: 5.41232, 100.33479<br>Details: http://www.penang-traveltips.com/no-plastic-bag-sculpture.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/HrzDW2S4PZE35M-DvNauYKYZo4Y21c5xKmIYIyoxvC934JYfH6YX4mhvKHxhuN4BOy81V4waSZa3eb1V8rO0oT4xQ8hBrV5gREBb_Mw-jlVYsIplqVUognEKYXTaEC1c88_mf2Dt0xwXZP0Z97kYlqjBdbEJisMEplhPpX3ky8ShGFftTdQAbhUVh3VV4Bea7DaHBuB5__ulgjboyM6_WTPS-kpzR1mldVQ6tmTI_0EWNCGkU_U</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.334798,5.412323,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Cow and Fish" Sculpture]]></name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/0whMmTSFHT6gxXKIHTtX4NMb0s8V2ePplvLrT4PVCaL2nIkUXc_baGM70zccMxGKedMy5m2J6-HY-SmxNbxi8T1rGpKh7o1fc4lL36k5lSRT9O6SjSL3z4cQPZPY8ztEa7NWTV_eAzxlUh0VUPwmDiapF0uJmHpimgUl-2tCavjIpzfaPLplUlRbxi_SUI3DBYGN3CHIJocj8jildMd8HxrbhtjiQLjo1Rltene1CYSDqJo" height="200" width="auto" /><br><br>GPS: 5.41309, 100.33536<br>Details: http://www.penang-traveltips.com/cow-and-fish-sculpture.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/0whMmTSFHT6gxXKIHTtX4NMb0s8V2ePplvLrT4PVCaL2nIkUXc_baGM70zccMxGKedMy5m2J6-HY-SmxNbxi8T1rGpKh7o1fc4lL36k5lSRT9O6SjSL3z4cQPZPY8ztEa7NWTV_eAzxlUh0VUPwmDiapF0uJmHpimgUl-2tCavjIpzfaPLplUlRbxi_SUI3DBYGN3CHIJocj8jildMd8HxrbhtjiQLjo1Rltene1CYSDqJo</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.335361,5.413092,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Property" Sculpture]]></name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/X5Yr-Y98YZJ8BTyVUUTs83Aoj6YptnKTgzXp4mUX3J2dL61IstgWZ_ur94xuO8aPqBMGALWcxUyR4dLdSNL0JNjd9W5ldef6ts-QYcF0xuNi77sod4l2v0Qh-eMT6dmaDP0K4DtA92QADpEJazBaiOM1Svm86uG3IeF-_-0MkejbwNU5M5AZ86T78y1RlDlBbLz-kTYaKEZhFipC_x8oVjlGCYxkf0LAdN2hWHnX" height="200" width="auto" /><br><br>GPS: 5.41459, 100.34038<br>Details: http://www.penang-traveltips.com/property-sculpture.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/X5Yr-Y98YZJ8BTyVUUTs83Aoj6YptnKTgzXp4mUX3J2dL61IstgWZ_ur94xuO8aPqBMGALWcxUyR4dLdSNL0JNjd9W5ldef6ts-QYcF0xuNi77sod4l2v0Qh-eMT6dmaDP0K4DtA92QADpEJazBaiOM1Svm86uG3IeF-_-0MkejbwNU5M5AZ86T78y1RlDlBbLz-kTYaKEZhFipC_x8oVjlGCYxkf0LAdN2hWHnX</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.340382,5.414593,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Mr Five Foot Way" Sculpture]]></name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/Tg36-Ttmb6bDxD4VbDoEys4U7CV7B2_eS_3IjeVXaZG2MMHnbiijubP189QHAVNVvocEiLqvBaxV_2gteC8S5vVw0Q-HThnDa9UVfB1WNPOgTYuNYSNdKtw5Ve6Y6Pp3pyi32knVDhHEfStV3FEYfDQwCrW2j8GJ_x6BkYoOKhZEUm1L91AKLPPY-gS_IfHZoMdlFQMBsMZW_sJ0S_fIfzBrKEIuGfKaT9mC" height="200" width="auto" /><br><br>GPS: 5.41983, 100.33032<br>Details: http://www.penang-traveltips.com/mr-five-foot-way.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/Tg36-Ttmb6bDxD4VbDoEys4U7CV7B2_eS_3IjeVXaZG2MMHnbiijubP189QHAVNVvocEiLqvBaxV_2gteC8S5vVw0Q-HThnDa9UVfB1WNPOgTYuNYSNdKtw5Ve6Y6Pp3pyi32knVDhHEfStV3FEYfDQwCrW2j8GJ_x6BkYoOKhZEUm1L91AKLPPY-gS_IfHZoMdlFQMBsMZW_sJ0S_fIfzBrKEIuGfKaT9mC</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.330324,5.419832,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Win Win Situation" Sculpture]]></name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/ww-N5T3IC4PJZkdV7CptjDuZnk6L3imcRj6kwCzRfCMNGlW342NqRZzBjVmZ__6wX3KqohTaj0YbI40Jv4eh-Iqw0T5DsadRtGGpPdDetN47CdEVFYqa1dy03ANKjMm47esqmlFC6BgsVLUxUozXxOd-QcA28Vvd8Ue2CA8vx221MmoXo-0NnSq_x6Famw0f8U0F-2-gwD0XIzVkUp_ztt4_R-8P0OOXCibyFssS8xlbAz4TA0i2BZNx" height="200" width="auto" /><br><br>GPS: 5.42031, 100.33418<br>Details: http://www.penang-traveltips.com/win-win-situation-sculpture.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/ww-N5T3IC4PJZkdV7CptjDuZnk6L3imcRj6kwCzRfCMNGlW342NqRZzBjVmZ__6wX3KqohTaj0YbI40Jv4eh-Iqw0T5DsadRtGGpPdDetN47CdEVFYqa1dy03ANKjMm47esqmlFC6BgsVLUxUozXxOd-QcA28Vvd8Ue2CA8vx221MmoXo-0NnSq_x6Famw0f8U0F-2-gwD0XIzVkUp_ztt4_R-8P0OOXCibyFssS8xlbAz4TA0i2BZNx</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.334181,5.420312,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Bullock Cart Wheel" Sculpture]]></name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/5XmMONwYViWySCvDTzfJDydPSksDvAO71jqDi9wSMA4mWInWvUxXC3lNU6qGezE4cKpFvYCNXmN8vYdLBAAJ5_CqqnZIJiJ6XDZOVRbYSiqQIM3fU3iLPu-KVNpvf9raIZiCm_7Mz64i41wWqWkW2uEMHxB_EL_GfwpRn_Mss8PMxXzvw2YP08saut7bffZUOQBSBaJFn3pzQTlAQHgE6CmIZ_ldzawHJipajuq9OMqDa9rMt2DkvbY94w" height="200" width="auto" /><br><br>GPS: 5.41948, 100.33965<br>Details: http://www.penang-traveltips.com/bullock-cart-wheel-sculpture.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/5XmMONwYViWySCvDTzfJDydPSksDvAO71jqDi9wSMA4mWInWvUxXC3lNU6qGezE4cKpFvYCNXmN8vYdLBAAJ5_CqqnZIJiJ6XDZOVRbYSiqQIM3fU3iLPu-KVNpvf9raIZiCm_7Mz64i41wWqWkW2uEMHxB_EL_GfwpRn_Mss8PMxXzvw2YP08saut7bffZUOQBSBaJFn3pzQTlAQHgE6CmIZ_ldzawHJipajuq9OMqDa9rMt2DkvbY94w</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.339658,5.419485,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Rope Style" Sculpture]]></name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/yQRnA-g82m47HwrLyVe7Ld-bX6y6VWrAC3yZ1V8eaG6hnCXsHPBeq8HiPtxebfI7G0VZCrXNOVfUNXg1YILp02c2tj6rJucDz6bawNzu9xYEO9LXhE_E41ev8CuTwiDDJR_Nk69woyHnhJcoUrXQ-Ly0oVHILDwVlPsCueycp4x_X8HMNt4eO3T-oy2i4Pae4oSiUjo9cpVL87GQ8_tiUgvz8pBHOglRS2p5VKHX3Bw" height="200" width="auto" /><br><br>GPS: 5.41619, 100.33337<br>Details: http://www.penang-traveltips.com/rope-style-sculpture.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/yQRnA-g82m47HwrLyVe7Ld-bX6y6VWrAC3yZ1V8eaG6hnCXsHPBeq8HiPtxebfI7G0VZCrXNOVfUNXg1YILp02c2tj6rJucDz6bawNzu9xYEO9LXhE_E41ev8CuTwiDDJR_Nk69woyHnhJcoUrXQ-Ly0oVHILDwVlPsCueycp4x_X8HMNt4eO3T-oy2i4Pae4oSiUjo9cpVL87GQ8_tiUgvz8pBHOglRS2p5VKHX3Bw</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.333371,5.416195,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Kopi-O" Sculpture]]></name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/1Cskj2cy9-0FYXqfwiWOxIJ-tTRINS6FCNeA3p4Yxjc7LN0W2CJoq_JCsZQVxZRKBsRCq__6zk-q0HDCyoT36PLRXFRI7mQRDKy1ZovzQ4C8zLi-3-60Dtw1KSLMGYNTapvHJX4PE3ezZnfArsHWXxQOMUF_EkgCJXNML_temNM4vj2k-x7flNduwupjCpZxEBVZex82OkhQr6moMitVvLK69J0BfDunM3fF" height="200" width="auto" /><br><br>GPS: 5.41743, 100.33094<br>Details: http://www.penang-traveltips.com/kopi-o-sculpture.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/1Cskj2cy9-0FYXqfwiWOxIJ-tTRINS6FCNeA3p4Yxjc7LN0W2CJoq_JCsZQVxZRKBsRCq__6zk-q0HDCyoT36PLRXFRI7mQRDKy1ZovzQ4C8zLi-3-60Dtw1KSLMGYNTapvHJX4PE3ezZnfArsHWXxQOMUF_EkgCJXNML_temNM4vj2k-x7flNduwupjCpZxEBVZex82OkhQr6moMitVvLK69J0BfDunM3fF</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.330941,5.417439,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Waterway" Sculpture]]></name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/HyM5GgyQmjgurhljNMub-i8-w90W8enOdLBhQ6sMZzp-00H5v87UO1hSvHpperIVvMpWbsTabDL1rW7VfKvv4IZeLyGuiosLwbRQOD6WHIxiMTruNBGIygTtjlHnxq_STS0OTKkOWP9NP4-4w2KfI6_OEVffddr8nG1OvXZeb6ah379h3sxgXzL_RoN7Yod0C5EdVhtVmDIwR7fnE9aB4ZX6neeXzm6sxY-In7eO" height="200" width="auto" /><br><br>GPS: 5.41185, 100.33409<br>Details: http://www.penang-traveltips.com/waterway-sculpture.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/HyM5GgyQmjgurhljNMub-i8-w90W8enOdLBhQ6sMZzp-00H5v87UO1hSvHpperIVvMpWbsTabDL1rW7VfKvv4IZeLyGuiosLwbRQOD6WHIxiMTruNBGIygTtjlHnxq_STS0OTKkOWP9NP4-4w2KfI6_OEVffddr8nG1OvXZeb6ah379h3sxgXzL_RoN7Yod0C5EdVhtVmDIwR7fnE9aB4ZX6neeXzm6sxY-In7eO</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.334095,5.411853,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Too Hot" Sculpture]]></name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/f6TwoOOrazGIa8kMEhF0AGyeIrf_dj3QLITU12kcCSjGebneQrmGQGgq7otIFc0ig0m3EEqLJYlZo8JSGdX2hSZNXNPonC5CZU0lhdvlPXqzI5OtgExTUIlgOH8XfwxhCobye7GwZr2plOlZ829c5DX5b4FSY8gsfrrc4dLtxD2EnxXM04NjEWva7-ulWXTszFLtwbi5BlhjukChiqLgu4i-128y6wl8TPNdBA" height="200" width="auto" /><br><br>GPS: 5.41819, 100.34494<br>Details: http://www.penang-traveltips.com/too-hot-sculpture.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/f6TwoOOrazGIa8kMEhF0AGyeIrf_dj3QLITU12kcCSjGebneQrmGQGgq7otIFc0ig0m3EEqLJYlZo8JSGdX2hSZNXNPonC5CZU0lhdvlPXqzI5OtgExTUIlgOH8XfwxhCobye7GwZr2plOlZ829c5DX5b4FSY8gsfrrc4dLtxD2EnxXM04NjEWva7-ulWXTszFLtwbi5BlhjukChiqLgu4i-128y6wl8TPNdBA</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.344942,5.418192,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Escape" Sculpture]]></name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/_KpLV-4Hxtlrt5tsG0yKMju37Fk7rG3ZczDa5g9vWHCFRGn3TjiwvXnNlufDPSmu9_MlyzAi8mDKVGUWjZqqt8qyjth1qTrYJfJL6OfL3IpnQBUXoWsbLaBv_IPLapYqRJqCBdHA8vD1UManHX4DJcG9acT-8QkurwFldPZMofPbUrdKoh2kPiOFdRnHNRTzuT7il-yCivGjMnK1F4DU-oBFs4UzBEgGZmCY" height="200" width="auto" /><br><br>GPS: 5.41365, 100.33731<br>Details: http://www.penang-traveltips.com/escape-sculpture.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/_KpLV-4Hxtlrt5tsG0yKMju37Fk7rG3ZczDa5g9vWHCFRGn3TjiwvXnNlufDPSmu9_MlyzAi8mDKVGUWjZqqt8qyjth1qTrYJfJL6OfL3IpnQBUXoWsbLaBv_IPLapYqRJqCBdHA8vD1UManHX4DJcG9acT-8QkurwFldPZMofPbUrdKoh2kPiOFdRnHNRTzuT7il-yCivGjMnK1F4DU-oBFs4UzBEgGZmCY</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.337319,5.413653,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Limousine" Sculpture]]></name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/5UqlgALMgOroOJEi48U_KcbsbzHdi9eOf5_jId3T5iYbPwNuD3MjeNbT2q2PeBh5dO1rG-MdLM3cL2DvJQgV35aktdiNysXjdruV_Ga1sz0uTuolLfT2iSY1peLkr8h4vEaZg3wF9C_afUiEsG2H5LNbKYmwxuy_garQbwFex9Cwy7X2gBbSzntbIedUDylJPFVn17xWMmCgHpEVW5VFFUCQi9Bjb-N6BL08qfXrWw" height="200" width="auto" /><br><br>GPS: 5.41506, 100.33489<br>Details: http://www.penang-traveltips.com/limousine-sculpture.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/5UqlgALMgOroOJEi48U_KcbsbzHdi9eOf5_jId3T5iYbPwNuD3MjeNbT2q2PeBh5dO1rG-MdLM3cL2DvJQgV35aktdiNysXjdruV_Ga1sz0uTuolLfT2iSY1peLkr8h4vEaZg3wF9C_afUiEsG2H5LNbKYmwxuy_garQbwFex9Cwy7X2gBbSzntbIedUDylJPFVn17xWMmCgHpEVW5VFFUCQi9Bjb-N6BL08qfXrWw</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.334895,5.415068,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Awaiting Trishaw Paddler" Mural]]></name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/AVRhteHVpBm0Ir79QdPSnOwNCWgpxrXfFZIeJWwoKHST90SExiCx95UvGcU4ANzCXStY56R1djHM1fRDKuZr7bYtJb4UM2HrYtAamDT9XStYx4Gy0Xh8_NVvoQ1DhbRkUNFqQEfERqShUWh6RvsApJY39NHwz73YIHbt07OUxCGooGnghAgYf2PaIvArmYBDXMJhOVl2nybK8bFVoT2QJcnlGp4zvLffeaFROCLEicttbpfkn4AWpJFFfb6qY4xpGaJl" height="200" width="auto" /><br><br>GPS: 5.42136, 100.33376<br>Details: http://www.penang-traveltips.com/the-awaiting-trishaw-paddler-mural.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/AVRhteHVpBm0Ir79QdPSnOwNCWgpxrXfFZIeJWwoKHST90SExiCx95UvGcU4ANzCXStY56R1djHM1fRDKuZr7bYtJb4UM2HrYtAamDT9XStYx4Gy0Xh8_NVvoQ1DhbRkUNFqQEfERqShUWh6RvsApJY39NHwz73YIHbt07OUxCGooGnghAgYf2PaIvArmYBDXMJhOVl2nybK8bFVoT2QJcnlGp4zvLffeaFROCLEicttbpfkn4AWpJFFfb6qY4xpGaJl</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.333763,5.421365,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Ah Quee?" Sculpture]]></name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/hxYlmTVwyNUsGDmGEM5ZDnEo9mPR3dw9F-HVnZe64KZ1ay2baTIsmvsvbjc6NgCGzJgxhtBVN9d2peoGopGZr-2p5kHRBIXxfYrFmMo35rRLCSZCjW3fNIaMj9e6dF_3PJJz5pRgeOY0kYcmFn6A652P1okJ8jYoYrXSph35Guc8l1yqZ8vYYlJ2L-7cls-2tsfe1GjFgkv9pNHzRvS1Oidt8dmnuugExhT0cg" height="200" width="auto" /><br><br>GPS: 5.41565, 100.33836<br>Details: http://www.penang-traveltips.com/ah-quee-sculpture.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/hxYlmTVwyNUsGDmGEM5ZDnEo9mPR3dw9F-HVnZe64KZ1ay2baTIsmvsvbjc6NgCGzJgxhtBVN9d2peoGopGZr-2p5kHRBIXxfYrFmMo35rRLCSZCjW3fNIaMj9e6dF_3PJJz5pRgeOY0kYcmFn6A652P1okJ8jYoYrXSph35Guc8l1yqZ8vYYlJ2L-7cls-2tsfe1GjFgkv9pNHzRvS1Oidt8dmnuugExhT0cg</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.338365,5.41565,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["High Counter" Sculpture]]></name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/sEbDdS-5IqHbO-j4FfTSdElO8BIJefsDFFS5Z2ELtW75QrRGCX1-1zFJeG2EQcRfFX1_U6BGUC9MhAzSWk5-d5ULRB1acGVIuN0v8za0rz2HUKg2Q3b40a-9VbGROTpb3yZS7GcMoryHhAIjxWpmZq7edtSMalMJGRYqcoJ37VwqLsbiFW1wRVtl2XU_qGiYYEaffJ6CJK5b7gntUjRJAmP8sgLSEQt3jrc9CS9X-wBgKiE" height="200" width="auto" /><br><br>GPS: 5.41821, 100.33625<br>Details: http://www.penang-traveltips.com/high-counter-sculpture.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/sEbDdS-5IqHbO-j4FfTSdElO8BIJefsDFFS5Z2ELtW75QrRGCX1-1zFJeG2EQcRfFX1_U6BGUC9MhAzSWk5-d5ULRB1acGVIuN0v8za0rz2HUKg2Q3b40a-9VbGROTpb3yZS7GcMoryHhAIjxWpmZq7edtSMalMJGRYqcoJ37VwqLsbiFW1wRVtl2XU_qGiYYEaffJ6CJK5b7gntUjRJAmP8sgLSEQt3jrc9CS9X-wBgKiE</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.336252,5.418219,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Yeoh Only" Sculpture]]></name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/PYokk2NN_VJNrAGsqAoKrxqppw8NtwrNpVup8T9v5xBBT3z2-P1L3Ak9Kv81WxwZlZxkDOCGecODW9afJ42Z9W2fRx71dmDNCSJ66MQtW5_uahpYScX2U9iLlEOZi7UJquoA0jUf0FyVW6eK0ljjKCYG7mCxLqd3Pvzb21aRp0WCKowBVvA7_nMjNS6HIcL-96ZIXz3MQpRGA126thKH5WJntUVdFpq0PeYiXKlxRw" height="200" width="auto" /><br><br>GPS: 5.41531, 100.33975<br>Details: http://www.penang-traveltips.com/yeoh-only-sculpture.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/PYokk2NN_VJNrAGsqAoKrxqppw8NtwrNpVup8T9v5xBBT3z2-P1L3Ak9Kv81WxwZlZxkDOCGecODW9afJ42Z9W2fRx71dmDNCSJ66MQtW5_uahpYScX2U9iLlEOZi7UJquoA0jUf0FyVW6eK0ljjKCYG7mCxLqd3Pvzb21aRp0WCKowBVvA7_nMjNS6HIcL-96ZIXz3MQpRGA126thKH5WJntUVdFpq0PeYiXKlxRw</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.339758,5.415316,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Happy Hour" (aka "No More Red Tape") Sculpture]]></name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/Axq-7zVV8sekA9-fBCPhglQ9ohVcABMC1tBsPJOidx9LcJgSmsqkcPo36lSMpLnNjCY0C4gx6AiTNtdYcQjkJCgtDdliNOZfOLbLFaBFPoQYjwm8j7G0jhkJao_v0FSEvB1HUSKuaNB4WqjVf3qMu-DG_t3JCKIVWV5f6i2luimSGWFiO_lKWbvY8Qa3VDqz_pM4kt2KhZKsdrRZ023KE2AzRRmUm4VgT_Wv2lhGFNc" height="200" width="auto" /><br><br>GPS: 5.41779, 100.3294<br>Details: http://www.penang-traveltips.com/happy-hour-sculpture.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/Axq-7zVV8sekA9-fBCPhglQ9ohVcABMC1tBsPJOidx9LcJgSmsqkcPo36lSMpLnNjCY0C4gx6AiTNtdYcQjkJCgtDdliNOZfOLbLFaBFPoQYjwm8j7G0jhkJao_v0FSEvB1HUSKuaNB4WqjVf3qMu-DG_t3JCKIVWV5f6i2luimSGWFiO_lKWbvY8Qa3VDqz_pM4kt2KhZKsdrRZ023KE2AzRRmUm4VgT_Wv2lhGFNc</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.329401,5.417792,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Same Taste, Same Look" Sculpture]]></name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/ATDQpPpNgnU_uOAdEfyyHiSNnr7-mL5ljOZq-YNKFo2EdpWSxBtJSRxPgd3YRpYB3biuaV9wXvlGCBT-CkBZiXy12VLCnOnqbZaz9LcPvJySFZB9uiCMWlAp65xeWWZLyN3YWaWOVEABJPKnYUl9sgHO1xNz1qAJWxXod_yu95chUN_0XRvej2ZhN4rQngiROC2KHz4ni0Zd1xNa6qvHb5gS-j8aNiGgYYx6a3lGjwMm-qevmY2SJZ-y8K4qvA" height="200" width="auto" /><br><br>GPS: 5.41654, 100.33278<br>Details: http://www.penang-traveltips.com/same-taste-same-look-sculpture.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/ATDQpPpNgnU_uOAdEfyyHiSNnr7-mL5ljOZq-YNKFo2EdpWSxBtJSRxPgd3YRpYB3biuaV9wXvlGCBT-CkBZiXy12VLCnOnqbZaz9LcPvJySFZB9uiCMWlAp65xeWWZLyN3YWaWOVEABJPKnYUl9sgHO1xNz1qAJWxXod_yu95chUN_0XRvej2ZhN4rQngiROC2KHz4ni0Zd1xNa6qvHb5gS-j8aNiGgYYx6a3lGjwMm-qevmY2SJZ-y8K4qvA</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.332781,5.416542,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["The Main Street" Sculpture]]></name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/ib36uiO2nJ9AIr0O-vtUkA6VxsjRa7kgBdCicYjLq9s3wGmmkiNCkIvtf3ioDJU7kMHQ2tyia2Bo4euYKvsLH5JsJMTTH-B0VvB5HOe21c9zSjJbHZ8foy-KdMmK-6rnqyj7Hpez8-8PjO71b-v_Stm6QDO5INxXidh-N8k24Wv1UrsdYFuT_MtiCkuBIinF3W5aigHJdtK9Ap1J1kuO-vaDQX0WSTE8LohuUQc3YuTzXBTTzkpg" height="200" width="auto" /><br><br>GPS: 5.41702, 100.33802<br>Details: http://www.penang-traveltips.com/the-main-street-sculpture.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/ib36uiO2nJ9AIr0O-vtUkA6VxsjRa7kgBdCicYjLq9s3wGmmkiNCkIvtf3ioDJU7kMHQ2tyia2Bo4euYKvsLH5JsJMTTH-B0VvB5HOe21c9zSjJbHZ8foy-KdMmK-6rnqyj7Hpez8-8PjO71b-v_Stm6QDO5INxXidh-N8k24Wv1UrsdYFuT_MtiCkuBIinF3W5aigHJdtK9Ap1J1kuO-vaDQX0WSTE8LohuUQc3YuTzXBTTzkpg</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.338027,5.417025,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Double Role" Sculpture]]></name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/JWjAOBEO427VKTKoUZSwiw4e-cMKHt6tHcKjGiBpjAX8Nd9mhN1jW7nAnwlHx9yiHlBqAJ2NDBjfstxBhZqWd51JiRUS4AsJjDPIbGdlEK_XOMfNPk6in3N67xg5PJn0WYR-ZhFUyAd4BKD8S602rMX6jnJpNo-cpW7WSAre7vfbbVQuvZnDJDrBQboAl0F4u6Gst2alucCSotcI4XZyqaN7k6ihzeF0VyXgjByuLbYTlQ" height="200" width="auto" /><br><br>GPS: 5.41542, 100.33969<br>Details: http://www.penang-traveltips.com/double-role-sculpture.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/JWjAOBEO427VKTKoUZSwiw4e-cMKHt6tHcKjGiBpjAX8Nd9mhN1jW7nAnwlHx9yiHlBqAJ2NDBjfstxBhZqWd51JiRUS4AsJjDPIbGdlEK_XOMfNPk6in3N67xg5PJn0WYR-ZhFUyAd4BKD8S602rMX6jnJpNo-cpW7WSAre7vfbbVQuvZnDJDrBQboAl0F4u6Gst2alucCSotcI4XZyqaN7k6ihzeF0VyXgjByuLbYTlQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.339696,5.415421,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Gedung Rumput" Sculpture]]></name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/c74ZmDRsmYhnvSg9r1y-9N5MIAw8lWq2bZaLEDAy0pj3t7lszMUMJ633smw11iz2kzxeTdLirP73JEVT55JmO-UWI_8e1Vqhl-pSYQfVGE8odiiUpMa9NL_1R-d9JsTbr5iVHPsQV4uaDIyWgGAvC5-9OHdFDks7KNFnQYs5IY45wxB_a-47xnHT3APSKwAGAIAJ7Bm2BBQ2mizprlE-fZw7CXH5dUfPs02csVW4O_Frz-Id" height="200" width="auto" /><br><br>GPS: 5.41806, 100.33907<br>Details: http://www.penang-traveltips.com/gedung-rumput-sculpture.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/c74ZmDRsmYhnvSg9r1y-9N5MIAw8lWq2bZaLEDAy0pj3t7lszMUMJ633smw11iz2kzxeTdLirP73JEVT55JmO-UWI_8e1Vqhl-pSYQfVGE8odiiUpMa9NL_1R-d9JsTbr5iVHPsQV4uaDIyWgGAvC5-9OHdFDks7KNFnQYs5IY45wxB_a-47xnHT3APSKwAGAIAJ7Bm2BBQ2mizprlE-fZw7CXH5dUfPs02csVW4O_Frz-Id</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.339079,5.418064,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Temple Day" Sculpture]]></name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/R3x9LLHIBrzuM524DU5K11WPzmD74SzZZeXlR28v3T3qLftC6Onfy8Y_cw7TDpLY6EtUo6bud-emwNpVllq9ehCdX3CCyd0MWhD0RxfXMuti9f-WPM5MshjOtY5j7bt2j9JQU-aWCKj4ygJdTVgvM0mH30CTVh3069dJ5JBqS0hKsO-hEN6FaeQqbzjQjF1O-UkKlsP2X82uBNpjKWB7Fu-UmdIq4otxDI_wGNEL7Ss" height="200" width="auto" /><br><br>GPS: 5.41847, 100.33832<br>Details: http://www.penang-traveltips.com/temple-day-sculpture.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/R3x9LLHIBrzuM524DU5K11WPzmD74SzZZeXlR28v3T3qLftC6Onfy8Y_cw7TDpLY6EtUo6bud-emwNpVllq9ehCdX3CCyd0MWhD0RxfXMuti9f-WPM5MshjOtY5j7bt2j9JQU-aWCKj4ygJdTVgvM0mH30CTVh3069dJ5JBqS0hKsO-hEN6FaeQqbzjQjF1O-UkKlsP2X82uBNpjKWB7Fu-UmdIq4otxDI_wGNEL7Ss</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.338328,5.41847,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Cannon Hole" Sculpture]]></name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/7aZ0D7XEoH2cLqrKEh6Gsdc6W-t2s17zyFUf02UXiy9dDUqsVqImPuluonBJVu_kS_2yJW9iVts2wiz-IpmoOmWmy84_FBkcCuyu1MEFn85bpgrskg7vCbEilsH53UZ_ajXO2QQBoMZg6AIHN2LxbTjqgdg8fFgtmLBOo4rCP1CB8B7dvdznvhYYPDy0MLd_P1e1Iu6Ta3lq72ne5d7t0q3urTCfLPnO8i4uUewG6CATfQ" height="200" width="auto" /><br><br>GPS: 5.41472, 100.33647<br>Details: http://www.penang-traveltips.com/cannon-hole-sculpture.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/7aZ0D7XEoH2cLqrKEh6Gsdc6W-t2s17zyFUf02UXiy9dDUqsVqImPuluonBJVu_kS_2yJW9iVts2wiz-IpmoOmWmy84_FBkcCuyu1MEFn85bpgrskg7vCbEilsH53UZ_ajXO2QQBoMZg6AIHN2LxbTjqgdg8fFgtmLBOo4rCP1CB8B7dvdznvhYYPDy0MLd_P1e1Iu6Ta3lq72ne5d7t0q3urTCfLPnO8i4uUewG6CATfQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.336472,5.414724,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Then & Now" Sculpture]]></name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/Nw1vC6xgjwgqjQrp-A2KGz1bISSa-XhP3vjSJLLppG7PIKrV0QBqnR2AkL7aNb7T2ib3oJrUj3iO1j97ge1xirt0ZSpBI54dlE5Y9-g98rwsZjVxerY14II2GruFohmw3wdgp2dMe_CcS_EhojDiiVxA5-JWTQcm6LAvmYs4qKvtWzl-rYEpFF3CxRfjVwgZvQDzAwW2r2aMPNQvwK5_g0C2FFmZ-bO82Aec7TuyWxbU6s4" height="200" width="auto" /><br><br>GPS: 5.4157, 100.33645<br>Details: http://www.penang-traveltips.com/then-and-now-sculpture.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/Nw1vC6xgjwgqjQrp-A2KGz1bISSa-XhP3vjSJLLppG7PIKrV0QBqnR2AkL7aNb7T2ib3oJrUj3iO1j97ge1xirt0ZSpBI54dlE5Y9-g98rwsZjVxerY14II2GruFohmw3wdgp2dMe_CcS_EhojDiiVxA5-JWTQcm6LAvmYs4qKvtWzl-rYEpFF3CxRfjVwgZvQDzAwW2r2aMPNQvwK5_g0C2FFmZ-bO82Aec7TuyWxbU6s4</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.336456,5.415701,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Spy" Sculpture]]></name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/WB9xvdzdRvNI1lC5wFbOXuOeJwdaCZ0nUkE3ceFOZ4v5FoQMU1KxFifk7oaaQENrQZ2DcRYKhO-acfApdx9FLWqAKSmvS8FsnYqwO1vNmFyc6GYUqTNaO-Jb0Q1I65UPr8W3QS5JE6COFjQX0BVRX5kMk6s8o7pTshEX4jYyl7fIMdFT6kJ-qDY9OeBKvuz_iAxNamAToI7hodMhF2k0wiD3rliypds" height="200" width="auto" /><br><br>GPS: 5.41856, 100.33384<br>Details: http://www.penang-traveltips.com/spy-sculpture.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/WB9xvdzdRvNI1lC5wFbOXuOeJwdaCZ0nUkE3ceFOZ4v5FoQMU1KxFifk7oaaQENrQZ2DcRYKhO-acfApdx9FLWqAKSmvS8FsnYqwO1vNmFyc6GYUqTNaO-Jb0Q1I65UPr8W3QS5JE6COFjQX0BVRX5kMk6s8o7pTshEX4jYyl7fIMdFT6kJ-qDY9OeBKvuz_iAxNamAToI7hodMhF2k0wiD3rliypds</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.333846,5.418561,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Retail Paradise" Sculpture]]></name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/Sl8sNr8lv0tA2cOiQeMekupaqnYogZ3Sl7vrKkJmLK4VXF8oEOKLyiw5mOOXIYtWxpbWfqpeOIAoLNWzjS3mywGLD9HgNuNoZ0W-3jZMQd7NsBqLy0av9mlNxUpVIcIeVCphUpdsIo0eYED3NL6gAKQ0WdhSP0ztjikyjzF_SJtlQ4NV6RY1YMCdhYRJW8k0gEBbj6QCmkaeN-dVxNWuP2PYEP9VAbCD3C_KktpBXhB3l-pbYf9M" height="200" width="auto" /><br><br>GPS: 5.41754, 100.3343<br>Details: http://www.penang-traveltips.com/retail-paradise-sculpture.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/Sl8sNr8lv0tA2cOiQeMekupaqnYogZ3Sl7vrKkJmLK4VXF8oEOKLyiw5mOOXIYtWxpbWfqpeOIAoLNWzjS3mywGLD9HgNuNoZ0W-3jZMQd7NsBqLy0av9mlNxUpVIcIeVCphUpdsIo0eYED3NL6gAKQ0WdhSP0ztjikyjzF_SJtlQ4NV6RY1YMCdhYRJW8k0gEBbj6QCmkaeN-dVxNWuP2PYEP9VAbCD3C_KktpBXhB3l-pbYf9M</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.334305,5.417546,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Nostalgic Meal Order" Mural]]></name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/wcWW2WQqYXuv_AJH8Z0VLpWuRxo6niL6CDNctgxhVbDEbaiJKgYaCUv8nNmQA9pGwUsU5ypNFcRNSDiP0u4Jlcsdfewb9L2ejhGnebwTDIIIDic0UFPzp1Mw9bC9MhId_gv9mJEnpOYTk3zLK9m_Lwc_5TB6ABL3fn_3lWFkIfTzlx2CRqxpsHGPOcQjyOEG_sdb8VZ_Bnp5mOKLhlJhnYS18hQAPDpF3E9zAUWJadBax7uXMI-tJCUEcA6-Kw" height="200" width="auto" /><br><br>GPs: 5.41564, 100.32667<br>Details: http://www.penang-traveltips.com/nostalgic-meal-order-louis-gan.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/wcWW2WQqYXuv_AJH8Z0VLpWuRxo6niL6CDNctgxhVbDEbaiJKgYaCUv8nNmQA9pGwUsU5ypNFcRNSDiP0u4Jlcsdfewb9L2ejhGnebwTDIIIDic0UFPzp1Mw9bC9MhId_gv9mJEnpOYTk3zLK9m_Lwc_5TB6ABL3fn_3lWFkIfTzlx2CRqxpsHGPOcQjyOEG_sdb8VZ_Bnp5mOKLhlJhnYS18hQAPDpF3E9zAUWJadBax7uXMI-tJCUEcA6-Kw</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.326676,5.415645,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Chingay Procession" Sculpture]]></name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/R5oFbdVkzGXejyzS-rQDh2XqG2dbuZxNtuyLOvJQfchXJrX8LG9EosXeqaIDaUIb5NtsRRRpmqe10iJAD87J6WkxDt1VXYZUeCdDkP8TyuATmnhS58-DMHGzhBgy5YHTtTTecvF0I1YWaWg7QEcV_sMUydw8tc_hoytml1vdILopOCF1qupjbgZUxfBiDrUzaVgCapOZ_XawyWyD_PSvJ1PfYwJDeW_Rgxs0xAHp7qUANae5NbTFG_5yqQ" height="200" width="auto" /><br><br>GPS: 5.41086, 100.33502<br>Details: http://www.penang-traveltips.com/chingay-procession-sculpture.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/R5oFbdVkzGXejyzS-rQDh2XqG2dbuZxNtuyLOvJQfchXJrX8LG9EosXeqaIDaUIb5NtsRRRpmqe10iJAD87J6WkxDt1VXYZUeCdDkP8TyuATmnhS58-DMHGzhBgy5YHTtTTecvF0I1YWaWg7QEcV_sMUydw8tc_hoytml1vdILopOCF1qupjbgZUxfBiDrUzaVgCapOZ_XawyWyD_PSvJ1PfYwJDeW_Rgxs0xAHp7qUANae5NbTFG_5yqQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.335023,5.41086,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Haj Pilgrimage" Sculpture]]></name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/Hzqq06bUy6LF-9oJpyK_yoZnI513SBEqcPvNlOzdABbgFDF4sOrPEs6LGtd3oXAn-gKhn6SEsW9RwlXP73XprA-Tbfu_TBU4q2ytNdVYsXRFSJylObgyFgz32-b8jbpfU2lWSk0VwZFDZwyCFLMk68ZHIsk6YFslUecHtkLbfOHZxZkWfENi08Xsp9DdvVduQboKR2mMpoEx61u1qCz1Cu9Rmwfx4T5_sNvFiYaqzu64FZFzKCI" height="200" width="auto" /><br><br>GPS: 5.41285, 100.33805<br>Details: http://www.penang-traveltips.com/haj-pilgrimage-sculpture.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/Hzqq06bUy6LF-9oJpyK_yoZnI513SBEqcPvNlOzdABbgFDF4sOrPEs6LGtd3oXAn-gKhn6SEsW9RwlXP73XprA-Tbfu_TBU4q2ytNdVYsXRFSJylObgyFgz32-b8jbpfU2lWSk0VwZFDZwyCFLMk68ZHIsk6YFslUecHtkLbfOHZxZkWfENi08Xsp9DdvVduQboKR2mMpoEx61u1qCz1Cu9Rmwfx4T5_sNvFiYaqzu64FZFzKCI</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.338052,5.412852,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Roti Benggali" Sculpture]]></name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/qLVN-m1jqQgiJEAoKEHbJMxkmmR3q8oTN4mNPuW22NHDENk1Lkr7O_dvq11bnlSQ9xdpFVF6P_X4Mbjj_6JQlUPHWPPhdDZX7cJKrmB-I4mT8HXI9j40mQinyuWNMxxKc--SsGwM5VFnFQpxo6-vPCumobSTCgTMC7PoYrEtBbf9H9yN6fFxwCoX6tV-EiY4XsEvycnyxBHLRmPMvmDv3zT6xeriEl6GkaId0rSCgs_ozcso" height="200" width="auto" /><br><br>GPS: 5.41627, 100.33889<br>Details: http://www.penang-traveltips.com/roti-benggali-sculpture.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/qLVN-m1jqQgiJEAoKEHbJMxkmmR3q8oTN4mNPuW22NHDENk1Lkr7O_dvq11bnlSQ9xdpFVF6P_X4Mbjj_6JQlUPHWPPhdDZX7cJKrmB-I4mT8HXI9j40mQinyuWNMxxKc--SsGwM5VFnFQpxo6-vPCumobSTCgTMC7PoYrEtBbf9H9yN6fFxwCoX6tV-EiY4XsEvycnyxBHLRmPMvmDv3zT6xeriEl6GkaId0rSCgs_ozcso</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.338897,5.416275,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Street Fighters" Sculpture]]></name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/c-0ZI-bN0QR6bgEveyf3Xorb8CTLqctHjNTcDkilR1SAZKu00RRypgcvoDqH4Jxd0woqZ00hChB9kopjhwwcH-9JdGxUhENr9O98naREhoVxuoqBgmN7Kd38jzBAplsQoD3YKWOzalyZGo6Lq1UZlDLk4uTqgNEjZXJasxQTAjMKf1Y5IAQ4tUpVwKJryfr1WvD3cmJvh55pd2W5oPd6NnoJDFDww2S0ZFAfnlQAu8PG0cUgGde_" height="200" width="auto" /><br><br>GPS: 5.41842, 100.34034<br>Details: http://www.penang-traveltips.com/street-fighters-sculpture.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/c-0ZI-bN0QR6bgEveyf3Xorb8CTLqctHjNTcDkilR1SAZKu00RRypgcvoDqH4Jxd0woqZ00hChB9kopjhwwcH-9JdGxUhENr9O98naREhoVxuoqBgmN7Kd38jzBAplsQoD3YKWOzalyZGo6Lq1UZlDLk4uTqgNEjZXJasxQTAjMKf1Y5IAQ4tUpVwKJryfr1WvD3cmJvh55pd2W5oPd6NnoJDFDww2S0ZFAfnlQAu8PG0cUgGde_</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.34035,5.418427,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Mahjong Bird" Sculpture]]></name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/RCOM2lbM3OnTeLlTmPU7PVl1Ce3uP5F9Jv6mBfJNIqBMkP4OszeQqVDf_85FYb4tZa5vNE924BVWMV7a107O1agktQWsrIh3-IWYz3mufNTyhSwA54q4-davaMfx6cHhnon-HvDpevefhpBaJI6xuKSYlUVIdOk1m8Q-emKBHgtNeu3as5BLuxwUgi3ZQGKDpOHMN8OqCwkmcCa4J7KvbbccjFdHIXiW3TdrtRLC2B0zTME" height="200" width="auto" /><br><br>GPS: 5.41885, 100.33818<br>Details: http://www.penang-traveltips.com/mahjong-bird-sculpture.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/RCOM2lbM3OnTeLlTmPU7PVl1Ce3uP5F9Jv6mBfJNIqBMkP4OszeQqVDf_85FYb4tZa5vNE924BVWMV7a107O1agktQWsrIh3-IWYz3mufNTyhSwA54q4-davaMfx6cHhnon-HvDpevefhpBaJI6xuKSYlUVIdOk1m8Q-emKBHgtNeu3as5BLuxwUgi3ZQGKDpOHMN8OqCwkmcCa4J7KvbbccjFdHIXiW3TdrtRLC2B0zTME</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.338186,5.418857,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Beca" aka "Trishaw Paddler" Sculpture]]></name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/wKUP28KK1H2sr0r8OYxhcoLgyZ_jjrvH4cYk6DpDacINPUjtJ2WQQG8Tfj7McidJAXf4UBT0qIUFfFjYmn4DcUsRTf5HJdu5T6_85fqNvoDuFEXNQZ2jpAua9kd5zX7TnobRlwu0sXhLdoW4azl_pP-62ijfKFWX5nNmGFbpimOgXFvhILwdpKX-whjo9TQ3LW5atsBegFiEkvjL0ssPyfNKrIkp3DnIKhXUeDLbzpVizQ56lSOa" height="200" width="auto" /><br><br>GPS: 5.41913, 100.33766<br>Details: http://www.penang-traveltips.com/trishaw-paddler-sculpture.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/wKUP28KK1H2sr0r8OYxhcoLgyZ_jjrvH4cYk6DpDacINPUjtJ2WQQG8Tfj7McidJAXf4UBT0qIUFfFjYmn4DcUsRTf5HJdu5T6_85fqNvoDuFEXNQZ2jpAua9kd5zX7TnobRlwu0sXhLdoW4azl_pP-62ijfKFWX5nNmGFbpimOgXFvhILwdpKX-whjo9TQ3LW5atsBegFiEkvjL0ssPyfNKrIkp3DnIKhXUeDLbzpVizQ56lSOa</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.337665,5.419138,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Akong & Amah" Mural]]></name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/yoK3Msydc8sGau81N-266GmpqCI3BBu7m8G25LKjUi9gTpfQG7WEA_1W9EskyOqP2DNnkUuAqte6AMtynr8VzazlHhYiDtYSZq0ouX9mVGBTWzAqrNge3W-_iOysbzMcbzxa6st3Cl8SVNukjKcrIxBM3EpPrrGxjnbjR5IQZA38R9aOzO4LQwTdcyHyZvqnd-SPZPhrP4l97wiky0Fti6shRPy0AnqsbWgDdW_fmD7dRJ1hjMyLSuKY9w" height="200" width="auto" /><br><br>GPS: 5.41224, 100.34007<br>Details: http://www.penang-traveltips.com/akong-n-amah-mural-simon-tan.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/yoK3Msydc8sGau81N-266GmpqCI3BBu7m8G25LKjUi9gTpfQG7WEA_1W9EskyOqP2DNnkUuAqte6AMtynr8VzazlHhYiDtYSZq0ouX9mVGBTWzAqrNge3W-_iOysbzMcbzxa6st3Cl8SVNukjKcrIxBM3EpPrrGxjnbjR5IQZA38R9aOzO4LQwTdcyHyZvqnd-SPZPhrP4l97wiky0Fti6shRPy0AnqsbWgDdW_fmD7dRJ1hjMyLSuKY9w</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.340074,5.412243,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Penang: Past, Present & Future" Mural (painted over)]]></name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/RwDH5BhDZQ3ellv14sXXfEq5pMaOexzSW-UvWKnqFFZV67H7F96O1EvOyHM19R-FJ9hdSXxyj6Kqyrivllf6hf80yM4XI1sVKTv9SyAliVS6QvajkkHxeAzM5zeOknxmhOhAZ5X1Ib_44BrLR0SxJqLewLDnlSHzNzoSYF47UJzNlh60tjRhJ1gOSfql4W71hRcppzTh1LdBBMN68nhkXsnmeoOhn3L-Kb0xGWoT_ST8o_qdpqkeM5a9APOCGzQi" height="200" width="auto" /><br><br>GPS: 5.41092, 100.33426<br>Details: http://www.penang-traveltips.com/penang-past-present-future-mural.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/RwDH5BhDZQ3ellv14sXXfEq5pMaOexzSW-UvWKnqFFZV67H7F96O1EvOyHM19R-FJ9hdSXxyj6Kqyrivllf6hf80yM4XI1sVKTv9SyAliVS6QvajkkHxeAzM5zeOknxmhOhAZ5X1Ib_44BrLR0SxJqLewLDnlSHzNzoSYF47UJzNlh60tjRhJ1gOSfql4W71hRcppzTh1LdBBMN68nhkXsnmeoOhn3L-Kb0xGWoT_ST8o_qdpqkeM5a9APOCGzQi</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.334267,5.410929,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Ironsmith" Sculpture]]></name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/SBPgzw_kzS9UotLOfK6DYzaG0XAGG2W65AmNygD02MOF9DKIdAqfj6MESNAW47uAxcAgC0Rux1yWVL-dMPWL9cuQEczTvszUiKtQvsQjVLmqu_MXab4fhHB-gyXk1Z0ocT3bfRWd90QGPLw6_Skw3R7t7OpU5dd54d1YzHFXicNngsD4CndTdCJt147MxePfgVawNs9kZ3JdS65LMLKszJcxgd0dAi8vATilg2w4Rw" height="200" width="auto" /><br><br>GPS: 5.41325, 100.33684<br>Details: http://www.penang-traveltips.com/ironsmith-sculpture.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/SBPgzw_kzS9UotLOfK6DYzaG0XAGG2W65AmNygD02MOF9DKIdAqfj6MESNAW47uAxcAgC0Rux1yWVL-dMPWL9cuQEczTvszUiKtQvsQjVLmqu_MXab4fhHB-gyXk1Z0ocT3bfRWd90QGPLw6_Skw3R7t7OpU5dd54d1YzHFXicNngsD4CndTdCJt147MxePfgVawNs9kZ3JdS65LMLKszJcxgd0dAi8vATilg2w4Rw</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.336842,5.413252,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Amah & Asoon" Mural]]></name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/f8LMuCVEX0zuSaGqxpGHg7UXY8RXSvBM5cR_6vVTXzee04gLI8Fivkt-3ExYBOSixwguaTuSpXkXxijjR7zitT3gvPnIvIJOi7Vzv2TyqIaAryDbbGdOBa9qmeFYxvr7Qud0cjeh9gIdIATmdlUjyiZxhiqonrQB77AVm1KPBHOVHZx5O5UYYemXbHcIoUt3pz1hBDBDO1xHF7S4lfdo4QlQAZWWiN1DyPnQKT1bGHIkfZLzMS8W1OU3wQ" height="200" width="auto" /><br><br>GPS: 5.41266, 100.33981<br>Details: http://www.penang-traveltips.com/amah-n-asoon-mural-simon-tan.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/f8LMuCVEX0zuSaGqxpGHg7UXY8RXSvBM5cR_6vVTXzee04gLI8Fivkt-3ExYBOSixwguaTuSpXkXxijjR7zitT3gvPnIvIJOi7Vzv2TyqIaAryDbbGdOBa9qmeFYxvr7Qud0cjeh9gIdIATmdlUjyiZxhiqonrQB77AVm1KPBHOVHZx5O5UYYemXbHcIoUt3pz1hBDBDO1xHF7S4lfdo4QlQAZWWiN1DyPnQKT1bGHIkfZLzMS8W1OU3wQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.339811,5.412662,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Children Playing Basketball" Mural]]></name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/9qmZKBC_MV9TEiT8W3MP_Iv9api-S4LOolDiA7KOkDDN9bopqKlD-HqRdNLUJlLr42j91KtDkqOowcRufZ6ra9wbxUVzI9lGdOHS0zqVTIFDJZY1LHGzMvgA8FxH4JseVdeQhFq6I_MD1EOuU2KCieEFzOVujKOF1sP-JGLiXFgXPiK1IA-URl6XmXV-Wt1ifwKCusHVNpmr0KBpDFkwp4VXiIX-Tdve6rfRPASDNqGmPblvSsmtUZE1_jTxPZEkTBGdq3MxjA" height="200" width="auto" /><br><br>GPS: 5.41379, 100.34054<br>Details: http://www.penang-traveltips.com/children-playing-basketball-louis-gan.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/9qmZKBC_MV9TEiT8W3MP_Iv9api-S4LOolDiA7KOkDDN9bopqKlD-HqRdNLUJlLr42j91KtDkqOowcRufZ6ra9wbxUVzI9lGdOHS0zqVTIFDJZY1LHGzMvgA8FxH4JseVdeQhFq6I_MD1EOuU2KCieEFzOVujKOF1sP-JGLiXFgXPiK1IA-URl6XmXV-Wt1ifwKCusHVNpmr0KBpDFkwp4VXiIX-Tdve6rfRPASDNqGmPblvSsmtUZE1_jTxPZEkTBGdq3MxjA</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.340543,5.413792,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Brother & Sister on a Swing" Mural]]></name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/dum7X9GI2IkRRCGm8THAQeixawFgFmcC_OxEnhQHqrIfy5-4HcfCmpD9QnL9zV9r_YJL-jLbRFHSoOFonbo5ItRiLEFSKLPOLxmbDvGOzjEtqSMYKLpY9asert5EgFd2Lezu2XiVHlGG_moON67N66iEDmKiagjpWGzKY_Yevx3VzykaSAqMVC_2TE_OspHlnrSrPed00LISIvCBgxML5wlR7hnP2cKV8DkayPdJSyDtRd7WX1TAs8zbFNQ" height="200" width="auto" /><br><br>GPS: 5.41394, 100.34072<br>Details: http://www.penang-traveltips.com/brother-and-sister-on-a-swing-mural-louis-gan.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/dum7X9GI2IkRRCGm8THAQeixawFgFmcC_OxEnhQHqrIfy5-4HcfCmpD9QnL9zV9r_YJL-jLbRFHSoOFonbo5ItRiLEFSKLPOLxmbDvGOzjEtqSMYKLpY9asert5EgFd2Lezu2XiVHlGG_moON67N66iEDmKiagjpWGzKY_Yevx3VzykaSAqMVC_2TE_OspHlnrSrPed00LISIvCBgxML5wlR7hnP2cKV8DkayPdJSyDtRd7WX1TAs8zbFNQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.34072,5.413941,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Too Salty" Sculpture]]></name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/N81Dkzme4oY9EcuEaaQbQNAuXB_RusMFC19vB9NeYASpcox8xsgKFUtVCDWPNetTgTRhmEcpwJpIwXSmlZx02C_HmmwbWdQSve8gmnu98J_My6HNkc8ypnsl7TRaAaiXq3hiZ1cUdQch0ozk7jXJGwR91fDgKWyX-UqgUVwOsEUrdVPkKaXYBPxh6waywIlwszdhI7f_ZTuIU7ymqnhhsoEthWMgZIt24q6U1js0gQ" height="200" width="auto" /><br><br>GPS: 5.42126, 100.33952<br>Details: http://www.penang-traveltips.com/too-salty-sculpture.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/N81Dkzme4oY9EcuEaaQbQNAuXB_RusMFC19vB9NeYASpcox8xsgKFUtVCDWPNetTgTRhmEcpwJpIwXSmlZx02C_HmmwbWdQSve8gmnu98J_My6HNkc8ypnsl7TRaAaiXq3hiZ1cUdQch0ozk7jXJGwR91fDgKWyX-UqgUVwOsEUrdVPkKaXYBPxh6waywIlwszdhI7f_ZTuIU7ymqnhhsoEthWMgZIt24q6U1js0gQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.339521,5.421266,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Rotan" Sculpture]]></name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/5S-P9pF-xTv9tg-SdL8r9YWk3AZtYLjs_1JUBwVyAMAiKbjxiXynI2_-i8zVuvUKknNYSVeIET81qQthAmInIFOQeWJ4qcfPrvgYnH_atPVIsHF5Tg6UeMy8nvgMLIC909Z6xpPZ-wdQMGdiZnYQl0gg0CuL0bnTX0dLaI7ttKhJ37epumZCZSQwMICuU71zVhZZYQ-WrH-KoHJ-kVLz1jtOtumQTZpRACs" height="200" width="auto" /><br><br>GPS: 5.41923, 100.33449<br>Details: http://www.penang-traveltips.com/rotan-sculpture.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/5S-P9pF-xTv9tg-SdL8r9YWk3AZtYLjs_1JUBwVyAMAiKbjxiXynI2_-i8zVuvUKknNYSVeIET81qQthAmInIFOQeWJ4qcfPrvgYnH_atPVIsHF5Tg6UeMy8nvgMLIC909Z6xpPZ-wdQMGdiZnYQl0gg0CuL0bnTX0dLaI7ttKhJ37epumZCZSQwMICuU71zVhZZYQ-WrH-KoHJ-kVLz1jtOtumQTZpRACs</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.334498,5.419234,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Born Novelist" Sculpture]]></name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/Mr2lI47k37TlbAA0Lawd0Iio3f5gEjBGe39sqybYXZEAcD-Cb3BiJ52Xs7rvEwr9Yl8PZagvAFo1C2ID_2_XjUeVBRvBsGV2WdQZlxyR51z-arYkWdxGGdoNgwtbOSzWpcd4Ewfh2oItDWntE_BjO3GQyBNZeeP2khJmXg-rfbfVcYENwVVwAG9uHcFXBZm06xfznrdcvu6eK1VFVyvU6WGPj4IkQ_lJg1vlL3jCv7Eg1BVmjVBjkw" height="200" width="auto" /><br><br>GPS: 5.4144, 100.33559<br>Details: http://www.penang-traveltips.com/born-novelist-sculpture.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/Mr2lI47k37TlbAA0Lawd0Iio3f5gEjBGe39sqybYXZEAcD-Cb3BiJ52Xs7rvEwr9Yl8PZagvAFo1C2ID_2_XjUeVBRvBsGV2WdQZlxyR51z-arYkWdxGGdoNgwtbOSzWpcd4Ewfh2oItDWntE_BjO3GQyBNZeeP2khJmXg-rfbfVcYENwVVwAG9uHcFXBZm06xfznrdcvu6eK1VFVyvU6WGPj4IkQ_lJg1vlL3jCv7Eg1BVmjVBjkw</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.335592,5.414401,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Kandar" Sculpture]]></name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/Py6j3FWaJ-CasF4C43dVbznz-4A8Hwk6P7ExQyW0wKG1BcJtaub4KePECIOnJT-7Opxe0L2pGjhiWCLTw09GFQYhhFEoAdNXGPG0T2S9mRiu59-tMllTra8UmZHnV9Z62-wG7fihftFvy3l-mJBpNzp_XelVMAhZ0SvdnZLqqfPSDRXDpTmGRxLLFhn-jJNf1y98vSw4K-alt41W6PrtHsTnPv4EAibzc3fm" height="200" width="auto" /><br><br>GPS: 5.41619, 100.33792<br>Details: http://www.penang-traveltips.com/kandar-sculpture.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/Py6j3FWaJ-CasF4C43dVbznz-4A8Hwk6P7ExQyW0wKG1BcJtaub4KePECIOnJT-7Opxe0L2pGjhiWCLTw09GFQYhhFEoAdNXGPG0T2S9mRiu59-tMllTra8UmZHnV9Z62-wG7fihftFvy3l-mJBpNzp_XelVMAhZ0SvdnZLqqfPSDRXDpTmGRxLLFhn-jJNf1y98vSw4K-alt41W6PrtHsTnPv4EAibzc3fm</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.337926,5.416195,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Gold Teeth" Sculpture]]></name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/I-0OWx-RoBYIFwUAEoObWsNWiSIAs4Q-OgIF0hiHKd93IdrNTbsbcr3F6bJPOTZQUMAPwK44wI93R_hWea9K9uwAi99qCEwE0xFnESgmsUgiXzPN8cSDK-C5rR5bqxQg8ekBuTjjUV10oFjzDYfkRpX_bmc2pdIg4-mVJ0EPm7Ep4XgDB9W-EfMkLZ7f_z8lJkinwhWu2RLqWxYHBEFA7yfTyRQyZ5QekkJaY4WXtg-oO6bL-Q" height="200" width="auto" /><br><br>GPS: 5.41889, 100.33959<br>Details: http://www.penang-traveltips.com/gold-teeth-sculpture.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/I-0OWx-RoBYIFwUAEoObWsNWiSIAs4Q-OgIF0hiHKd93IdrNTbsbcr3F6bJPOTZQUMAPwK44wI93R_hWea9K9uwAi99qCEwE0xFnESgmsUgiXzPN8cSDK-C5rR5bqxQg8ekBuTjjUV10oFjzDYfkRpX_bmc2pdIg4-mVJ0EPm7Ep4XgDB9W-EfMkLZ7f_z8lJkinwhWu2RLqWxYHBEFA7yfTyRQyZ5QekkJaY4WXtg-oO6bL-Q</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.339594,5.418892,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Budget Hotels" Sculpture]]></name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/Cxu3XBhzQ_m44JX3J6gJ3Pixq7QOAx9AVLqCutbmuzIEWc0BKft1H3kir0OT5w74qAUteuk7q_Ev_g69eCNyzmEoyT3BjWvUkVnp4bV39PEGjp9MIB6WqQZPW9Icdt6MjQvwoliCFAATZMocgs3mW_I6umBa7NNi_7Fdva5R9xuj1qp9V-JMSWTNLqOydxbt1NIfdcTSvIbnXggmVzkNBmcEsHQFXvCrdxdwkQtIL0kFXfHf" height="200" width="auto" /><br><br>GPS: 5.41847, 100.33626<br>Details: http://www.penang-traveltips.com/budget-hotels-sculpture.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/Cxu3XBhzQ_m44JX3J6gJ3Pixq7QOAx9AVLqCutbmuzIEWc0BKft1H3kir0OT5w74qAUteuk7q_Ev_g69eCNyzmEoyT3BjWvUkVnp4bV39PEGjp9MIB6WqQZPW9Icdt6MjQvwoliCFAATZMocgs3mW_I6umBa7NNi_7Fdva5R9xuj1qp9V-JMSWTNLqOydxbt1NIfdcTSvIbnXggmVzkNBmcEsHQFXvCrdxdwkQtIL0kFXfHf</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.336263,5.418473,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Duck" Sculpture]]></name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/wBsKbGkTaKxUq8Dl3XBu4msLadqHBpJ_FYvgCK_2pynLz7Q22hwwPtbNslsYjvQMTu7IVUn8zWs2eYC0MuHj5am-peMdqlP9gMqRpvXCpDRyBb_nbATUQQgsGCbcn1LmRji7s3pyNF3GqE34kmnMCzOvpYAE2DhLOROWls2HY-qsH4OJ7vAOMEyshOwk7ixxyI-uDXxJNTzXpDR29KAWE5huHCML7YgY" height="200" width="auto" /><br><br>GPS: 5.4164, 100.34082<br>Details: http://www.penang-traveltips.com/duck-sculpture.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/wBsKbGkTaKxUq8Dl3XBu4msLadqHBpJ_FYvgCK_2pynLz7Q22hwwPtbNslsYjvQMTu7IVUn8zWs2eYC0MuHj5am-peMdqlP9gMqRpvXCpDRyBb_nbATUQQgsGCbcn1LmRji7s3pyNF3GqE34kmnMCzOvpYAE2DhLOROWls2HY-qsH4OJ7vAOMEyshOwk7ixxyI-uDXxJNTzXpDR29KAWE5huHCML7YgY</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.340825,5.416406,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Shorn Hair" Sculpture]]></name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/DOt0sSNqyFpP95UNuGOJYawgjBJPJc4cLvgdeQ95vlkeS2iJ5uF7YQLf6gj4HPt6uWex10TMCMaLYlaB-R7e2Py3w6tU9pneyqNR_vE-wHkki4BS8xhpIzj0rs8hR_X15daGkS6cZyNFj5GTIjoq63YMz4H3Hu9asakYUBM5KDabiTbgcaOVqOGA7AaQ8He1HKipkmB9wrr_Z8fIvKcYmPH0RPPPa8VdwyFOFidmPqc" height="200" width="auto" /><br><br>GPS: 5.41552, 100.33153<br>Details: http://www.penang-traveltips.com/shorn-hair-sculpture.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/DOt0sSNqyFpP95UNuGOJYawgjBJPJc4cLvgdeQ95vlkeS2iJ5uF7YQLf6gj4HPt6uWex10TMCMaLYlaB-R7e2Py3w6tU9pneyqNR_vE-wHkki4BS8xhpIzj0rs8hR_X15daGkS6cZyNFj5GTIjoq63YMz4H3Hu9asakYUBM5KDabiTbgcaOVqOGA7AaQ8He1HKipkmB9wrr_Z8fIvKcYmPH0RPPPa8VdwyFOFidmPqc</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.331531,5.415525,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Theatre of Ships (dismantled)</name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/WSMf3Z-JtH-xzHjEx7iQhyWZNJjkePuyjbjTHn3XVhukE5QQbmqhAKcVSHpo3fOmw1w77hECR6F33_6fQ-iSHSzr-Ik-S5O6gugZWEAHOVV9lDJsph43M2qdD-rDj0dl3RSD0qSf7DaZ_9SHlKXeu4xW_0kcpienhX1rVMXTkLjA_-dOGFIaGBP8RhiEzBoCKAcCbduHaVhgIkOke_vUmE7RyNH534IMwBRE" height="200" width="auto" /><br><br>GPS: 5.42159, 100.34132<br>Details: http://www.penang-traveltips.com/theatre-of-ships.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/WSMf3Z-JtH-xzHjEx7iQhyWZNJjkePuyjbjTHn3XVhukE5QQbmqhAKcVSHpo3fOmw1w77hECR6F33_6fQ-iSHSzr-Ik-S5O6gugZWEAHOVV9lDJsph43M2qdD-rDj0dl3RSD0qSf7DaZ_9SHlKXeu4xW_0kcpienhX1rVMXTkLjA_-dOGFIaGBP8RhiEzBoCKAcCbduHaVhgIkOke_vUmE7RyNH534IMwBRE</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.341327,5.421594,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Skippy for Penang" mural]]></name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/toBYA5h0pZ4ANQ2MRZ6niQIFfTZQMd6u-zslCnK3tWNtNF5BOs4KPIW9MSHAGJgWsJFF_jjvxP0C4lcAPKjmSTSLWhgBmxQwaiiF8f1rMRC4MwIuEsmcTeLkGMLjzCAL29X3KPsDghJBEddWo49sLNCrxGeLbSCPBtQOMAv3zcBHy89bz7KR4dtekDNuR5YkQdyZopntDDw2Eq5iMpAedpu8ry442Tssudg" height="200" width="auto" /><br><br>GPS: 5.41418, 100.33872<br>Details: http://www.penang-traveltips.com/giant-cat-mural.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/toBYA5h0pZ4ANQ2MRZ6niQIFfTZQMd6u-zslCnK3tWNtNF5BOs4KPIW9MSHAGJgWsJFF_jjvxP0C4lcAPKjmSTSLWhgBmxQwaiiF8f1rMRC4MwIuEsmcTeLkGMLjzCAL29X3KPsDghJBEddWo49sLNCrxGeLbSCPBtQOMAv3zcBHy89bz7KR4dtekDNuR5YkQdyZopntDDw2Eq5iMpAedpu8ry442Tssudg</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.338725,5.414187,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Love Me Like Your Fortune Cat" Mural]]></name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/QowOpUv7H2l064eN1hFdm0pVsscDRqISfq-d28LhFqSqd0KS7d92dVnefCyTjSQy8q6s1m7W0v7ViBMz1bt_9OyHvV6G5Nbf0jo3H1rb5Sy0dyTWxWt2akLzkeDmCQFc2cb34VTwZlh64DvqVT5tXBs9KMUcoFeVULyajhr8DtxwOgcQocdrkIbA2QBSo1i8ZaUBxQTCJvXKtxBjPFz9nReDoPbt4eqMPYJ1oQ" height="200" width="auto" /><br><br>GPS: 5.41395, 100.33872<br>Details: http://www.penang-traveltips.com/fortune-cat-mural.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/QowOpUv7H2l064eN1hFdm0pVsscDRqISfq-d28LhFqSqd0KS7d92dVnefCyTjSQy8q6s1m7W0v7ViBMz1bt_9OyHvV6G5Nbf0jo3H1rb5Sy0dyTWxWt2akLzkeDmCQFc2cb34VTwZlh64DvqVT5tXBs9KMUcoFeVULyajhr8DtxwOgcQocdrkIbA2QBSo1i8ZaUBxQTCJvXKtxBjPFz9nReDoPbt4eqMPYJ1oQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.33873,5.413957,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["The Real Bruce Lee Would Never Do This" mural]]></name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/17qoBC2YrelvAYtqv_cCvtWQiFhNfpeyAbDdS853RrBlex1lwJbmuu1cmcppx5y_3lLhLXsuPz_vD9d1sMXB3OiPCeeSH6rAGTTG9tfNR4C3BWaLQiw6j0WolJ1NgZD1BkSyNLTQsZu_P8BOjau4r10yDVMygEKZhmbMMK6y9nkR0jdM15jlpgDgal3Mu4ILVxBN-fgvZK73UGFqMU0Fh4F87oCCt7zv1gIteHr8HA" height="200" width="auto" /><br><br>GPS: 5.41553, 100.33907<br>Details: http://www.penang-traveltips.com/bruce-lee-cat-mural.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/17qoBC2YrelvAYtqv_cCvtWQiFhNfpeyAbDdS853RrBlex1lwJbmuu1cmcppx5y_3lLhLXsuPz_vD9d1sMXB3OiPCeeSH6rAGTTG9tfNR4C3BWaLQiw6j0WolJ1NgZD1BkSyNLTQsZu_P8BOjau4r10yDVMygEKZhmbMMK6y9nkR0jdM15jlpgDgal3Mu4ILVxBN-fgvZK73UGFqMU0Fh4F87oCCt7zv1gIteHr8HA</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.339074,5.415533,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Please Care & Bathe Me" mural]]></name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/qe-EK2E9J5WiohAc68B0Lf1Ss54en4RBTmn8rFk2cYbHkkNiBfsRdxE5zwDokbCLTu2IBLmA3OXHPcHSBP82dPTKkwzWpRJBAc3IhJ54ArREK_XHiIP21bh2kkYs5eun5WuJHMgK2dkay_IVy8O-Sz_TbqqqnA-1InYCNOKn5Ys2lzgiXaQsbBtC96E0eqjj8JTEkc-xoIq8mfkV3f4HmDQMetqAbeZeBXBtdoVXFhnetKR9_5sxhg" height="200" width="auto" /><br><br>GPS: 5.4141, 100.33891<br>Details: http://www.penang-traveltips.com/two-kittens-in-a-tub-mural.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/qe-EK2E9J5WiohAc68B0Lf1Ss54en4RBTmn8rFk2cYbHkkNiBfsRdxE5zwDokbCLTu2IBLmA3OXHPcHSBP82dPTKkwzWpRJBAc3IhJ54ArREK_XHiIP21bh2kkYs5eun5WuJHMgK2dkay_IVy8O-Sz_TbqqqnA-1InYCNOKn5Ys2lzgiXaQsbBtC96E0eqjj8JTEkc-xoIq8mfkV3f4HmDQMetqAbeZeBXBtdoVXFhnetKR9_5sxhg</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.338913,5.414107,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Shade Me If You Love Me" mural]]></name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/60MN-7LlAHZIvl3N6fnKzK8e2hdsarcesLsIIsWk4Q7e1QjRifMCmTfsV4ok6uB5tdvhuNlI3QLu1brzTkvgYSMGxV3EuY9v7aEqRG2rTqRahMqZx28MsA4wZ_nmElxY5_hHiBkPMhBlzF_neTbh0zGTq5LK8ypUaZi3EZPs5b5Dzttn0-lVTLPS8rOkuc7K37g441q75qgc9BPUkQU1UOVms3lodtLHNA6eW4kIHSya9UkBkMFrzj_zJqU" height="200" width="auto" /><br><br>GPS: 5.41346, 100.33865<br>Details: http://www.penang-traveltips.com/shade-me-if-you-love-me-mural.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/60MN-7LlAHZIvl3N6fnKzK8e2hdsarcesLsIIsWk4Q7e1QjRifMCmTfsV4ok6uB5tdvhuNlI3QLu1brzTkvgYSMGxV3EuY9v7aEqRG2rTqRahMqZx28MsA4wZ_nmElxY5_hHiBkPMhBlzF_neTbh0zGTq5LK8ypUaZi3EZPs5b5Dzttn0-lVTLPS8rOkuc7K37g441q75qgc9BPUkQU1UOVms3lodtLHNA6eW4kIHSya9UkBkMFrzj_zJqU</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.33865,5.413461,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Fine 500 For Littering" Artwork]]></name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/BH-vViKhF2cBllVyfpABk64ofSS9dPKtDkQnKCmGfpTJgzeaKwkjGgfqE3JvsYW2xv_vl8o9Llb1a0IZWIOypOiQvLf_F0ikKCan4dUSTNs7K5Nbp7Adu6XMJbEXl3OuZSRIx35Q2xMUSlUk6f-NhS4y-82nMeLe7ucWPOm3wxHMQOb5wzaGlymHSJkzaB5XuM9BHPOWiNCmSb0KsbknOdlV_FgLmdrsz4x2EdXXWmQfv2dzr-q4hg" height="200" width="auto" /><br><br>GPS: 5.41355, 100.33905<br>Details: http://www.penang-traveltips.com/fine-500-for-littering-sterilize-instead.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/BH-vViKhF2cBllVyfpABk64ofSS9dPKtDkQnKCmGfpTJgzeaKwkjGgfqE3JvsYW2xv_vl8o9Llb1a0IZWIOypOiQvLf_F0ikKCan4dUSTNs7K5Nbp7Adu6XMJbEXl3OuZSRIx35Q2xMUSlUk6f-NhS4y-82nMeLe7ucWPOm3wxHMQOb5wzaGlymHSJkzaB5XuM9BHPOWiNCmSb0KsbknOdlV_FgLmdrsz4x2EdXXWmQfv2dzr-q4hg</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.339057,5.413557,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Take Time To Sit With Your Pet"]]></name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/x0cLxY6JuJZXFDd8fxWErQfwkFs_zSjQLA6nYb6xtOt44IbfTgOX-E5OuKFTOGreEQU7HyxcjFwbZUibzg4SxYZc6N4_CQT0TF7NOQJ_9J2tpdRu9hA3GSKtyMz_FkwhlNn24afkiA5vThydQV4R7kS2nw0i0oAsUe92AQXtHLYGo75Jv2Bs2kjGaSvEgi4qYq5wJ6yhqJlUWqsY_BIVI6Pk0c9Nq7uWIybECVP9w7SehQxJyT18bogn2btq629x6tgV" height="200" width="auto" /><br><br>GPS: 5.41376, 100.33931<br>Details: http://www.penang-traveltips.com/take-time-to-sit-with-your-pet.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/x0cLxY6JuJZXFDd8fxWErQfwkFs_zSjQLA6nYb6xtOt44IbfTgOX-E5OuKFTOGreEQU7HyxcjFwbZUibzg4SxYZc6N4_CQT0TF7NOQJ_9J2tpdRu9hA3GSKtyMz_FkwhlNn24afkiA5vThydQV4R7kS2nw0i0oAsUe92AQXtHLYGo75Jv2Bs2kjGaSvEgi4qYq5wJ6yhqJlUWqsY_BIVI6Pk0c9Nq7uWIybECVP9w7SehQxJyT18bogn2btq629x6tgV</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.339318,5.413768,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Cats Walking For Animal Awareness" Mural]]></name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/P9L4ULUqUXIpcSilIKq7OpfCW3p2EPutPbwfUXTh0ZUXUk8ZoajuCuJzCb_-C4iIBYYneKpINT2Mix7NBSpdgheTaQSK-yg5eRLQFVhOoC5uKWUcP-SdgqvQTyF4KymGOkAbaTQhAB2lioYu4YEeaI8eVALrFn6CALmA2EBZn7E16sGlEpogOvuq5P59OMAhMpxGwIwNjjC3tHosZSlpJmaXIxX4UjNoMB_kM102" height="200" width="auto" /><br><br>GPS: 5.41496, 100.33973<br>Details: http://www.penang-traveltips.com/cats-walking-for-animal-awareness.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/P9L4ULUqUXIpcSilIKq7OpfCW3p2EPutPbwfUXTh0ZUXUk8ZoajuCuJzCb_-C4iIBYYneKpINT2Mix7NBSpdgheTaQSK-yg5eRLQFVhOoC5uKWUcP-SdgqvQTyF4KymGOkAbaTQhAB2lioYu4YEeaI8eVALrFn6CALmA2EBZn7E16sGlEpogOvuq5P59OMAhMpxGwIwNjjC3tHosZSlpJmaXIxX4UjNoMB_kM102</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.339733,5.414961,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Cats & Humans Happily Living Together" Mural]]></name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/lOSDq6xlw31BxF524eKYCKqPrxHEGJHtLbQSYuHcWoR4zRE4wklDKVma2lKo9TEP3eqQAKGTdHgeli4-x_nM8KKUBSaPp6xQrONSRk_lq6dZotnmvIj2D2CXzEaUGKnEqGey8Tmf15yzq38OWIRtAeGcdUDRUyBMm_HsqvD8TlnWsv0AcXY0YcYiGyJs-pdSWZlJyLn9Bik0LazR0LZQ40hS7HmkBJWdI4cbnY6Fwcn7yfo6h7DE2qI3YqiUq53KmMNxyQ4Qwh3kqbPuvGd7YPQi" height="200" width="auto" /><br><br>GPS: 5.41503, 100.33861<br>Details: http://www.penang-traveltips.com/cats-and-humans-happily-living-together.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/lOSDq6xlw31BxF524eKYCKqPrxHEGJHtLbQSYuHcWoR4zRE4wklDKVma2lKo9TEP3eqQAKGTdHgeli4-x_nM8KKUBSaPp6xQrONSRk_lq6dZotnmvIj2D2CXzEaUGKnEqGey8Tmf15yzq38OWIRtAeGcdUDRUyBMm_HsqvD8TlnWsv0AcXY0YcYiGyJs-pdSWZlJyLn9Bik0LazR0LZQ40hS7HmkBJWdI4cbnY6Fwcn7yfo6h7DE2qI3YqiUq53KmMNxyQ4Qwh3kqbPuvGd7YPQi</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.338618,5.415033,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["I Can Help Catch Rats" Mural]]></name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/1-zw7Hf5INwI3pN5IfHYTbRly27FySjKwA0BE6oaM9YMu0TYWOJlaKSL5BY_2-LYwomy4MIoJRymTUT_lWRrp6r7CIBxWmN2SeTBlq1wyRs8itLbchvYfpq_ox6EfTzZP818UGSwhzEwG7v9K3PDmmfRb58_aBhnjoX_q3ytkWY9lrhXRGJB4LALAd38oq4eRnKdrHsFNDc-bHK9dWBnldUptteXSn-8faBctis2A81ycQ" height="200" width="auto" /><br><br>GPS: 5.41503, 100.33787<br>Details: http://www.penang-traveltips.com/i-can-help-catch-rats.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/1-zw7Hf5INwI3pN5IfHYTbRly27FySjKwA0BE6oaM9YMu0TYWOJlaKSL5BY_2-LYwomy4MIoJRymTUT_lWRrp6r7CIBxWmN2SeTBlq1wyRs8itLbchvYfpq_ox6EfTzZP818UGSwhzEwG7v9K3PDmmfRb58_aBhnjoX_q3ytkWY9lrhXRGJB4LALAd38oq4eRnKdrHsFNDc-bHK9dWBnldUptteXSn-8faBctis2A81ycQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.337875,5.415031,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["No Animal Discrimination Please" Mural]]></name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/lVzROJwNU7kwXlq5FXLJb47sJjoLsE3qVV2TVXK_oV2p399BV7h6glhYHx9kGsw4D-5Tc1qUdbZlmGLvk47M4Cb-SEs4qDCcIQTxEpMnVKuB6AP9nv_48CNsjDAHykDoaCmz24hoIwg3Rv7oBVNyn_Wa9bZJtcxQhwlIx8lTdqrWGeOdNfMMlP7UY2TTEUZNzHq42np7WkNV3lZknqDISrBQ5RtOyeT8ifg_9iswTh-58ZlFhGHuvPkOTim7Z-s" height="200" width="auto" /><br><br>GPS: 5.41526, 100.33794<br>Details: http://www.penang-traveltips.com/no-animal-discrimination-please.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/lVzROJwNU7kwXlq5FXLJb47sJjoLsE3qVV2TVXK_oV2p399BV7h6glhYHx9kGsw4D-5Tc1qUdbZlmGLvk47M4Cb-SEs4qDCcIQTxEpMnVKuB6AP9nv_48CNsjDAHykDoaCmz24hoIwg3Rv7oBVNyn_Wa9bZJtcxQhwlIx8lTdqrWGeOdNfMMlP7UY2TTEUZNzHq42np7WkNV3lZknqDISrBQ5RtOyeT8ifg_9iswTh-58ZlFhGHuvPkOTim7Z-s</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.33795,5.415263,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Mama Cat" Sculpture]]></name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/gYe19WWweHONCsbnCCwXKXnztcnEPxTiFu9NanMMM9xCcarmV3DIHR9le31sx8rzSCVgPJOe8U8Qb_sDgdg2gufnTtn-2hCVqVrOJnulLVNEHKtmyaVJgbuX1OSMKmmwxdFc5VDGvDRMvobaKTo6B9L4kFNU2T6cmfOL_CSPB1p7TPw_XLs1Trr9E2qqt8QhLE5eRLRw9FsI3nairfoD9-zSrtqn3OCqS1ETeEGW" height="200" width="auto" /><br><br>GPS: 5.41403, 100.33944<br>Details: http://www.penang-traveltips.com/mama-cat-sculpture.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/gYe19WWweHONCsbnCCwXKXnztcnEPxTiFu9NanMMM9xCcarmV3DIHR9le31sx8rzSCVgPJOe8U8Qb_sDgdg2gufnTtn-2hCVqVrOJnulLVNEHKtmyaVJgbuX1OSMKmmwxdFc5VDGvDRMvobaKTo6B9L4kFNU2T6cmfOL_CSPB1p7TPw_XLs1Trr9E2qqt8QhLE5eRLRw9FsI3nairfoD9-zSrtqn3OCqS1ETeEGW</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.339446,5.414032,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Pau Seller" Mural]]></name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/uyhBX3n_klo-8MezbaQAAgh6CSYqGTym_K60L0QcceGzRMoKKsf2LwTJ2nQH-KV8KWXdJaGpbLeaJRqO4ZxMI_rkfGS7S3Pp7Uiecq4D8g227dihD2J0R9s9aaotEXef5_nW4KkZ9Px2R_VG9af_LmrgO8WJltdZwf1JvesywX8gozqBVHQkOspN2fHlkSmM4OhneHWSdFeNboytPSFfZ9K7YOw2kqUsdO4p" height="200" width="auto" /><br><br>GPS: 5.42027, 100.33308<br>Details: http://www.penang-traveltips.com/pau-seller-mural.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/uyhBX3n_klo-8MezbaQAAgh6CSYqGTym_K60L0QcceGzRMoKKsf2LwTJ2nQH-KV8KWXdJaGpbLeaJRqO4ZxMI_rkfGS7S3Pp7Uiecq4D8g227dihD2J0R9s9aaotEXef5_nW4KkZ9Px2R_VG9af_LmrgO8WJltdZwf1JvesywX8gozqBVHQkOspN2fHlkSmM4OhneHWSdFeNboytPSFfZ9K7YOw2kqUsdO4p</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.333084,5.420278,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Flowered Heart Mural</name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/ih2VT21VzakvLrC4sd0aaHIoyRHgzuOTCCZRPQHp3Qfp5l7hjIgn6MlmD0eRVin-RhU4JvkdQ2NpvkMvra33mFZZsPBKr8pBfg3zK6eHtxGBTzXFm8xXaPGqhjIWZqrpST9EVmYh0Utw6BVxnpBcj2RU9ZO0kAE2tEKDDp0_x4ADrBiO5PVIl6AP0KrbcAfjwEX2iISSMVmKKs6pllkyUOMleBMQQJR_YQsyHFpF6Jc" height="200" width="auto" /><br><br>GPS: 5.41417, 100.33892<br>Details: http://www.penang-traveltips.com/flowered-heart-mural.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/ih2VT21VzakvLrC4sd0aaHIoyRHgzuOTCCZRPQHp3Qfp5l7hjIgn6MlmD0eRVin-RhU4JvkdQ2NpvkMvra33mFZZsPBKr8pBfg3zK6eHtxGBTzXFm8xXaPGqhjIWZqrpST9EVmYh0Utw6BVxnpBcj2RU9ZO0kAE2tEKDDp0_x4ADrBiO5PVIl6AP0KrbcAfjwEX2iISSMVmKKs6pllkyUOMleBMQQJR_YQsyHFpF6Jc</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.338923,5.414179,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Children At Play" Mural]]></name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/TKatzJfihDHDCDqc92cb831vuxmZz1o_Z8vn5F9c2bUtev_uqrRf-r1valUDx6SzOoijJ6JsFcDdXVXirXki4rrp8ZAOxKVMsFhhWxSNd2bngf5NWMqjv_k_xUxnVWMnev8D5cAZ5rYaHUA8XrDXZkOgF-7-4YYN-lrdD9nwKne0-bJ_7R1Te2eQEAkpjCetQfj0iPROf2z1W10RJMSRRJXbalXY698pJ2jPCuxWhE3ge-k" height="200" width="auto" /><br><br>GPS: 5.41421, 100.33687<br>Details: http://www.penang-traveltips.com/children-at-play-mural.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/TKatzJfihDHDCDqc92cb831vuxmZz1o_Z8vn5F9c2bUtev_uqrRf-r1valUDx6SzOoijJ6JsFcDdXVXirXki4rrp8ZAOxKVMsFhhWxSNd2bngf5NWMqjv_k_xUxnVWMnev8D5cAZ5rYaHUA8XrDXZkOgF-7-4YYN-lrdD9nwKne0-bJ_7R1Te2eQEAkpjCetQfj0iPROf2z1W10RJMSRRJXbalXY698pJ2jPCuxWhE3ge-k</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.336874,5.414211,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Japan Myth Mural</name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/Icr9ePmd9eQ0KQjh213Yo8UjnhlHTSPdvV-g9TWz49KYpBHyqglJMyoZ6VrIHnFHXSEDVmC5j9QqDxFv13VL8azyegFKmsTyZYjET5BcThQWw3P1JJxggkaobxOAY2HSlKdzRtZJ5dxM0msnjPEz4NXBJe_1zvSo0boUSs69oPcvzHW9lwFl5lX7t_P2pP9M9JiJEtRX5mxoQaj8AnpjhQhJonYUAFHWGbtnEiBceyulcTsDiHjw4oUM" height="200" width="auto" /><br><br>GPS: 5.41955, 100.33787<br>Details: http://www.penang-traveltips.com/japanese-myth-mural-stewart-lane.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/Icr9ePmd9eQ0KQjh213Yo8UjnhlHTSPdvV-g9TWz49KYpBHyqglJMyoZ6VrIHnFHXSEDVmC5j9QqDxFv13VL8azyegFKmsTyZYjET5BcThQWw3P1JJxggkaobxOAY2HSlKdzRtZJ5dxM0msnjPEz4NXBJe_1zvSo0boUSs69oPcvzHW9lwFl5lX7t_P2pP9M9JiJEtRX5mxoQaj8AnpjhQhJonYUAFHWGbtnEiBceyulcTsDiHjw4oUM</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.337877,5.419557,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["I Want Pau" Mural]]></name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/AX6Pq2cyEymaGQ5vRz4e02zNGVZHZGitpn-xJZ305ivg_NfUW7wViUs17Y71ox4rFSyXB93mLrHyXFQXIjHxbzDXjmYAoQ_k9T43JnC9pj60FMvSIC3yhAS7Ai9nVSGRyDveGymamq_i8ZmHzlwKyiucKA-iqONa-pQklZe5X8sNsI5egKNmLAMvDGmOIG8Z4o_C19ntDtOv-1b_suSkNeAGOWC9FhhO2QcJ" height="200" width="auto" /><br><br>GPS: 5.41358, 100.33913<br>Details: http://www.penang-traveltips.com/i-want-pau-mural.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/AX6Pq2cyEymaGQ5vRz4e02zNGVZHZGitpn-xJZ305ivg_NfUW7wViUs17Y71ox4rFSyXB93mLrHyXFQXIjHxbzDXjmYAoQ_k9T43JnC9pj60FMvSIC3yhAS7Ai9nVSGRyDveGymamq_i8ZmHzlwKyiucKA-iqONa-pQklZe5X8sNsI5egKNmLAMvDGmOIG8Z4o_C19ntDtOv-1b_suSkNeAGOWC9FhhO2QcJ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.339135,5.413583,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Julia Volchkova: Child Mural at Prangin Canal</name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/G5pEzuVD2ogQ1pismUE5o2ZH-WaA50zcqqpBBJYsHrYalDBa-bKLFDMuPh7WEMkTFbyeeXMv2zcxlfxB8h21CG3Mzh-o9UfTCBDIORvuDHBA7GrYHaa-5HwBib3DVNVM8Yk4CP4LkbUvVHg28ETLV3QW2xwHvGvaJrUtT-NgtGz17bX9lJn3aO-KV7CGKws15HGxZ1_cO1VYNGkNLcGjKPLhoS1lpQctPP__IrcBd3dIp7Shsd-4ykpw9g" height="200" width="auto" /><br><br>GPS: 5.41156, 100.33407<br>Details: http://www.penang-traveltips.com/asia/malaysia/penang/child-mural-at-prangin-canal.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/G5pEzuVD2ogQ1pismUE5o2ZH-WaA50zcqqpBBJYsHrYalDBa-bKLFDMuPh7WEMkTFbyeeXMv2zcxlfxB8h21CG3Mzh-o9UfTCBDIORvuDHBA7GrYHaa-5HwBib3DVNVM8Yk4CP4LkbUvVHg28ETLV3QW2xwHvGvaJrUtT-NgtGz17bX9lJn3aO-KV7CGKws15HGxZ1_cO1VYNGkNLcGjKPLhoS1lpQctPP__IrcBd3dIp7Shsd-4ykpw9g</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.334079,5.411565,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Traffic Policeman" Mural]]></name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/QXGgOTCNonWE_v_Izr3HnE25SFUJ0lbxwROHlDd3mPuWHV9F5ATgD0msUAZ9gi6SAvP3ueJiNOJYzKjX_wnx3AP_8I17RefPoKQg9cNwINexJ7R1YnbW5VJd72XiCm8ZlKefZ-SXCHQcCRhh3d4agbyJYouKGbBaK8AyRdEVzZ1F9XCfh6Q074UC7E9NjSkxUQsQOrKZsv2fePD50e3uUGKEzBfNxfgaNmMaANimANY" height="200" width="auto" /><br><br>GPS: 5.41525, 100.33746<br>Details: http://www.penang-traveltips.com/traffic-police-mural.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/QXGgOTCNonWE_v_Izr3HnE25SFUJ0lbxwROHlDd3mPuWHV9F5ATgD0msUAZ9gi6SAvP3ueJiNOJYzKjX_wnx3AP_8I17RefPoKQg9cNwINexJ7R1YnbW5VJd72XiCm8ZlKefZ-SXCHQcCRhh3d4agbyJYouKGbBaK8AyRdEVzZ1F9XCfh6Q074UC7E9NjSkxUQsQOrKZsv2fePD50e3uUGKEzBfNxfgaNmMaANimANY</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.337467,5.415258,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Indian Boatman Mural</name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/qhg0YFsWEceyA83xplsiV8OI07zC6fKv_QuxiA8NsF7w6wdRt68Ey4VG5oDJYpWpLtXIB7quV3GqA54QkdVc3ndSAYWWYHHOH23XQ-D4VlMEKdREkB_LSmkPGqyZUrM3boW0Q4-W3Gq7PuOHgkFqIDMrIiXxkbhzbWGIp2mrLvd_a_3cnKNNS_aqAzUyhnO60_LQkGaQGN0f9bfNKn3AwR8nYLuIWtZHmCaGlTR7nNdMU3OqJPs" height="200" width="auto" /><br><br>GPS: 5.41933, 100.33733<br>Details: http://www.penang-traveltips.com/asia/malaysia/penang/the-indian-boatman-mural.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/qhg0YFsWEceyA83xplsiV8OI07zC6fKv_QuxiA8NsF7w6wdRt68Ey4VG5oDJYpWpLtXIB7quV3GqA54QkdVc3ndSAYWWYHHOH23XQ-D4VlMEKdREkB_LSmkPGqyZUrM3boW0Q4-W3Gq7PuOHgkFqIDMrIiXxkbhzbWGIp2mrLvd_a_3cnKNNS_aqAzUyhnO60_LQkGaQGN0f9bfNKn3AwR8nYLuIWtZHmCaGlTR7nNdMU3OqJPs</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.337338,5.419338,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Feed the Stray</name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/QWOE81xmnQK0b7h1x7kROF0qhgfTZPPQkXXOpuPgL3RgMkGvTiMocGgc4Plen6hDfb9XJNEYSEOsy2nb_-XSkpJATRnkP21mel6yXwvkgfUyvZ3z5FQOSu2bRr3Os84pD-b3BdJCqLO956xI3OrI19H_mHanL-1gt0GSvyH41EIuy45kLDMNyxJZ_c5PDxDr7bmTpWyfpiGK61-hRStBPvV6j4YRZQ7Zs82xcw" height="200" width="auto" /><br><br>GPS: 5.41559, 100.33906<br>Details: http://www.penang-traveltips.com/the-dog-with-meat.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/QWOE81xmnQK0b7h1x7kROF0qhgfTZPPQkXXOpuPgL3RgMkGvTiMocGgc4Plen6hDfb9XJNEYSEOsy2nb_-XSkpJATRnkP21mel6yXwvkgfUyvZ3z5FQOSu2bRr3Os84pD-b3BdJCqLO956xI3OrI19H_mHanL-1gt0GSvyH41EIuy45kLDMNyxJZ_c5PDxDr7bmTpWyfpiGK61-hRStBPvV6j4YRZQ7Zs82xcw</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.339068,5.415592,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Woman Construction Workers mural</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/zKygyeJdK9vHAZo7V3-niU45zFKsgGgZ69Ckpn7_pdLwHngdt1h8xiy4_Sam3uLwuohBBvCmr0BOo0KqM0llXRe_VAe6OmuJIlfZDoZ_EuC_VyBPVtLuogbhhTTo-OJhEmjEDl5aF0sqnIjcSwcohXbR29HU1xqz0IGfE67tx7fBlkT0Q-LNNBiEXR7aeobAUpRTg7iEwlmErrjwJyN-NkdaSVMPtIVUAA5iSsmEDDAjR1MbBBZ2xjr_OZChJpZ-" height="200" width="auto" /><br><br>GPS: 5.4124, 100.33181<br>Details: http://www.penang-traveltips.com/woman-construction-workers-mural.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/zKygyeJdK9vHAZo7V3-niU45zFKsgGgZ69Ckpn7_pdLwHngdt1h8xiy4_Sam3uLwuohBBvCmr0BOo0KqM0llXRe_VAe6OmuJIlfZDoZ_EuC_VyBPVtLuogbhhTTo-OJhEmjEDl5aF0sqnIjcSwcohXbR29HU1xqz0IGfE67tx7fBlkT0Q-LNNBiEXR7aeobAUpRTg7iEwlmErrjwJyN-NkdaSVMPtIVUAA5iSsmEDDAjR1MbBBZ2xjr_OZChJpZ-</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.331815,5.412406,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Poh Hock Seah Ink Painting</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/XKBc6e16ucgNXnWG6gMA86ofzYqluEXe9_Q_qGg27VO_LKm6Ob1pA58gsKB2mlx1OPo9N23jTAOZY-96yDZaqhskPXTfEWe-KRk7BAMNBMV11aad7xrn7PcZBOIxnygCX3IiQnsJxe7Z8NjGEVisaHq0xH40LskYiolZRmhH5UCB29Q-Fobsie3xTRqcnIqDIWc9IjvDIUaC26NtynhJ0fc843Q6hRv1oula0H0CNuyp6cQuHDb1wQ" height="200" width="auto" /><br><br>GPS: 5.41539, 100.33706<br>Details: http://www.penang-traveltips.com/poh-hock-seah-ink-painting.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/XKBc6e16ucgNXnWG6gMA86ofzYqluEXe9_Q_qGg27VO_LKm6Ob1pA58gsKB2mlx1OPo9N23jTAOZY-96yDZaqhskPXTfEWe-KRk7BAMNBMV11aad7xrn7PcZBOIxnygCX3IiQnsJxe7Z8NjGEVisaHq0xH40LskYiolZRmhH5UCB29Q-Fobsie3xTRqcnIqDIWc9IjvDIUaC26NtynhJ0fc843Q6hRv1oula0H0CNuyp6cQuHDb1wQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.337062,5.415397,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Teach You Hokkien Mural</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/oNtYnCrqpJ1-iVpGMISY-BBCpLfULJWiFLQUgnggca0aHkxAR0YNiIEeedSJ2pOtDO03KPYgNO5eh95dXGTWC0KgyW8OvwtL4D69Ga0hDb01EfNzmSOS_knsJKu2d0FCmh9EXuiL6GWQgnux3Benqp8HtADH6tS2Kzp_ZJ4PEwVk-OHvnGtpEiIK_UEc60taS2Bhu913AxPKBvgRzQlPcmxG-4Ve4dxvsehi9grFYB0j-Tv9" height="200" width="auto" /><br><br>GPS: 5.41527, 100.33753<br>Details: http://www.penang-traveltips.com/teach-you-hokkien-mural.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/oNtYnCrqpJ1-iVpGMISY-BBCpLfULJWiFLQUgnggca0aHkxAR0YNiIEeedSJ2pOtDO03KPYgNO5eh95dXGTWC0KgyW8OvwtL4D69Ga0hDb01EfNzmSOS_knsJKu2d0FCmh9EXuiL6GWQgnux3Benqp8HtADH6tS2Kzp_ZJ4PEwVk-OHvnGtpEiIK_UEc60taS2Bhu913AxPKBvgRzQlPcmxG-4Ve4dxvsehi9grFYB0j-Tv9</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.337531,5.415271,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Minion Rickshawman" Street Art (dismantled)]]></name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/z0B97cHcWdLrwk3JJeRU-Jlq8l0LcDjQOCtl818icytuE5sp9MFx4lrQLrmgSrbZSc9vr5AcTITqvhJ3TGTKf60TUgUy9qO167JkRWY09TaB8jwp5JAepazv2ggOfvdlJUZN27VQOkkdHfWU3Fe6AA-VwoM3ivfIszXlGdn1DXDrAP8a64BYVXg8hKRtO3gDMbyj3H_6IrMqNB7qBDDU5tGMpYcABxe8I6Ouc8wU" height="200" width="auto" /><br><br>GPS: 5.41519, 100.33902<br>Details: http://www.penang-traveltips.com/minion-rickshawman-street-art.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/z0B97cHcWdLrwk3JJeRU-Jlq8l0LcDjQOCtl818icytuE5sp9MFx4lrQLrmgSrbZSc9vr5AcTITqvhJ3TGTKf60TUgUy9qO167JkRWY09TaB8jwp5JAepazv2ggOfvdlJUZN27VQOkkdHfWU3Fe6AA-VwoM3ivfIszXlGdn1DXDrAP8a64BYVXg8hKRtO3gDMbyj3H_6IrMqNB7qBDDU5tGMpYcABxe8I6Ouc8wU</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.33902,5.415191,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Minion/Marge Simpson" Bollard]]></name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/rF7VG3IAtlhy2WKGPnjYi-CZhVYjzfW4z1kdYq146xw2pEdulxu0t6pGE3myQxgynAskAhcWhEorUPH82Y4jBKpSZS6PCr4s-gbSj22gDx0j4_xkiwep_csNyXi3CvSvMwMai-jF4Kz3920cT5LRAiQNUnY8ouV1MJg_JFm3t6RIdBV1vHxAo4lxBl5-O1v4oFxQuRq8cEkZTEGJESrH603fuUHKcqzu7YPfQstrFL8K8pIC3ENsFhfZdqs" height="200" width="auto" /><br><br>GPS: 5.41547, 100.33775<br>Details: http://www.penang-traveltips.com/minions-marge-simpson-bollard.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/rF7VG3IAtlhy2WKGPnjYi-CZhVYjzfW4z1kdYq146xw2pEdulxu0t6pGE3myQxgynAskAhcWhEorUPH82Y4jBKpSZS6PCr4s-gbSj22gDx0j4_xkiwep_csNyXi3CvSvMwMai-jF4Kz3920cT5LRAiQNUnY8ouV1MJg_JFm3t6RIdBV1vHxAo4lxBl5-O1v4oFxQuRq8cEkZTEGJESrH603fuUHKcqzu7YPfQstrFL8K8pIC3ENsFhfZdqs</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.337759,5.415479,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>George Town 3D Model</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/S5Eb1C8nr_6EyB0YxPtBkhlgp6XwdWCbnHTdwtfBQp-fGLh-iCpJBiJb5DubEqU_1DLlVBUByxp1utnqm5t2MS0YpBeOx1JtAFtfaeGWTa7KIs5eszRtWf_7YOKCUFcG-NTC6bqxlfhlmJMjCIyZte4J6B9KHY3v9EE6qWVsUI7Zj207SHw73yKaoQ12xcxFb7j3BAV9BCND8H_ezsh1OCFmh7hz3NRuOtes6H32kCQ" height="200" width="auto" /><br><br>GPS: 5.41558, 100.3355<br>Details: http://www.penang-traveltips.com/george-town-3d-model.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/S5Eb1C8nr_6EyB0YxPtBkhlgp6XwdWCbnHTdwtfBQp-fGLh-iCpJBiJb5DubEqU_1DLlVBUByxp1utnqm5t2MS0YpBeOx1JtAFtfaeGWTa7KIs5eszRtWf_7YOKCUFcG-NTC6bqxlfhlmJMjCIyZte4J6B9KHY3v9EE6qWVsUI7Zj207SHw73yKaoQ12xcxFb7j3BAV9BCND8H_ezsh1OCFmh7hz3NRuOtes6H32kCQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.335504,5.415581,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tan Tong Tong Mural</name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/4FXs4gae_0TnC-EMJT2-sdPD45aHWPyS0_Kl5WyIn5ajwecQ2qNcIusCBd4qnd_RlPWb71xkqfyjPjZE36Q_JSShMZkA3KYajrHi9w5K1MJJNE2KBowvKRohiH_7jgxw-4NgRDJlrpUboe8GVKUOYC1F-hoEQWrc2a68hZaJ9NKrGuXHquPiEeBW9QDvvsCxIO2cTZQNqs3tH25SY_iLsiEo7W0zIA1ZBpSPlVWRew" height="200" width="auto" /><br><br>GPS: 5.42006, 100.34024<br>Details: http://www.penang-traveltips.com/tan-tong-tong-mural.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/4FXs4gae_0TnC-EMJT2-sdPD45aHWPyS0_Kl5WyIn5ajwecQ2qNcIusCBd4qnd_RlPWb71xkqfyjPjZE36Q_JSShMZkA3KYajrHi9w5K1MJJNE2KBowvKRohiH_7jgxw-4NgRDJlrpUboe8GVKUOYC1F-hoEQWrc2a68hZaJ9NKrGuXHquPiEeBW9QDvvsCxIO2cTZQNqs3tH25SY_iLsiEo7W0zIA1ZBpSPlVWRew</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.340246,5.420067,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Balloon Safari (12-21 Sept 2014, temporary exhibit)</name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/x1hAmeTyAM-0qKQnkozTgiXdiXPcYGIS0uKiKzuFb1fNAar1q86Ko4u51DXssghzHGAD27Y_c2y_IbZb_7bmA3QHdFBz72IqHPLNO6lrhFrwRrMLMvX163XbcjMrw70tmSww7VECexKbPeLj5Abur2xQJdyQlZoRiB8Chp9N9sC1fg3NMVvQ1YTNBu_K0sgbW4bqfy7ZPiXHPxnVKv5CvMUaKHrBKa12xiBxYZNs" height="200" width="auto" /><br><br>GPS: 5.41325, 100.33143<br>Details: http://www.penang-traveltips.com/the-balloon-safari.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/x1hAmeTyAM-0qKQnkozTgiXdiXPcYGIS0uKiKzuFb1fNAar1q86Ko4u51DXssghzHGAD27Y_c2y_IbZb_7bmA3QHdFBz72IqHPLNO6lrhFrwRrMLMvX163XbcjMrw70tmSww7VECexKbPeLj5Abur2xQJdyQlZoRiB8Chp9N9sC1fg3NMVvQ1YTNBu_K0sgbW4bqfy7ZPiXHPxnVKv5CvMUaKHrBKa12xiBxYZNs</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.33144,5.413252,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Girl On A Turtle" Mural]]></name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/q7tMZHT7ScZOkOGKf25UE62VpXU6oIXE7g8ikQfim9w6RSUjmRDRx9oHHdX8kM5el0GP-d2z9zS93UorjsWX3VX5j4qLiZ41iaBdf26nC6u4sDtkXG0Jw7KXOmEi8FJwsM1ovp9KzTKHLkaxXiV9wU47DGtVuMneZez-btFyhY66ANRgGj7zr6bkQ8o3kTkXZAo30m0vrGczXb15W2N4gDwBSnCNvQ3RXls-p_T7NIDpHws" height="200" width="auto" /><br><br>GPS: 5.41888, 100.33489<br>Details: http://www.penang-traveltips.com/girl-on-a-turtle-mural.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/q7tMZHT7ScZOkOGKf25UE62VpXU6oIXE7g8ikQfim9w6RSUjmRDRx9oHHdX8kM5el0GP-d2z9zS93UorjsWX3VX5j4qLiZ41iaBdf26nC6u4sDtkXG0Jw7KXOmEi8FJwsM1ovp9KzTKHLkaxXiV9wU47DGtVuMneZez-btFyhY66ANRgGj7zr6bkQ8o3kTkXZAo30m0vrGczXb15W2N4gDwBSnCNvQ3RXls-p_T7NIDpHws</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.334892,5.418884,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Man and Turtles" Mural (Swim in the Air)]]></name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/YSUXSWoBSeAg81vqn_MO-DX1NW81k8okdlVa0i_3p3J077oFaVb4vHZnuqoQ-5gHbRWcJ-HQC-_7zWvUIEIiO3Yq3e2emlINIUWw1QTKvEkEjcUFZxXphNh1E9NVQEjhyFyD7QHhcsi4_-XDSPupi9ULKA5lgCKIUOQFt6exBGt4UEwo4_E4MibuCI1mF3wpw99OJEI-2xZMbLdAcVUyvdMqNJreu-v3b5Ke0mRMml0" height="200" width="auto" /><br><br>GPS: 5.42084, 100.38174<br>Details: http://www.penang-traveltips.com/martin-ron-man-and-turtles-mural.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/YSUXSWoBSeAg81vqn_MO-DX1NW81k8okdlVa0i_3p3J077oFaVb4vHZnuqoQ-5gHbRWcJ-HQC-_7zWvUIEIiO3Yq3e2emlINIUWw1QTKvEkEjcUFZxXphNh1E9NVQEjhyFyD7QHhcsi4_-XDSPupi9ULKA5lgCKIUOQFt6exBGt4UEwo4_E4MibuCI1mF3wpw99OJEI-2xZMbLdAcVUyvdMqNJreu-v3b5Ke0mRMml0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.381742,5.420841,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Big Mouth Mural</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/c8vO5dXXgZfaeANOyCA_DVDdrHg173Nzm_PVnPoQ85lrPnDeR7731Ic2gvnPSnQ-NGfygoWSGjuLjFPRu0-nI2E9QHfWsgxi8NudhiSCJm-NOX3WdizJ5mEN0PKtyFU1y7Xww7kCt7KB1uC5b12u4EN-nNJPoHGBR-SCxCSavUZhq3Shtt3dRWixzX6HLQ1cFqEJoBWY4CVZInqKEhEGv6bV6EoQvlXdEIqcQA" height="200" width="auto" /><br><br>GPS: 5.42027, 100.33525<br>Details: http://www.penang-traveltips.com/ryokan-muntri-murals.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/c8vO5dXXgZfaeANOyCA_DVDdrHg173Nzm_PVnPoQ85lrPnDeR7731Ic2gvnPSnQ-NGfygoWSGjuLjFPRu0-nI2E9QHfWsgxi8NudhiSCJm-NOX3WdizJ5mEN0PKtyFU1y7Xww7kCt7KB1uC5b12u4EN-nNJPoHGBR-SCxCSavUZhq3Shtt3dRWixzX6HLQ1cFqEJoBWY4CVZInqKEhEGv6bV6EoQvlXdEIqcQA</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.335259,5.420272,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Girl by the Sea Mural</name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/4XdUaSK7wFEx3Nhki0W9NB3ubjtMnkHlZo0dC1lMBFQgBaP1ISurlNEoKINWF2W9jTS7bxJCe8irlsPb8ZjlcfvWpuIRt1q7WcqHR_bve2kN1m25-NOoix1jjNm88em3eMy2KdzrlVC4SvS576c4G_A2XRsxo1l6nak0q5J6u_4oKgkEWtnL4nGRVXEhjETrfxnPJpPdtGInvwG21J99DD7_KhjuMMIsV6BWeXEwrE_cCm8bPoA" height="200" width="auto" /><br><br>GPS: 5.42415, 100.33256<br>Details: http://www.penang-traveltips.com/girl-by-the-sea-mural.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/4XdUaSK7wFEx3Nhki0W9NB3ubjtMnkHlZo0dC1lMBFQgBaP1ISurlNEoKINWF2W9jTS7bxJCe8irlsPb8ZjlcfvWpuIRt1q7WcqHR_bve2kN1m25-NOoix1jjNm88em3eMy2KdzrlVC4SvS576c4G_A2XRsxo1l6nak0q5J6u_4oKgkEWtnL4nGRVXEhjETrfxnPJpPdtGInvwG21J99DD7_KhjuMMIsV6BWeXEwrE_cCm8bPoA</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.332566,5.424155,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>102nd Cat Mural</name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/NQ2rAq7T2gs4y9e38yW20h3jZJHSKqKjUHATbJV-lieuPMju3qYJtV_4S6sfoVmVUxH4cxXkvv6trzTHTOJUzRbHGbjKNtBaGub_WB-8kv2UO9pr2qM1mQYwXSGeikLXlIviZd_6ruhbJJ4zdiOGo6xmoJtkv8u1WN7saQj-1N1YsKO-YnPrEpCxAmhmSTl64oM0t5tynnNkoRF0XBT6Zq5SYuXTP5gwEI6L2MIjO3Uzi1LoQQ" height="200" width="auto" /><br><br>GPS: 5.41389, 100.33877<br>Details: http://www.penang-traveltips.com/102nd-cat-mural.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/NQ2rAq7T2gs4y9e38yW20h3jZJHSKqKjUHATbJV-lieuPMju3qYJtV_4S6sfoVmVUxH4cxXkvv6trzTHTOJUzRbHGbjKNtBaGub_WB-8kv2UO9pr2qM1mQYwXSGeikLXlIviZd_6ruhbJJ4zdiOGo6xmoJtkv8u1WN7saQj-1N1YsKO-YnPrEpCxAmhmSTl64oM0t5tynnNkoRF0XBT6Zq5SYuXTP5gwEI6L2MIjO3Uzi1LoQQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.33877,5.413899,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["In A Kopitiam Kitchen" Mural]]></name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/iYnO4TdcQn8UwWEwB3FMHQWWzSIMNKJnnta5AqaGJmXncwRlUKoJrNdFXfs2qQeke9AHYj7OlSLXy1UkpNPxQxiqeO1s5SCZarsRr5sUjy5hPVYXuoSWwKuUQdJAO0bqjqvHCSYt0KJZyuGo04-QPMpiPkmu9qsBI96qAgF2arP8aOz2H5IfHRM7XAzMZT2sU8nqChBPSEgm2IYNJ329vhLb7hdY9ZmMd1PN1AQqc5o6-N4WhQU" height="200" width="auto" /><br><br>GPS: 5.4139, 100.33905<br>Details: http://www.penang-traveltips.com/in-a-kopi-tiam-kitchen-mural.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/iYnO4TdcQn8UwWEwB3FMHQWWzSIMNKJnnta5AqaGJmXncwRlUKoJrNdFXfs2qQeke9AHYj7OlSLXy1UkpNPxQxiqeO1s5SCZarsRr5sUjy5hPVYXuoSWwKuUQdJAO0bqjqvHCSYt0KJZyuGo04-QPMpiPkmu9qsBI96qAgF2arP8aOz2H5IfHRM7XAzMZT2sU8nqChBPSEgm2IYNJ329vhLb7hdY9ZmMd1PN1AQqc5o6-N4WhQU</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.339055,5.413901,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Old Indian Woman" Mural]]></name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/IQgeEHhn1BcPmcaHV9os0OAfKBCplaBVciTlMWDCTw6-VT7psjcTAEgCXA-gFd_WmoQQEDLcPqjIDgsYz5cj1imdMUK5aQWptQc01MYCOqixHXWXPBePaTwnzI2R2I9CCKCls5ySk0sSupzlTzufOQ-uRH_b8KAqcQxKiHGmY4AOuZrbtRvTwhirKhgVBrQy0JBRVFYIaLLeWOWtM3HrKYx_zuBSqYRxQwVS67mKx1141XNuvNo" height="200" width="auto" /><br><br>GPS: 5.41432, 100.33577<br>Details: http://www.penang-traveltips.com/asia/malaysia/penang/old-indian-woman-mural.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/IQgeEHhn1BcPmcaHV9os0OAfKBCplaBVciTlMWDCTw6-VT7psjcTAEgCXA-gFd_WmoQQEDLcPqjIDgsYz5cj1imdMUK5aQWptQc01MYCOqixHXWXPBePaTwnzI2R2I9CCKCls5ySk0sSupzlTzufOQ-uRH_b8KAqcQxKiHGmY4AOuZrbtRvTwhirKhgVBrQy0JBRVFYIaLLeWOWtM3HrKYx_zuBSqYRxQwVS67mKx1141XNuvNo</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.33577,5.41432,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Old Fisherman" Mural]]></name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/c6Zn_BaDpldRLz3cxO5sdeFOmq0Ogd-xxcI4Ghf2Q8uRFLgp4gpYh-AISaeatcXk-5tf76tBZiP3-VgMRDn2C0j1i6BoqPbDSwwu7TNsv-rOVgySRgFOe2QDU_lj0PQzFbpKobJ8M1rQs4JXeQxRTJI_LBBEINvtAezWcPSMaQHFJDQ9ghyo8eh_KS6lwdqHVYqtQ1PIYhbsdJ-ZZvOC4PC_7fpG5CkGP8WW4BRTf0j0wQnxBA" height="200" width="auto" /><br><br>GPS: 5.35159, 100.2355<br>Details: http://www.penang-traveltips.com/asia/malaysia/penang/old-fisherman-mural.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/c6Zn_BaDpldRLz3cxO5sdeFOmq0Ogd-xxcI4Ghf2Q8uRFLgp4gpYh-AISaeatcXk-5tf76tBZiP3-VgMRDn2C0j1i6BoqPbDSwwu7TNsv-rOVgySRgFOe2QDU_lj0PQzFbpKobJ8M1rQs4JXeQxRTJI_LBBEINvtAezWcPSMaQHFJDQ9ghyo8eh_KS6lwdqHVYqtQ1PIYhbsdJ-ZZvOC4PC_7fpG5CkGP8WW4BRTf0j0wQnxBA</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.2355,5.35159,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Indian Water Bearer" Mural (inside Spices Boutique Hotel)]]></name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/v9yLbLenu1eI9oHL2fC6KnqMyrfNpgHU7EWwSg5ynbaQLNvKi7d1nnmdiGUKduOYmHcHBk0HmwBH0cWyBSQ3xJdNGQK_hPsdm2eMC745cnvSU39CM1kgowstJ-8FjH0NJcB-egdhWHc8GelKbJSKI6cgVedS2evGjxWHPp-V5Xeo4uYe9DNooKQkfujQc5z6_JkFkpT8K6ltpCZUnqZeqyhVcTJ586J39t-22NFmKIVlok6eYA" height="200" width="auto" /><br><br>GPS: 5.41499, 100.33605<br>Details: http://www.penang-traveltips.com/asia/malaysia/penang/indian-water-bearer.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/v9yLbLenu1eI9oHL2fC6KnqMyrfNpgHU7EWwSg5ynbaQLNvKi7d1nnmdiGUKduOYmHcHBk0HmwBH0cWyBSQ3xJdNGQK_hPsdm2eMC745cnvSU39CM1kgowstJ-8FjH0NJcB-egdhWHc8GelKbJSKI6cgVedS2evGjxWHPp-V5Xeo4uYe9DNooKQkfujQc5z6_JkFkpT8K6ltpCZUnqZeqyhVcTJ586J39t-22NFmKIVlok6eYA</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.336059,5.414998,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["The Silversmith" Mural]]></name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/pKmlG4paVqjuDJ8VQnDrGIvKT60u1Dcq0lONcHVvh5sUWnlffmcyHfubzfA4Uz-_S4zu6vTucyEcZ9tUN_Z-Xtmgk4qtluly6tLlsAPxOYzgyq241kYt7Fgc4MJ-WkE4tQQyz8dw3bxHlcKwLpTgCTVjtQVj2U-z5yvHWvdjvN-yAeOWg737uCMjilVde37-R9qTOHgjG1b8DW_w2TXRHXeSbs5WECTeagkntkT-ET0ItljsCJc" height="200" width="auto" /><br><br>GPS: 5.35268, 100.23628<br>Details: http://www.penang-traveltips.com/the-silversmith.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/pKmlG4paVqjuDJ8VQnDrGIvKT60u1Dcq0lONcHVvh5sUWnlffmcyHfubzfA4Uz-_S4zu6vTucyEcZ9tUN_Z-Xtmgk4qtluly6tLlsAPxOYzgyq241kYt7Fgc4MJ-WkE4tQQyz8dw3bxHlcKwLpTgCTVjtQVj2U-z5yvHWvdjvN-yAeOWg737uCMjilVde37-R9qTOHgjG1b8DW_w2TXRHXeSbs5WECTeagkntkT-ET0ItljsCJc</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.23628,5.35268,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bukit Tambun Murals</name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/YyoNscDME5UlPqvlgHPpQbySjbqLWy6Etvzzdqc9x7VwsilNpiDWMCEQDW_xdOdQV3BJbDUuy5TxYbWc45AfAtYbNm8hfB0WYIhGNWxTPS4tM8z1kmgMMIJyjz1GrWpZG2l_2nmhF20qXYI4fuTq2_z4LFpoZOwn5VOT1SLynYMg9v3CYHhzKOxRhPYHBCqgVDbCKMTeJQlH-0KEXTVTjhrw7MJMkBnpx4JnOYHftxcQbe2Y-xk" height="200" width="auto" /><br><br>GPS: 5.27247, 100.45014<br>Details: http://www.penang-traveltips.com/bukit-tambun-street-art-murals.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/YyoNscDME5UlPqvlgHPpQbySjbqLWy6Etvzzdqc9x7VwsilNpiDWMCEQDW_xdOdQV3BJbDUuy5TxYbWc45AfAtYbNm8hfB0WYIhGNWxTPS4tM8z1kmgMMIJyjz1GrWpZG2l_2nmhF20qXYI4fuTq2_z4LFpoZOwn5VOT1SLynYMg9v3CYHhzKOxRhPYHBCqgVDbCKMTeJQlH-0KEXTVTjhrw7MJMkBnpx4JnOYHftxcQbe2Y-xk</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.450149,5.272474,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Greedy Boy" Mural]]></name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/BlALHBcZ0aRrMia-RWq90BnG5WThdCp1f4QdEVy43EdV0Wjue-KRJ7Hn9yHB9J5oXFdohv-hv2MIeZ8pFO0-D8YnsI6a6FwGE58ERuavV6YeppX17oZuP5gJwqyn_VoIzi5qYrSnALL5X2LO3mJ9gU3m4k0LrwA3HbPZCmBGKCsxYmzWqwJbe7U1mjs5igVsC_z9hd-YIv8poJNnwNIISp3as1uYqbWkLlSsXQZCSXFbyH2Ofvw" height="200" width="auto" /><br><br>GPS: 5.41501, 100.32627<br>Details: http://www.penang-traveltips.com/greedy-boy-mural.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/BlALHBcZ0aRrMia-RWq90BnG5WThdCp1f4QdEVy43EdV0Wjue-KRJ7Hn9yHB9J5oXFdohv-hv2MIeZ8pFO0-D8YnsI6a6FwGE58ERuavV6YeppX17oZuP5gJwqyn_VoIzi5qYrSnALL5X2LO3mJ9gU3m4k0LrwA3HbPZCmBGKCsxYmzWqwJbe7U1mjs5igVsC_z9hd-YIv8poJNnwNIISp3as1uYqbWkLlSsXQZCSXFbyH2Ofvw</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.32627,5.41501,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Harmony Fly" Sculpture]]></name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/FoIM2DALZEI0JhceWOLgndmtdT9goGHxDlVHUk5Aw-ud7F8L-gv5p3_fkyPFk5p3x9jNOCarDn-xXu8sbxDFtaM3DEKnLB6WMWCl4sLYCRBy_mjGwU6kY-czh4y8LGnG5l8zCtqenZuy9zvcTaWHUXUyhNT09b9lIDLBdDGrgozAdubvjGdwmIz1Sc4GQpQQt0Q8di_A8Sn-KwlDawn-dEa441egTEf6JSCESJJiQAZEsYlAOKnKGw" height="200" width="auto" /><br><br>GPS: 5.38926, 100.31914<br>Details: http://www.penang-traveltips.com/harmony-fly-seagull-sculpture.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/FoIM2DALZEI0JhceWOLgndmtdT9goGHxDlVHUk5Aw-ud7F8L-gv5p3_fkyPFk5p3x9jNOCarDn-xXu8sbxDFtaM3DEKnLB6WMWCl4sLYCRBy_mjGwU6kY-czh4y8LGnG5l8zCtqenZuy9zvcTaWHUXUyhNT09b9lIDLBdDGrgozAdubvjGdwmIz1Sc4GQpQQt0Q8di_A8Sn-KwlDawn-dEa441egTEf6JSCESJJiQAZEsYlAOKnKGw</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.319145,5.389262,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Celebration of Our Blue Sky" Sculpture]]></name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/lcyYj0xaRVpTvX3KCYMislGBf_CWg1wltWB2_o03KDx3JHemmGvnFp4PwKGPO2eIfSLbhPGqIx927mqUsjC3izlBUt3dCSYj1F8HuUo9V2aeIeftEhpmwXVnVdQ0VhuY10XhhKdYl-_G_z4XE1MheeKkV2kYMnP4UVSYHnKWuHXiyYfkYJSMw_gam9uMPpIMp_lzye_G0LZIjmcb1ouBTC3rXmivqksH8TfwK8VzuNWlnnTihA" height="200" width="auto" /><br><br>GPS: 5.39658, 100.32862<br>Details: http://www.penang-traveltips.com/celebration-of-our-blue-sky-sculpture.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/lcyYj0xaRVpTvX3KCYMislGBf_CWg1wltWB2_o03KDx3JHemmGvnFp4PwKGPO2eIfSLbhPGqIx927mqUsjC3izlBUt3dCSYj1F8HuUo9V2aeIeftEhpmwXVnVdQ0VhuY10XhhKdYl-_G_z4XE1MheeKkV2kYMnP4UVSYHnKWuHXiyYfkYJSMw_gam9uMPpIMp_lzye_G0LZIjmcb1ouBTC3rXmivqksH8TfwK8VzuNWlnnTihA</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.328629,5.39659,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Rhythm of Light" Sculpture]]></name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/NIE3lbg9aleWhpDKNLy1Pg6hm-hm-iuw8NVQ3BsQqXr9kq6SJndBW3qROEPkg8mqYvXOokaJdEQM7XXHo5ZYTbYGEmqPiKSn8y-V8FSdu7ZgY3KVIylVSfG5VA9bLS7qK7zBJnS3p5ZCFQgjC9pz0mVBLQeYlkqwjakHxFZMGiEkctnOrO2ln4n4h1hIN8XSOlSCMILNEDN_nqY9W-ysDAB3eUwVhPQweTGp-WKJAyUeE8mz3ZA" height="200" width="auto" /><br><br>GPS: 5.39644, 100.32845<br>Details: http://www.penang-traveltips.com/rhythm-of-light-sculpture.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/NIE3lbg9aleWhpDKNLy1Pg6hm-hm-iuw8NVQ3BsQqXr9kq6SJndBW3qROEPkg8mqYvXOokaJdEQM7XXHo5ZYTbYGEmqPiKSn8y-V8FSdu7ZgY3KVIylVSfG5VA9bLS7qK7zBJnS3p5ZCFQgjC9pz0mVBLQeYlkqwjakHxFZMGiEkctnOrO2ln4n4h1hIN8XSOlSCMILNEDN_nqY9W-ysDAB3eUwVhPQweTGp-WKJAyUeE8mz3ZA</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.328457,5.39644,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Wave of Harmony" Sculpture]]></name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/3ABqGHh6djPbba5dHfHcWSTO7GNyNWazEaxSfKb0ox-u051CrsC0bEqw1WX16eD0ZeJdLaj0jkT2Vj6T2014JqBdWu4T4JqJxX1Ssnmw6JKEh0FzmgsnzPqrzBO_nEclBh_1ZoLyoi5f3DrutUdBeNJrVqL1h3dHK6wV89xGK3aZGuAtVVZHBZ8ayOmQmyEr99G0dcktGx_KVGxxdWD5mkhSj0SRASGoV1YRGLE-atkNFdEk7lU" height="200" width="auto" /><br><br>GPS: 5.44066, 100.309<br>Details: http://www.penang-traveltips.com/gurney-drive-roundabout.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/3ABqGHh6djPbba5dHfHcWSTO7GNyNWazEaxSfKb0ox-u051CrsC0bEqw1WX16eD0ZeJdLaj0jkT2Vj6T2014JqBdWu4T4JqJxX1Ssnmw6JKEh0FzmgsnzPqrzBO_nEclBh_1ZoLyoi5f3DrutUdBeNJrVqL1h3dHK6wV89xGK3aZGuAtVVZHBZ8ayOmQmyEr99G0dcktGx_KVGxxdWD5mkhSj0SRASGoV1YRGLE-atkNFdEk7lU</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.309006,5.44067,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lorong Siong Mural</name>
+        <description><![CDATA[GPS: 5.16577, 100.47671<br>Details: http://www.penang-traveltips.com/lorong-siong-mural.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            100.47671,5.16577,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Raja Uda Mural</name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/YSyGPvSH33EhHjl_qkARsmD2capjNyakqOmkbCTh1fpP84_CM99ZkYK_4WPMTgVie_dsEJcpGv0SyC-RiYdrdnzqYohaCRrkz63__DAKTd6ySm5Lig0FkVARshewmbgSr5HcNnZ1lw0ZyPG2nN-aYsLIg38R6YOWLTii9yjG8GQBx4JG2ACoXbBnh-tJZ2Mk11a1y1A-kfBZFAI8b-QggHQAUIIBW78ylZdfzs6T6aOfGGoX5fA" height="200" width="auto" /><br><br>GPS: 5.41621, 100.37922<br>Details: http://www.penang-traveltips.com/sabek-raja-uda-mural.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/YSyGPvSH33EhHjl_qkARsmD2capjNyakqOmkbCTh1fpP84_CM99ZkYK_4WPMTgVie_dsEJcpGv0SyC-RiYdrdnzqYohaCRrkz63__DAKTd6ySm5Lig0FkVARshewmbgSr5HcNnZ1lw0ZyPG2nN-aYsLIg38R6YOWLTii9yjG8GQBx4JG2ACoXbBnh-tJZ2Mk11a1y1A-kfBZFAI8b-QggHQAUIIBW78ylZdfzs6T6aOfGGoX5fA</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.37922,5.41621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Sibling Secrets" Mural]]></name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/ugIDFm6NMdk7tO0UThEzIQtqsL_ofp5Ay4ZDv8B2EH1H2etXODz4Zr3SMZHIQFxov30z8GoRf6o6GWDrPFgecH-2P-CC-TlMrrXLWNiRNJ1B4VeAojegmTAJtzJqM609Sbu-NIV_5mjg1-eCRAINyL1iZG4KIqPXr321GhgVIqYCm9UhE1oPo6kKpuyRK2Fcbg45l6CsHRc0g8RLSi9LBWSvmIIkiNIvQvVdJ_0pAMebq4ddV0Vk0w" height="200" width="auto" /><br><br>GPS: 5.44888, 100.30239<br>Details: http://www.penang-traveltips.com/sibling-secrets.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/ugIDFm6NMdk7tO0UThEzIQtqsL_ofp5Ay4ZDv8B2EH1H2etXODz4Zr3SMZHIQFxov30z8GoRf6o6GWDrPFgecH-2P-CC-TlMrrXLWNiRNJ1B4VeAojegmTAJtzJqM609Sbu-NIV_5mjg1-eCRAINyL1iZG4KIqPXr321GhgVIqYCm9UhE1oPo6kKpuyRK2Fcbg45l6CsHRc0g8RLSi9LBWSvmIIkiNIvQvVdJ_0pAMebq4ddV0Vk0w</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.302397,5.448883,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bicycles Sculpture</name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/Equ69XzObq_70ymHJkyIm8HKODMo4OPjJEw1KFXx2wK-PxzETTgl7mdjbrkJSObLVZJ1XKNqBT6AHEOYplLZUjT7jCeeEXS3TWOMMY35o6nm6FlHXaYnknM3vT6pki-tECxKVMr7eGlHTDi8TRhm6-JxCBLF_XdOxgNfCrEbcSAg5degsEFStppRAGiSPmKzkmSRD4E5ZsI63-QhVRbXWFjoNjBQQtzZETA_dCBlEjKYkrD_Tf8Ndw" height="200" width="auto" /><br><br>GPS: 5.30142, 100.26673<br>Details: http://www.penang-traveltips.com/sungai-ara-bicycles-sculpture.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/Equ69XzObq_70ymHJkyIm8HKODMo4OPjJEw1KFXx2wK-PxzETTgl7mdjbrkJSObLVZJ1XKNqBT6AHEOYplLZUjT7jCeeEXS3TWOMMY35o6nm6FlHXaYnknM3vT6pki-tECxKVMr7eGlHTDi8TRhm6-JxCBLF_XdOxgNfCrEbcSAg5degsEFStppRAGiSPmKzkmSRD4E5ZsI63-QhVRbXWFjoNjBQQtzZETA_dCBlEjKYkrD_Tf8Ndw</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.266734,5.301428,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Coastal Runners" Sculpture]]></name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/63JDhddL4V1xswefSub_738U9Goa8gfoi_99XXCXyOFmMEKpedEOlgRB0pxoL79jYza5zCmMC5s2_0a8JCEGcOMouxmooidp8-hA8rj8CFfX0rMf4hlQAUD6IP5SQrRTLWVmn46LhUh_yJmm3tNLes7GOIyd0XfbsbgC-DVX4LqcXN8tTEtVtS8ObFg3b34cb-ZmGUcCYmnLAYR2AhnW-7Bf_ZsLBwsu4F9sqxsrNT88X90darY" height="200" width="auto" /><br><br>GPS: 5.3688, 100.31433<br>Details: http://www.penang-traveltips.com/coastal-runners-sculpture.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/63JDhddL4V1xswefSub_738U9Goa8gfoi_99XXCXyOFmMEKpedEOlgRB0pxoL79jYza5zCmMC5s2_0a8JCEGcOMouxmooidp8-hA8rj8CFfX0rMf4hlQAUD6IP5SQrRTLWVmn46LhUh_yJmm3tNLes7GOIyd0XfbsbgC-DVX4LqcXN8tTEtVtS8ObFg3b34cb-ZmGUcCYmnLAYR2AhnW-7Bf_ZsLBwsu4F9sqxsrNT88X90darY</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.314338,5.368807,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>1st Avenue Mural</name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/1nvO1g3Wp6hq5TVlrNMutVuOgmf7DvNKocGdW54RxLJoX8NvtkC2QjRqGN63dcT-rbtOF38HZI0Ls1Wqh-j4dUwbsvZQ89cU_YRXzGAQtdXFgGi4ac8JbZ_D49u5nwLyfsaldpTTnplZoUmn0FO8AKCV5tt2SEPJMmk2hTC2LkxAlLk0fMHGmtdKCP8jdlmbzYuLlwsKWBRjU2FKMqr5dyP5sr7aULfTAXl1kEqj7XVu8-97cQ" height="200" width="auto" /><br><br>GPS: 5.41288, 100.33153<br>Details: http://www.penang-traveltips.com/1st-avenue-mural.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/1nvO1g3Wp6hq5TVlrNMutVuOgmf7DvNKocGdW54RxLJoX8NvtkC2QjRqGN63dcT-rbtOF38HZI0Ls1Wqh-j4dUwbsvZQ89cU_YRXzGAQtdXFgGi4ac8JbZ_D49u5nwLyfsaldpTTnplZoUmn0FO8AKCV5tt2SEPJMmk2hTC2LkxAlLk0fMHGmtdKCP8jdlmbzYuLlwsKWBRjU2FKMqr5dyP5sr7aULfTAXl1kEqj7XVu8-97cQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.331534,5.412881,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Silat Mural</name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/zMCimxZokM7hmxPizX-mpvX3wsVSGwOlk8pvoI87XFCnbF-W_TeeXHo2F4-yYNij88K5qpnyrHqswzta6hW8D41J1NMZ4z0T6NLjYo7WY1ClYXXvPm_3EiAiV8--ps3S0eVPYWhf-mr5x0Nw_08E7YXaQcJNCZSqa0njzbfnp4gVwdBZLLANSO500xukTAI37eppf1BE2lF9WnPBl5a8ozFMEjhguQmIwUyuyb5T9GfYbgL4s-eVRw" height="200" width="auto" /><br><br>GPS: 5.34942, 100.23378<br>Details: http://www.penang-traveltips.com/asia/malaysia/penang/silat-mural.htm]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/zMCimxZokM7hmxPizX-mpvX3wsVSGwOlk8pvoI87XFCnbF-W_TeeXHo2F4-yYNij88K5qpnyrHqswzta6hW8D41J1NMZ4z0T6NLjYo7WY1ClYXXvPm_3EiAiV8--ps3S0eVPYWhf-mr5x0Nw_08E7YXaQcJNCZSqa0njzbfnp4gVwdBZLLANSO500xukTAI37eppf1BE2lF9WnPBl5a8ozFMEjhguQmIwUyuyb5T9GfYbgL4s-eVRw</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            100.233786,5.349428,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Museums</name>
+      <Placemark>
+        <name>Penang 3D Trick Art Museum</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            100.341696,5.419814,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Made In Penang Interactive Museum</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            100.3437579,5.4163879,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Penang State Museum and Art Gallery</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            100.338576,5.420482,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Colonial Penang Museum</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            100.3063955,5.4291555,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Glass Museum Penang</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            100.329474,5.417494,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Penang State Museum</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            100.325464,5.4150719,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sun Yat Sen Museum Penang</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            100.3361957,5.4157447,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Batik Painting Museum Penang</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            100.3376332,5.4149876,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Penang Islamic Museum</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            100.3358843,5.4156961,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wonderfood Museum</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            100.3411419,5.4164066,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Cultural Sites (Religious)</name>
+      <Placemark>
+        <name>Tanjung Bungah Floating Mosque</name>
+        <styleUrl>#icon-1729-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            100.2782384,5.4686855,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Snake Temple</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            100.2852352,5.3142088,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Penang State Mosque</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            100.301589,5.406673,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kek Lok Si Temple</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            100.2725403,5.3977901,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Arulmigu Balathandayuthapani Temple</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            100.2935833,5.4325833,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nattukotai Chettiar Temple</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            100.2982388,5.432884,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Burmese Buddhist Temple</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            100.3139528,5.431142,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sri Mahamariamman Temple</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            100.3383389,5.417179,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kuan Yin Temple</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            100.338764,5.418474,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[St. George's Anglican Church]]></name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            100.339508,5.420067,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wesley Methodist Church (TRAC)</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            100.324486,5.4219627,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Church of the Assumption</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            100.3376149,5.420504,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>St Francis Xavier Church</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            100.3325828,5.422072,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Church Of Our Lady Of Sorrows</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            100.326893,5.414286,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Batik Painting Museum Penang</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            100.3376332,5.4149876,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Historical Buildings (Culture)</name>
+      <Placemark>
+        <name>Khoo Kongsi</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            100.336802,5.4150334,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Clan Jetties Of Penang</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            100.3402678,5.4120808,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Eng Chuan Tong Tan Kongsi</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            100.336176,5.413316,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Seh Tek Tong Cheah Kongsi</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            100.3385896,5.4148904,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pinang Peranakan Mansion</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            100.340997,5.4179769,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fort Cornwallis</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            100.343864,5.4205047,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Komtar</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            100.3297271,5.4145728,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Eastern & Oriental Hotel]]></name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            100.33608,5.4229138,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cheong Fatt Tze - The Blue Mansion Hotel</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            100.334883,5.421439,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Macalister Mansion</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            100.318741,5.418905,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name><![CDATA[Eateries X Art & Culture]]></name>
+      <Placemark>
+        <name>ChinaHouse</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            100.3388132,5.4147821,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cintra Heritage House</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            100.3341815,5.4189848,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Coffee Lane</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            100.334291,5.419195,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Campbell House Penang</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            100.333542,5.418219,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chai Diam Ma</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            100.339519,5.418475,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Edelweiss Cafe</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            100.3377515,5.4150985,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Armenian House</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            100.3374679,5.4151452,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Guan Seang Café</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            100.3381924,5.4145309,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

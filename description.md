@@ -11,3 +11,7 @@ How does it solve the problem(s)
 
 Notes..
 Art is not limited to murals.. other things are considered art too (writing, poetry, sights, culture)
+
+
+Selling points..
+Power of storytelling

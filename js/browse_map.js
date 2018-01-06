@@ -70,15 +70,9 @@ function initMap() {
     </div>
     <div id="iw-container" style="background-image: url({url});">
         <div class="iw-content">
-            <ul class="list-inline rating">
-                <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                <li><i class="fa fa-star" aria-hidden="true"></i></li>
-            </ul>
             <div class="iw-subTitle">{desc}</div>
-                <a href="details.php?{id}" class="btn btn-primary">&nbsp; Get Details &nbsp;</a>
+                <a href="details.php?{id}" class="btn btn-primary">&nbsp;Experience &nbsp;</a>
+                <a href="details.php?{id}" class="btn btn-warning">&nbsp;Art Info &nbsp;</a>
             </div>
             <div class="iw-bottom-gradient"></div>
         </div>
@@ -87,60 +81,32 @@ function initMap() {
     // img/listing/listing1.jpg
     // id=1
     var oc_content = []
-    oc_content[0] = popupcontent.replace("{url}", "img/listing/listing1.jpg");
+    oc_content[0] = popupcontent.replace("{url}", "img/index/thumbnail_1.png");
     oc_content[0] = oc_content[0].replace("{id}", "id=1");
-    oc_content[0] = oc_content[0].replace("{desc}", "Shaded parking spot in KJ");
+    oc_content[0] = oc_content[0].replace("{desc}", "Little Children on a Bicycle <br><small>Experience lorum</small>");
 
-    oc_content[1] = popupcontent.replace("{url}", "img/listing/listing2.jpg");
+    oc_content[1] = popupcontent.replace("{url}", "img/listing/thumbnail_2.jpg");
     oc_content[1] = oc_content[1].replace("{id}", "id=2");
-    oc_content[1] = oc_content[1].replace("{desc}", "Gated & shaded parking");
+    oc_content[1] = oc_content[1].replace("{desc}", "Little Children on a Bicycle <br><small>Experience lorum</small>");
 
-    oc_content[2] = popupcontent.replace("{url}", "img/listing/listing3.jpg");
+    oc_content[2] = popupcontent.replace("{url}", "img/listing/thumbnail_1.jpg");
     oc_content[2] = oc_content[2].replace("{id}", "id=3");
-    oc_content[2] = oc_content[2].replace("{desc}", "Car porch parking");
+    oc_content[2] = oc_content[2].replace("{desc}", "Little Children on a Bicycle <br><small>Experience lorum</small>");
 
-    oc_content[3] = popupcontent.replace("{url}", "img/listing/listing4.jpg");
+    oc_content[3] = popupcontent.replace("{url}", "img/listing/thumbnail_1.jpg");
     oc_content[3] = oc_content[3].replace("{id}", "id=4");
-    oc_content[3] = oc_content[3].replace("{desc}", "2 spot parking in Kelana");
-
-    oc_content[4] = popupcontent.replace("{url}", "img/listing/listing5.jpg");
-    oc_content[4] = oc_content[4].replace("{id}", "id=5");
-    oc_content[4] = oc_content[4].replace("{desc}", "Kelana Jaya parking (outside)");
-    
-    oc_content[5] = popupcontent.replace("{url}", "img/listing/listing6.png");
-    oc_content[5] = oc_content[5].replace("{id}", "id=6");
-    oc_content[5] = oc_content[5].replace("{desc}", "1 Spot Outside Parking in Kelana");
-
-    oc_content[6] = popupcontent.replace("{url}", "img/listing/listing7.jpg");
-    oc_content[6] = oc_content[6].replace("{id}", "id=7");
-    oc_content[6] = oc_content[6].replace("{desc}", "Shaded 1 spot parking");
-
-    oc_content[7] = popupcontent.replace("{url}", "img/listing/listing8.jpg");
-    oc_content[7] = oc_content[7].replace("{id}", "id=8");
-    oc_content[7] = oc_content[7].replace("{desc}", "1 Spot Outside Parking In Kelana");
-
-
-    console.log(oc_content);
+    oc_content[3] = oc_content[3].replace("{desc}", "Little Children on a Bicycle <br><small>Experience lorum</small>");
 
 
 
     var locations = [
-          ['Park Spot 1', 3.113902, 101.604686, 1],
-          ['Park Spot 2', 3.111301, 101.604076, 2],
+          ['Park Spot 1', 5.414670, 100.338246, 1], // Little children on a bicycle
+          ['Park Spot 2', 3.111301, 101.604076, 2], 
           ['Park Spot 3', 3.113706, 101.608417, 3],
-          ['Park Spot 4', 3.114803, 101.603876, 4],
-          ['Park Spot 5', 3.110667, 101.602123, 5],
-          ['Park Spot 6', 3.107341, 101.601948, 6],
-          ['Park Spot 7', 3.108250, 101.605663, 7],
-          ['Park Spot 8', 3.110857, 101.608510, 8],
-          // ['Park Spot 9', 3.119435, 101.611363, 9],
-          // ['Park Spot 10', 3.116634, 101.600531, 10]
+          ['Park Spot 4', 3.114803, 101.603876, 4]
         ];
 
-    var center = {lat: 3.113902, lng: 101.604686};
-
-    
-
+    var center = {lat: 5.405154, lng: 100.321736}; // Penang
 
     var map = new google.maps.Map(document.getElementById('map'), {
       zoom: 15,
@@ -153,7 +119,7 @@ function initMap() {
         marker = new google.maps.Marker({
             position: new google.maps.LatLng(locations[i][1], locations[i][2]),
             map: map, 
-            icon: "img/parking.png",
+            icon: "img/near_me/story_alert.png",
             title: "Click for more info"
 
         });
@@ -169,9 +135,9 @@ function initMap() {
             });
         })(marker, i);
       }
-
+    // YOUR location
     marker = new google.maps.Marker({
-            position: new google.maps.LatLng(3.113902, 101.604686),
+            position: new google.maps.LatLng(5.405154, 100.321736),
             map: map, 
             // icon: "img/parking.png",
             title: "You Are Here"
