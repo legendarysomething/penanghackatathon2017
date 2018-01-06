@@ -691,7 +691,6 @@ $_ready(function() {
 	$_("[data-action]").click(function(event) {
 
 		switch ($_(this).data("action")) {
-
 			case "open-menu":
 				$_("section").hide();
 				$_("[data-menu='" + $_(this).data("open") + "']").show();

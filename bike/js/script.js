@@ -40,7 +40,6 @@ var images = {
 // Define the backgrounds for each scene.
 var scenes = {
 	"Main": "bicycle.jpg",
-	"Bruce": "bruce.jpg" 
 }
 
 // Define the Characters
