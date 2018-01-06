@@ -37,15 +37,14 @@
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
               <a class="nav-link" href="/penanghackatathon2017">Home
-                <span class="sr-only">(current)</span>
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/penanghackatathon2017/browse.php">Browse Stories</a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a class="nav-link" href="#">Explore</a>
-            </li>   
+            </li> -->   
           </ul>
         </div>
       </div>

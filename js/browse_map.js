@@ -72,7 +72,7 @@ function initMap() {
         <div class="iw-content">
             <div class="iw-subTitle">{desc}</div>
                 <a href="details.php?{id}" class="btn btn-primary">&nbsp;Experience &nbsp;</a>
-                <a href="details.php?{id}" class="btn btn-warning">&nbsp;Art Info &nbsp;</a>
+                <a href="/penanghackatathon2017/art_info.php" class="btn btn-warning">&nbsp;Art Info &nbsp;</a>
             </div>
             <div class="iw-bottom-gradient"></div>
         </div>
@@ -86,7 +86,7 @@ function initMap() {
     <div id="iw-container" style="background-image: url({url});">
         <div class="iw-content">
             <div class="iw-subTitle">{desc}</div>
-                <a href="details.php?{id}" class="btn btn-warning">&nbsp;Art Info &nbsp;</a>
+                <a href="/penanghackatathon2017/art_info.php" class="btn btn-warning">&nbsp;Art Info &nbsp;</a>
             </div>
             <div class="iw-bottom-gradient"></div>
         </div>

@@ -13,7 +13,7 @@
       <header class="jumbotron my-4" style="background-image: url('img/cover.jpg'); background-size: cover;">
         <h1 class="display-4">Welcome to Storify Penang!</h1>
         <p class="lead" style="font-weight: bold; font-family: 'Open Sans', sans-serif;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, ipsam, eligendi, in quo sunt possimus non incidunt odit vero aliquid similique quaerat nam nobis illo aspernatur vitae fugiat numquam repellat.</p>
-        <a href="#" class="btn btn-lg btn-primary" style="font-family: 'Open Sans', sans-serif;">Browse Stories!</a>
+        <a href="/penanghackatathon2017/browse.php" class="btn btn-lg btn-primary" style="font-family: 'Open Sans', sans-serif;">Browse Stories!</a>
       </header>
 
     <br>
@@ -30,8 +30,8 @@
               <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
             </div>
             <div class="card-footer">
-              <a href="#" class="btn btn-primary">Story <i class="fa fa-hand-o-right"></i></a>
-              <a href="#" class="btn btn-warning">Art Info <i class="fa fa-info-circle"></i></a>
+              <a href="/penanghackatathon2017/bike" class="btn btn-primary">Story <i class="fa fa-hand-o-right"></i></a>
+              <a href="/penanghackatathon2017/art_info.php" class="btn btn-warning">Art Info <i class="fa fa-info-circle"></i></a>
             </div>
           </div>
         </div>
@@ -44,8 +44,8 @@
               <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo magni sapiente, tempore debitis beatae culpa natus architecto.</p>
             </div>
             <div class="card-footer">
-              <a href="#" class="btn btn-primary">Story <i class="fa fa-hand-o-right"></i></a>
-              <a href="#" class="btn btn-warning">Art Info <i class="fa fa-info-circle"></i></a>
+              <a href="/penanghackatathon2017/bike" class="btn btn-primary">Story <i class="fa fa-hand-o-right"></i></a>
+              <a href="/penanghackatathon2017/art_info.php" class="btn btn-warning">Art Info <i class="fa fa-info-circle"></i></a>
             </div>
           </div>
         </div>
@@ -58,8 +58,8 @@
               <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
             </div>
             <div class="card-footer">
-              <a href="#" class="btn btn-primary">Story <i class="fa fa-hand-o-right"></i></a>
-              <a href="#" class="btn btn-warning">Art Info <i class="fa fa-info-circle"></i></a>
+              <a href="/penanghackatathon2017/bike" class="btn btn-primary">Story <i class="fa fa-hand-o-right"></i></a>
+              <a href="/penanghackatathon2017/art_info.php" class="btn btn-warning">Art Info <i class="fa fa-info-circle"></i></a>
             </div>
           </div>
         </div>
@@ -72,8 +72,8 @@
               <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo magni sapiente, tempore debitis beatae culpa natus architecto.</p>
             </div>
             <div class="card-footer">
-              <a href="#" class="btn btn-primary">Story <i class="fa fa-hand-o-right"></i></a>
-              <a href="#" class="btn btn-warning">Art Info <i class="fa fa-info-circle"></i></a>
+              <a href="/penanghackatathon2017/bike" class="btn btn-primary">Story <i class="fa fa-hand-o-right"></i></a>
+              <a href="/penanghackatathon2017/art_info.php" class="btn btn-warning">Art Info <i class="fa fa-info-circle"></i></a>
             </div>
           </div>
         </div>
