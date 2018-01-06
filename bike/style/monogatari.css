@@ -378,6 +378,7 @@ textarea {
 	width: 100%;
 	padding: 1vmin;
 	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 [data-ui="text"] .fa {

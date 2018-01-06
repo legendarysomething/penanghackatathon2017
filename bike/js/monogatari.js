@@ -753,6 +753,21 @@ $_ready(function() {
 				analyseStatement(label[engine["Step"]]);
 				engine["Step"] += 1;
 				break;
+			
+			case "info":
+				console.log("info");
+				break; 
+
+			// case "info":
+			// 	var win = window.open('penanghackatathon/art_info.php', '_blank');
+			// 	if(win){
+			// 		//Browser has allowed it to be opened
+			// 		win.focus();
+			// 	} else {
+			// 		//Browser has blocked it
+			// 		alert('Please allow popups for this website');
+			// 	}	
+			// 	break;
 		}
 
 	});
@@ -762,6 +777,17 @@ $_ready(function() {
 		if (canProceed()) {
 			previous();
 		}
+	});
+
+	$_("#game [data-action='info']").click(function(event) {
+		var win = window.open('/penanghackatathon2017/art_info.php', '_blank');
+		if(win){
+			//Browser has allowed it to be opened
+			win.focus();
+		} else {
+			//Browser has blocked it
+			alert('Please allow popups for this website');
+		}	
 	});
 
 	$_("[data-action='back']:not(#game)").click(function(event) {
