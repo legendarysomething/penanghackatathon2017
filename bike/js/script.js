@@ -109,7 +109,29 @@ var script = {
 		"show Boy Normal left with fadeOutLeft",
 		"show Girl Normal right with fadeInRight",
 		"Girl *Sighs* Hold on tight then we're going for a ride!",
+		"Narrator As the reader, you can choose if they sped up or slowed down",
+		{
+			"Choice": {
+				"Dialog": "Do you choose to speed fast or slow down?",
+				"Yes": {
+					"Text": "Speed up",
+					"Do": "jump SpeedUp"
+				},
+				"No": {
+					"Text": "Slow down",
+					"Do": "jump SlowDown"
+				}
+			}
+		}
+	],
 
+	"SpeedUp": [
+		"Narrator The siblings flew pass the cosy shops of Armenian Street",
+		"jump NarratorEnd",
+	],
+
+	"SlowDown": [
+		"Narrator The siblings enjoyed a slow and relaxing ride through Armenian Street",
 		"jump NarratorEnd",
 	],
 
