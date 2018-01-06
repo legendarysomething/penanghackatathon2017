@@ -10,9 +10,9 @@
     <div class="container">
 
       <!-- Jumbotron Header -->
-      <header class="jumbotron my-4" style="background-image: url('img/cover.jpg'); background-size: cover;">
-        <h1 class="display-4">Welcome to Storify Penang!</h1>
-        <p class="lead" style="font-weight: bold; font-family: 'Open Sans', sans-serif;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, ipsam, eligendi, in quo sunt possimus non incidunt odit vero aliquid similique quaerat nam nobis illo aspernatur vitae fugiat numquam repellat.</p>
+      <header class="jumbotron my-4">
+        <h1 class="display-4">Create your own story at Storify Penang!</h1>
+        <p class="lead" style="font-weight: bold; font-family: 'Open Sans', sans-serif;">We believe that everyone's intepretation of art is special in their own way</p>
         <a href="#" class="btn btn-lg btn-primary" style="font-family: 'Open Sans', sans-serif;">Browse Stories!</a>
       </header>
 
@@ -40,7 +40,7 @@
           <div class="card">
             <img class="card-img-top img-fluid" style="max-width: 100%; height: auto;" src="img/index/thumbnail_1.png" alt="">
             <div class="card-body">
-              <h4 class="card-title">Little Children on a Bicycle"</h4>
+              <h4 class="card-title">Little Children on a Bicycle</h4>
               <p class="card-text">London-trained artist Ernest Zacharevic</p>
             </div>
             <div class="card-footer">
