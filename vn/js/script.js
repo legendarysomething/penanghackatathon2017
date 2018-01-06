@@ -48,7 +48,8 @@ var images = {
 
 // Define the backgrounds for each scene.
 var scenes = {
-
+	"Main": "bicycle.jpg",
+	"Bruce": "bruce.jpg" 
 }
 
 // Define the Characters
@@ -56,13 +57,18 @@ var characters = {
 	"h": {
 		"Name": "Hikaru",
 		"Color": "#5bcaff"
-	}
+	},
+
+	"novi": {
+		"Name": "Novi",
+		"Color": "#5bcaff"
+	},
 }
 
 var script = {
 	// The game starts here.
 	"Start": [
-		"notify Welcome",
+		"scene Main",
 		{"Input": {
 				"Text": "What is your name?",
 				"Validation": function(input) {
@@ -92,7 +98,8 @@ var script = {
 	],
 
 	"Yes": [
-
+		"scene Bruce",
+		"show h "
 		"h That's awesome!",
 		"h Then you are ready to go ahead and create an amazing Game!",
 		"h I can't wait to see what story you'll tell!",
