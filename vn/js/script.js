@@ -7,15 +7,6 @@ var messages = {
 	}
 }
 
-// Define the notifications used in the game
-var notifications = {
-	"Welcome": {
-		title: "Welcome",
-		body: "This is the Monogatari VN Engine",
-		icon: ""
-	}
-}
-
 // Define the Particles JS Configurations used in the game
 var particles = {
 
@@ -54,11 +45,9 @@ var scenes = {
 
 // Define the Characters
 var characters = {
-	"h": {
-		"Name": "Hikaru",
-		"Color": "#5bcaff"
-	},
-
+	//Jack is a carpenter 
+	//He's was tasked at preparing dog shed for some bulldog puppies
+	
 	"jack": {
 		"Name": "Jack",
 		"Color": "#5bcaff",
