@@ -109,7 +109,7 @@ function initMap() {
     var center = {lat: 5.405154, lng: 100.321736}; // Penang
 
     var map = new google.maps.Map(document.getElementById('map'), {
-      zoom: 15,
+      zoom: 14,
       center: center,
       mapTypeId: google.maps.MapTypeId.ROADMAP
     });
