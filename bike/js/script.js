@@ -90,6 +90,7 @@ var script = {
 	],
 
 	"Girl1": [
+		"show Boy Normal left with fadeOutLeft",
 		"show Girl Normal right with fadeInRight",
 		"Girl Stop clinging to me so much.",
 
@@ -97,6 +98,7 @@ var script = {
 	],
 
 	"Boy2": [
+		"show Girl Normal right with fadeOutRight",
 		"show Boy Normal left with fadeInLeft",
 		"Boy But mom said never let go.",
 
@@ -104,6 +106,7 @@ var script = {
 	],
 
 	"Girl3": [
+		"show Boy Normal left with fadeOutLeft",
 		"show Girl Normal right with fadeInRight",
 		"Girl Sigh, hold tight...",
 
@@ -111,7 +114,7 @@ var script = {
 	],
 
 	"NarratorEnd": [
-		"scene End with slideInUp",
+		"scene End with fadeIn",
 		"Narrator These are the daily lives of carefree children",
 
 		"jump SupportUS",
@@ -119,7 +122,7 @@ var script = {
 
 	"SupportUS": [
 		"Narrator Thank you for taking the time to read this story!",
-		"Narrator Like what you have read, you can get more at <a href='#'>https://www.penangmongo.com</a>",
+		"Narrator Like what you have read, you can get more at <a href='#'>https://www.storifypenang.com</a>",
 		"end"
 	],
 }
