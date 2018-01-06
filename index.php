@@ -16,10 +16,18 @@
     <link href="css/heroic-features.css" rel="stylesheet">
     <!-- Fontawesome icon pack -->
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Fonterinos -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <!-- font-family: 'Open Sans', sans-serif; -->
 
   </head>
 
   <body>
+    
+    <!-- Custom Styling -->
+    <style type="text/css">
+
+    </style>
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
@@ -36,13 +44,10 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#">Browse Stories</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#">Explore</a>
             </li>
           </ul>
         </div>
@@ -53,46 +58,15 @@
     <div class="container">
 
       <!-- Jumbotron Header -->
-     <!--  <header class="jumbotron my-4">
-        <h1 class="display-3">A Warm Welcome!</h1>
-        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, ipsam, eligendi, in quo sunt possimus non incidunt odit vero aliquid similique quaerat nam nobis illo aspernatur vitae fugiat numquam repellat.</p>
-        <a href="#" class="btn btn-primary btn-lg">Call to action!</a>
-      </header> -->
+      <header class="jumbotron my-4" style="background-image: url('img/cover.jpg'); background-size: cover;">
+        <h1 class="display-3">Welcome to Storify Penang!</h1>
+        <p class="lead" style="font-weight: bold;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, ipsam, eligendi, in quo sunt possimus non incidunt odit vero aliquid similique quaerat nam nobis illo aspernatur vitae fugiat numquam repellat.</p>
+        <a href="#" class="btn btn-primary">Browse Stories!</a>
+      </header>
 
-      <div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-          <li data-target="#myCarousel" data-slide-to="1"></li>
-          <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
-
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner">
-          <div class="item active">
-            <img src="img/index_carosel_img_1.jpg" alt="carosel_1">
-          </div>
-
-          <div class="item">
-            <img src="img/index_carosel_img_2.jpg" alt="carosel_2">
-          </div>
-
-          <div class="item">
-            <img src="img/index_carosel_img_3.jpg" alt="carosel_3">
-          </div>
-        </div>
-
-        <!-- Left and right controls -->
-        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-          <span class="glyphicon glyphicon-chevron-left"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel" data-slide="next">
-          <span class="glyphicon glyphicon-chevron-right"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
-
+    <br>
+    <h3 style="font-family: 'Open Sans', sans-serif;">Top Stories Today</h2>
+    <hr>
       <!-- Page Features -->
       <div class="row text-center">
 
@@ -111,7 +85,7 @@
 
         <div class="col-lg-3 col-md-6 mb-4">
           <div class="card">
-            <img class="card-img-top" src="http://placehold.it/500x325" alt="">
+            <img class="card-img-top img-fluid" style="max-width: 100%; height: auto;" src="img/bicycle.jpg" alt="">
             <div class="card-body">
               <h4 class="card-title">Card title</h4>
               <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo magni sapiente, tempore debitis beatae culpa natus architecto.</p>
@@ -124,7 +98,7 @@
 
         <div class="col-lg-3 col-md-6 mb-4">
           <div class="card">
-            <img class="card-img-top" src="http://placehold.it/500x325" alt="">
+            <img class="card-img-top img-fluid" style="max-width: 100%; height: auto;" src="img/bruce.jpg" alt="">
             <div class="card-body">
               <h4 class="card-title">Card title</h4>
               <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
@@ -157,7 +131,7 @@
     <!-- Footer -->
     <footer class="py-5 bg-dark">
       <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2017</p>
+        <p class="m-0 text-center text-white">Copyright &copy; Storify Penang 2018</p>
       </div>
       <!-- /.container -->
     </footer>
