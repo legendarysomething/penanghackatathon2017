@@ -10,9 +10,9 @@
     <div class="container">
 
       <!-- Jumbotron Header -->
-      <header class="jumbotron my-4" style="background-image: url('img/cover.jpg'); background-size: cover;">
-        <h1 class="display-4">Welcome to Storify Penang!</h1>
-        <p class="lead" style="font-weight: bold; font-family: 'Open Sans', sans-serif;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, ipsam, eligendi, in quo sunt possimus non incidunt odit vero aliquid similique quaerat nam nobis illo aspernatur vitae fugiat numquam repellat.</p>
+      <header class="jumbotron my-4" style="background-image: url('img/bicycle.jpg'); background-size: cover;">
+        <h1 class="display-4">Welcome!</h1>
+        <p class="lead" style="font-weight: bold; font-family: 'Open Sans', sans-serif;">Get immersed in the beautiful arts of Penang through immersive storytelling.<br> Getting started is easy, just click a story and begin your adventure!</p>
         <a href="/penanghackatathon2017/browse.php" class="btn btn-lg btn-primary" style="font-family: 'Open Sans', sans-serif;">Browse Stories!</a>
       </header>
 
@@ -26,7 +26,7 @@
           <div class="card">
             <img class="card-img-top" src="img/index/thumbnail_2.png" alt="">
             <div class="card-body">
-              <h4 class="card-title">Bruce Lee Cat Mural</h4>
+              <h4 class="card-title">The Fury of Bruce Lee</h4>
               <p class="card-text">101 Lost Kittens</p>
             </div>
             <div class="card-footer">
@@ -68,7 +68,7 @@
           <div class="card">
             <img class="card-img-top" src="img/index/thumbnail_4.png" alt="">
             <div class="card-body">
-              <h4 class="card-title">The Indian Boatman Mural</h4>
+              <h4 class="card-title">The Indian Boatman</h4>
               <p class="card-text">Julia Volchkova</p>
             </div>
             <div class="card-footer">

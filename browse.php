@@ -40,7 +40,7 @@
                                       <h5 class="mb-1">Little Children on a Bicycle</h5>
                                       <small>3 days ago</small>
                                     </div>
-                                    <p class="mb-1">Experience lorem ipsum</p>
+                                    <p class="mb-1">Two children stumble upon a bike when nobody seemed to be around...</p>
                                     <small class="text-right">
                                         <a href="/penanghackatathon2017/bike/" class="btn btn-primary" style="color: white; cursor: pointer;">View Story &nbsp;<i class="fa fa-hand-o-right"></i></a>
                                         <a href="/penanghackatathon2017/art_info.php" class="btn btn-warning art_info" style="cursor: pointer;">Art Info &nbsp;<i class="fa fa-info-circle"></i></a>
@@ -60,7 +60,7 @@
                                       <h5 class="mb-1">The fury of Bruce Lee</h5>
                                       <small>6 days ago</small>
                                     </div>
-                                    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                                    <p class="mb-1">Bruce Lee would never do that. Or would he?</p>
                                     <small class="text-right">
                                         <a href="penanghackatathon2017/bike/" class="btn btn-primary" style="color: white; cursor: pointer;">View Story &nbsp;<i class="fa fa-hand-o-right"></i></a>
                                         <a href="/penanghackatathon2017/art_info.php" class="btn btn-warning art_info" style="cursor: pointer;">Art Info &nbsp;<i class="fa fa-info-circle"></i></a>
@@ -73,14 +73,14 @@
                           <div class="list-group-item list-group-item-action flex-column align-items-start">
                             <div class="row">
                                 <div class="col-lg-2">
-                                    <img class="card-img-top" src="img/index/thumbnail_3.png" alt="">
+                                    <img class="card-img-top" src="img/index/thumbnail_4.png" alt="">
                                 </div>
                                 <div class="col-lg-10">
                                     <div class="d-flex w-100 justify-content-between">
-                                      <h5 class="mb-1">List group item heading</h5>
+                                      <h5 class="mb-1">The Indian Boatman</h5>
                                       <small>2 weeks ago</small>
                                     </div>
-                                    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                                    <p class="mb-1">A peaceful ride down the river turns interesting really fast.. </p>
                                     <small class="text-right">
                                         <a href="penanghackatathon2017/bike/" class="btn btn-primary" style="color: white; cursor: pointer;">View Story &nbsp;<i class="fa fa-hand-o-right"></i></a>
                                         <a href="/penanghackatathon2017/art_info.php" class="btn btn-warning art_info" style="cursor: pointer;">Art Info &nbsp;<i class="fa fa-info-circle"></i></a>
@@ -93,9 +93,74 @@
 
 
                     <!-- Originals Content -->
-                    <div class="tab-pane" id="originals" role="tabpanel">...</div>
+                    <div class="tab-pane" id="originals" role="tabpanel">
+                        <div class="list-group">
+
+                            <!-- First Item -->
+                          <div class="list-group-item list-group-item-action flex-column align-items-start">
+                            <div class="row">
+                                <div class="col-lg-2">
+                                    <img class="card-img-top" src="img/index/thumbnail_1.png" alt="">
+                                </div>
+                                <div class="col-lg-10">
+                                    <div class="d-flex w-100 justify-content-between">
+                                      <h5 class="mb-1">Little Children on a Bicycle</h5>
+                                      <small>3 days ago</small>
+                                    </div>
+                                    <p class="mb-1">Two children stumble upon a bike when nobody seemed to be around...</p>
+                                    <small class="text-right">
+                                        <a href="/penanghackatathon2017/bike/" class="btn btn-primary" style="color: white; cursor: pointer;">View Story &nbsp;<i class="fa fa-hand-o-right"></i></a>
+                                        <a href="/penanghackatathon2017/art_info.php" class="btn btn-warning art_info" style="cursor: pointer;">Art Info &nbsp;<i class="fa fa-info-circle"></i></a>
+                                    </small>
+                                </div>
+                            </div>
+                          </div>
+
+                          <!-- Second Item -->
+                          <div class="list-group-item list-group-item-action flex-column align-items-start">
+                            <div class="row">
+                                <div class="col-lg-2">
+                                    <img class="card-img-top" src="img/index/thumbnail_2.png" alt="">
+                                </div>
+                                <div class="col-lg-10">
+                                    <div class="d-flex w-100 justify-content-between">
+                                      <h5 class="mb-1">The fury of Bruce Lee</h5>
+                                      <small>6 days ago</small>
+                                    </div>
+                                    <p class="mb-1">Bruce Lee would never do that. Or would he?</p>
+                                    <small class="text-right">
+                                        <a href="penanghackatathon2017/bike/" class="btn btn-primary" style="color: white; cursor: pointer;">View Story &nbsp;<i class="fa fa-hand-o-right"></i></a>
+                                        <a href="/penanghackatathon2017/art_info.php" class="btn btn-warning art_info" style="cursor: pointer;">Art Info &nbsp;<i class="fa fa-info-circle"></i></a>
+                                    </small>
+                                </div>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
                     <!-- Communit Content -->
-                    <div class="tab-pane" id="community" role="tabpanel">...</div>
+                    <div class="tab-pane" id="community" role="tabpanel">
+                        <div class="list-group">
+                        <!-- Third Item -->
+                          <div class="list-group-item list-group-item-action flex-column align-items-start">
+                            <div class="row">
+                                <div class="col-lg-2">
+                                    <img class="card-img-top" src="img/index/thumbnail_4.png" alt="">
+                                </div>
+                                <div class="col-lg-10">
+                                    <div class="d-flex w-100 justify-content-between">
+                                      <h5 class="mb-1">The Indian Boatman</h5>
+                                      <small>2 weeks ago</small>
+                                    </div>
+                                    <p class="mb-1">A peaceful ride down the river turns interesting really fast.. </p>
+                                    <small class="text-right">
+                                        <a href="penanghackatathon2017/bike/" class="btn btn-primary" style="color: white; cursor: pointer;">View Story &nbsp;<i class="fa fa-hand-o-right"></i></a>
+                                        <a href="/penanghackatathon2017/art_info.php" class="btn btn-warning art_info" style="cursor: pointer;">Art Info &nbsp;<i class="fa fa-info-circle"></i></a>
+                                    </small>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 

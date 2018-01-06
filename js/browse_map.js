@@ -85,7 +85,9 @@ function initMap() {
     </div>
     <div id="iw-container" style="background-image: url({url});">
         <div class="iw-content">
-            <div class="iw-subTitle">{desc}</div>
+            <div class="iw-subTitle">
+                {desc}
+            </div>
                 <a href="/penanghackatathon2017/art_info.php" class="btn btn-warning">&nbsp;Art Info &nbsp;</a>
             </div>
             <div class="iw-bottom-gradient"></div>
@@ -97,7 +99,7 @@ function initMap() {
     var oc_content = []
     oc_content[0] = popupcontent.replace("{url}", "img/index/thumbnail_1.png");
     oc_content[0] = oc_content[0].replace("{id}", "id=1");
-    oc_content[0] = oc_content[0].replace("{desc}", "Little Children on a Bicycle <br><small>Experience lorum</small>");
+    oc_content[0] = oc_content[0].replace("{desc}", "Little Children on a Bicycle <br><small>Two children stumble upon a bike when nobody seemed to be around...</small>");
 
 
     var oc_content_no_story = []
