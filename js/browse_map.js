@@ -85,31 +85,30 @@ function initMap() {
     oc_content[0] = oc_content[0].replace("{id}", "id=1");
     oc_content[0] = oc_content[0].replace("{desc}", "Little Children on a Bicycle <br><small>Experience lorum</small>");
 
-    oc_content[1] = popupcontent.replace("{url}", "img/listing/thumbnail_2.jpg");
+    oc_content[1] = popupcontent.replace("{url}", "img/listing/thumbnail_2.png");
     oc_content[1] = oc_content[1].replace("{id}", "id=2");
-    oc_content[1] = oc_content[1].replace("{desc}", "Little Children on a Bicycle <br><small>Experience lorum</small>");
+    oc_content[1] = oc_content[1].replace("{desc}", "The Fury of Bruce Lee <br><small>Experience lorum</small>");
 
-    oc_content[2] = popupcontent.replace("{url}", "img/listing/thumbnail_1.jpg");
-    oc_content[2] = oc_content[2].replace("{id}", "id=3");
-    oc_content[2] = oc_content[2].replace("{desc}", "Little Children on a Bicycle <br><small>Experience lorum</small>");
-
-    oc_content[3] = popupcontent.replace("{url}", "img/listing/thumbnail_1.jpg");
-    oc_content[3] = oc_content[3].replace("{id}", "id=4");
-    oc_content[3] = oc_content[3].replace("{desc}", "Little Children on a Bicycle <br><small>Experience lorum</small>");
+    var oc_content_no_story = []
+    oc_content_no_story[0] = popupcontent.replace("{url}", "img/index/thumbnail_2.png");
+    oc_content_no_story[0] = oc_content_no_story[0].replace("{id}", "id=1");
+    oc_content_no_story[0] = oc_content_no_story[0].replace("{desc}", "Little Meems on a Bicycle <br><small>Experience lorum</small>");
 
 
 
     var locations = [
-          ['Park Spot 1', 5.414670, 100.338246, 1], // Little children on a bicycle
-          ['Park Spot 2', 3.111301, 101.604076, 2], 
-          ['Park Spot 3', 3.113706, 101.608417, 3],
-          ['Park Spot 4', 3.114803, 101.603876, 4]
+          ['Little Children on a bicycle', 5.414670, 100.338246, 1], // Little children on a bicycle
+          // ['Bruce Lee Would Never Do This', 5.41553,  100.33907,  2], // Burce Lee kicking a cat
+        ];
+
+    var locations_nostory = [
+          ['Little Children on a bicycle', 5.4142437,100.3405795, 2], // Brother and sister on swing
         ];
 
     var center = {lat: 5.405154, lng: 100.321736}; // Penang
 
     var map = new google.maps.Map(document.getElementById('map'), {
-      zoom: 14,
+      zoom: 13,
       center: center,
       mapTypeId: google.maps.MapTypeId.ROADMAP
     });
@@ -135,6 +134,30 @@ function initMap() {
             });
         })(marker, i);
       }
+
+      // 
+
+      for (i = 0; i < locations_nostory.length; i++) {  
+        marker = new google.maps.Marker({
+            position: new google.maps.LatLng(locations_nostory[i][1], locations_nostory[i][2]),
+            map: map, 
+            icon: "img/near_me/map_pin_no_story.png",
+            title: "Click for more info"
+
+        });
+
+        (function(marker, i) {
+            // add click event
+            google.maps.event.addListener(marker, 'click', function() {
+                infowindow = new google.maps.InfoWindow({
+                    content: oc_content_no_story[i]
+                    // content: popupcontent
+                });
+                infowindow.open(map, marker);
+            });
+        })(marker, i);
+      }
+
     // YOUR location
     marker = new google.maps.Marker({
             position: new google.maps.LatLng(5.405154, 100.321736),

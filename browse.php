@@ -30,7 +30,7 @@
                         <div class="list-group">
 
                             <!-- First Item -->
-                          <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                          <div class="list-group-item list-group-item-action flex-column align-items-start">
                             <div class="row">
                                 <div class="col-lg-2">
                                     <img class="card-img-top" src="img/index/thumbnail_1.png" alt="">
@@ -42,15 +42,15 @@
                                     </div>
                                     <p class="mb-1">Experience lorem ipsum</p>
                                     <small class="text-right">
-                                        <button class="btn btn-primary">View Story &nbsp;<i class="fa fa-hand-o-right"></i></button>
-                                        <button class="btn btn-warning">Art Info &nbsp;<i class="fa fa-info-circle"></i></button>
+                                        <a href="/penanghackatathon2017/bike/" class="btn btn-primary" style="color: white; cursor: pointer;">View Story &nbsp;<i class="fa fa-hand-o-right"></i></a>
+                                        <a href="" class="btn btn-warning art_info" style="cursor: pointer;">Art Info &nbsp;<i class="fa fa-info-circle"></i></a>
                                     </small>
                                 </div>
                             </div>
-                          </a>
+                          </div>
 
                           <!-- Second Item -->
-                          <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                          <div class="list-group-item list-group-item-action flex-column align-items-start">
                             <div class="row">
                                 <div class="col-lg-2">
                                     <img class="card-img-top" src="img/index/thumbnail_2.png" alt="">
@@ -62,18 +62,18 @@
                                     </div>
                                     <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
                                     <small class="text-right">
-                                        <button class="btn btn-primary">View Story &nbsp;<i class="fa fa-hand-o-right"></i></button>
-                                        <button class="btn btn-warning">Art Info &nbsp;<i class="fa fa-info-circle"></i></button>
+                                        <a href="penanghackatathon2017/bike/" class="btn btn-primary" style="color: white; cursor: pointer;">View Story &nbsp;<i class="fa fa-hand-o-right"></i></a>
+                                        <a href="" class="btn btn-warning art_info" style="cursor: pointer;">Art Info &nbsp;<i class="fa fa-info-circle"></i></a>
                                     </small>
                                 </div>
                             </div>
-                          </a>
+                          </div>
 
                           <!-- Third Item -->
-                          <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                          <div class="list-group-item list-group-item-action flex-column align-items-start">
                             <div class="row">
                                 <div class="col-lg-2">
-                                    <img class="card-img-top" src="img/index/thumbnail_2.png" alt="">
+                                    <img class="card-img-top" src="img/index/thumbnail_3.png" alt="">
                                 </div>
                                 <div class="col-lg-10">
                                     <div class="d-flex w-100 justify-content-between">
@@ -82,12 +82,12 @@
                                     </div>
                                     <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
                                     <small class="text-right">
-                                        <button class="btn btn-primary">View Story &nbsp;<i class="fa fa-hand-o-right"></i></button>
-                                        <button class="btn btn-warning">Art Info &nbsp;<i class="fa fa-info-circle"></i></button>
+                                        <a href="penanghackatathon2017/bike/" class="btn btn-primary" style="color: white; cursor: pointer;">View Story &nbsp;<i class="fa fa-hand-o-right"></i></a>
+                                        <a href="" class="btn btn-warning art_info" style="cursor: pointer;">Art Info &nbsp;<i class="fa fa-info-circle"></i></a>
                                     </small>
                                 </div>
                             </div>
-                          </a>
+                          </div>
                         </div>
                     </div>
 
