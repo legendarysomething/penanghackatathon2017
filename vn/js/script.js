@@ -59,16 +59,23 @@ var characters = {
 		"Color": "#5bcaff"
 	},
 
-	"novi": {
-		"Name": "Novi",
-		"Color": "#5bcaff"
-	},
+	"jack": {
+		"Name": "Jack",
+		"Color": "#5bcaff",
+		"Directory": "Jack",
+		"Images":{
+			"neutral": "neutral.png",
+			"happy": "happy.png",
+			"doubt": "doubt.png",
+		}
+	}
 }
 
 var script = {
 	// The game starts here.
 	"Start": [
 		"scene Main",
+		"show jack neutral center with fadeIn",
 		{"Input": {
 				"Text": "What is your name?",
 				"Validation": function(input) {
@@ -99,7 +106,6 @@ var script = {
 
 	"Yes": [
 		"scene Bruce",
-		"show h "
 		"h That's awesome!",
 		"h Then you are ready to go ahead and create an amazing Game!",
 		"h I can't wait to see what story you'll tell!",

@@ -46,6 +46,8 @@ var files = [
 	// Scene Images
 	//'img/scenes/',
 	'img/scenes/bicycle.jpg',
+	'img/scenes/bruce.jpg',
+
 
 	// Character Images
 	//'img/characters/',
