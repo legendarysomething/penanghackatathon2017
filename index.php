@@ -40,7 +40,7 @@
           <div class="card">
             <img class="card-img-top img-fluid" style="max-width: 100%; height: auto;" src="img/index/thumbnail_1.png" alt="">
             <div class="card-body">
-              <h4 class="card-title">Little Children on a Bicycle"</h4>
+              <h4 class="card-title">Little Children on a Bicycle</h4>
               <p class="card-text">London-trained artist Ernest Zacharevic</p>
             </div>
             <div class="card-footer">

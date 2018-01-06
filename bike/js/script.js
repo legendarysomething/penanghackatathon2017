@@ -44,18 +44,21 @@ var scenes = {
 
 // Define the Characters
 var characters = {
-	//Jack is a carpenter 
-	//He's was tasked at preparing dog shed for some bulldog puppies
-	
-	"jack": {
-		"Name": "Jack",
+	"Narrator": {
+		"Name": "Narrator",
 		"Color": "#5bcaff",
-		"Directory": "Jack",
-		"Images":{
-			"neutral": "neutral.png",
-			"happy": "happy.png",
-			"doubt": "doubt.png",
-		}
+	},
+
+	"Boy": {
+		"Name": "Boy",
+		"Color": "#5bcaff",
+		"Directory": "Boy",
+	},
+
+	"Girl": {
+		"Name": "Girl",
+		"Color": "#5bcaff",
+		"Directory": "Girl",
 	}
 }
 
@@ -64,35 +67,47 @@ var script = {
 	"Start": [
 		"scene Main",
 
-		"jack Hi Bobby. Thank you for taking the time to read this story!",
+		"Narrator This is a story about innocence and happiness.",
 
-		{"Choice": {
-				"Dialog": "jack Who would you like to be portrayed as in the image",
-				"The boy": {
-					"Text": "Boy",
-					"Do": "jump Boy"
-				},
-				"The girl": {
-					"Text": "Girl",
-					"Do": "jump Girl"
-				}
-			}
-		},
+		"Narrator Once upon of time...",
 
-		"jack Thats all folks",
+		"Narrator They lived peaceful and idlylic lives.",
 
+		"jump Boy1",
 	],
 
-	"Boy": [
-		"scene Happiness",
-		"jack His face represents happiness",
-		"end"
+	"Boy1": [
+		"Boy Woohoo, need for speed vroom, vroom.",
+		"jump Girl1",
 	],
 
-	"Girl": [
+	"Girl1": [
+		"Girl Stop clinging to me so much.",
 
-		"scene Innocence",
-		"jack Her face represents innocence",
+		"jump Boy2",
+	],
+
+	"Boy2": [
+		"Boy But mom said never let go.",
+
+		"jump Girl3",
+	],
+
+	"Girl3": [
+		"Girl Sigh, hold tight...",
+
+		"jump NarratorEnd",
+	],
+
+	"NarratorEnd": [
+		"Narrator Hence, their lives are as such",
+
+		"jump SupportUS",
+	],
+
+	"SupportUS": [
+		"Narrator Thank you for taking the time to read this story!",
+		"Narrator Like what you have read, you can get more at <a href='#'>https://www.penangmongo.com</a>",
 		"end"
-	]
+	],
 }

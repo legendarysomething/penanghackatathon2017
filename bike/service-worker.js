@@ -50,7 +50,7 @@ var files = [
 
 
 	// Character Images
-	//'img/characters/',
+	'img/characters/',
 
 	// Side Images
 	//'img/characters/',
