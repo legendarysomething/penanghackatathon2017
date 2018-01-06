@@ -10,10 +10,10 @@
     <div class="container">
 
       <!-- Jumbotron Header -->
-      <header class="jumbotron my-4">
-        <h1 class="display-4">Create your own story at Storify Penang!</h1>
-        <p class="lead" style="font-weight: bold; font-family: 'Open Sans', sans-serif;">We believe that everyone's intepretation of art is special in their own way</p>
-        <a href="#" class="btn btn-lg btn-primary" style="font-family: 'Open Sans', sans-serif;">Browse Stories!</a>
+      <header class="jumbotron my-4" style="background-image: url('img/cover.jpg'); background-size: cover;">
+        <h1 class="display-4">Welcome to Storify Penang!</h1>
+        <p class="lead" style="font-weight: bold; font-family: 'Open Sans', sans-serif;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, ipsam, eligendi, in quo sunt possimus non incidunt odit vero aliquid similique quaerat nam nobis illo aspernatur vitae fugiat numquam repellat.</p>
+        <a href="/penanghackatathon2017/browse.php" class="btn btn-lg btn-primary" style="font-family: 'Open Sans', sans-serif;">Browse Stories!</a>
       </header>
 
     <br>
@@ -30,8 +30,8 @@
               <p class="card-text">101 Lost Kittens</p>
             </div>
             <div class="card-footer">
-              <a href="#" class="btn btn-primary">Story <i class="fa fa-hand-o-right"></i></a>
-              <a href="#" class="btn btn-warning">Art Info <i class="fa fa-info-circle"></i></a>
+              <a href="/penanghackatathon2017/bike" class="btn btn-primary">Story <i class="fa fa-hand-o-right"></i></a>
+              <a href="/penanghackatathon2017/art_info.php" class="btn btn-warning">Art Info <i class="fa fa-info-circle"></i></a>
             </div>
           </div>
         </div>
@@ -44,8 +44,8 @@
               <p class="card-text">London-trained artist Ernest Zacharevic</p>
             </div>
             <div class="card-footer">
-              <a href="/penanghackatathon2017/bike/" class="btn btn-primary">Story <i class="fa fa-hand-o-right"></i></a>
-              <a href="#" class="btn btn-warning">Art Info <i class="fa fa-info-circle"></i></a>
+              <a href="/penanghackatathon2017/bike" class="btn btn-primary">Story <i class="fa fa-hand-o-right"></i></a>
+              <a href="/penanghackatathon2017/art_info.php" class="btn btn-warning">Art Info <i class="fa fa-info-circle"></i></a>
             </div>
           </div>
         </div>
@@ -58,8 +58,8 @@
               <p class="card-text">Louis Gan</p>
             </div>
             <div class="card-footer">
-              <a href="#" class="btn btn-primary">Story <i class="fa fa-hand-o-right"></i></a>
-              <a href="#" class="btn btn-warning">Art Info <i class="fa fa-info-circle"></i></a>
+              <a href="/penanghackatathon2017/bike" class="btn btn-primary">Story <i class="fa fa-hand-o-right"></i></a>
+              <a href="/penanghackatathon2017/art_info.php" class="btn btn-warning">Art Info <i class="fa fa-info-circle"></i></a>
             </div>
           </div>
         </div>
@@ -72,8 +72,8 @@
               <p class="card-text">Julia Volchkova</p>
             </div>
             <div class="card-footer">
-              <a href="#" class="btn btn-primary">Story <i class="fa fa-hand-o-right"></i></a>
-              <a href="#" class="btn btn-warning">Art Info <i class="fa fa-info-circle"></i></a>
+              <a href="/penanghackatathon2017/bike" class="btn btn-primary">Story <i class="fa fa-hand-o-right"></i></a>
+              <a href="/penanghackatathon2017/art_info.php" class="btn btn-warning">Art Info <i class="fa fa-info-circle"></i></a>
             </div>
           </div>
         </div>

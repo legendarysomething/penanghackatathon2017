@@ -72,7 +72,21 @@ function initMap() {
         <div class="iw-content">
             <div class="iw-subTitle">{desc}</div>
                 <a href="details.php?{id}" class="btn btn-primary">&nbsp;Experience &nbsp;</a>
-                <a href="details.php?{id}" class="btn btn-warning">&nbsp;Art Info &nbsp;</a>
+                <a href="/penanghackatathon2017/art_info.php" class="btn btn-warning">&nbsp;Art Info &nbsp;</a>
+            </div>
+            <div class="iw-bottom-gradient"></div>
+        </div>
+    </div>`;
+
+     // Content for onclick
+    var popupcontent_no_story = `
+    <div class="infobox-close">
+        <i class="fa fa-close"></i>
+    </div>
+    <div id="iw-container" style="background-image: url({url});">
+        <div class="iw-content">
+            <div class="iw-subTitle">{desc}</div>
+                <a href="/penanghackatathon2017/art_info.php" class="btn btn-warning">&nbsp;Art Info &nbsp;</a>
             </div>
             <div class="iw-bottom-gradient"></div>
         </div>
@@ -85,14 +99,11 @@ function initMap() {
     oc_content[0] = oc_content[0].replace("{id}", "id=1");
     oc_content[0] = oc_content[0].replace("{desc}", "Little Children on a Bicycle <br><small>Experience lorum</small>");
 
-    oc_content[1] = popupcontent.replace("{url}", "img/listing/thumbnail_2.png");
-    oc_content[1] = oc_content[1].replace("{id}", "id=2");
-    oc_content[1] = oc_content[1].replace("{desc}", "The Fury of Bruce Lee <br><small>Experience lorum</small>");
 
     var oc_content_no_story = []
-    oc_content_no_story[0] = popupcontent.replace("{url}", "img/index/thumbnail_2.png");
+    oc_content_no_story[0] = popupcontent_no_story.replace("{url}", "img/index/thumbnail_3.png");
     oc_content_no_story[0] = oc_content_no_story[0].replace("{id}", "id=1");
-    oc_content_no_story[0] = oc_content_no_story[0].replace("{desc}", "Little Meems on a Bicycle <br><small>Experience lorum</small>");
+    oc_content_no_story[0] = oc_content_no_story[0].replace("{desc}", "Brother and Sister on a Swing<br><br><br>");
 
 
 

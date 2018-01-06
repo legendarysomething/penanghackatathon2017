@@ -43,7 +43,7 @@
                                     <p class="mb-1">Experience lorem ipsum</p>
                                     <small class="text-right">
                                         <a href="/penanghackatathon2017/bike/" class="btn btn-primary" style="color: white; cursor: pointer;">View Story &nbsp;<i class="fa fa-hand-o-right"></i></a>
-                                        <a href="" class="btn btn-warning art_info" style="cursor: pointer;">Art Info &nbsp;<i class="fa fa-info-circle"></i></a>
+                                        <a href="/penanghackatathon2017/art_info.php" class="btn btn-warning art_info" style="cursor: pointer;">Art Info &nbsp;<i class="fa fa-info-circle"></i></a>
                                     </small>
                                 </div>
                             </div>
@@ -63,7 +63,7 @@
                                     <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
                                     <small class="text-right">
                                         <a href="penanghackatathon2017/bike/" class="btn btn-primary" style="color: white; cursor: pointer;">View Story &nbsp;<i class="fa fa-hand-o-right"></i></a>
-                                        <a href="" class="btn btn-warning art_info" style="cursor: pointer;">Art Info &nbsp;<i class="fa fa-info-circle"></i></a>
+                                        <a href="/penanghackatathon2017/art_info.php" class="btn btn-warning art_info" style="cursor: pointer;">Art Info &nbsp;<i class="fa fa-info-circle"></i></a>
                                     </small>
                                 </div>
                             </div>
@@ -83,7 +83,7 @@
                                     <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
                                     <small class="text-right">
                                         <a href="penanghackatathon2017/bike/" class="btn btn-primary" style="color: white; cursor: pointer;">View Story &nbsp;<i class="fa fa-hand-o-right"></i></a>
-                                        <a href="" class="btn btn-warning art_info" style="cursor: pointer;">Art Info &nbsp;<i class="fa fa-info-circle"></i></a>
+                                        <a href="/penanghackatathon2017/art_info.php" class="btn btn-warning art_info" style="cursor: pointer;">Art Info &nbsp;<i class="fa fa-info-circle"></i></a>
                                     </small>
                                 </div>
                             </div>
